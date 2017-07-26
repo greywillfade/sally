@@ -1,0 +1,40 @@
+{{ partial "base" . }}
+
+<div class="wrapper">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+        <div class="promo" style="margin-bottom: 2em;">
+            <h1 class="test">Blog</h1>
+            <p class="subtitle">Personal posts about life, the web industry, and things that I've been up to</p>
+            <p class="subtitle--sub">More exclusively work-related posts live over on the <a href="http://recordssoundthesame.com/blog">Records Sound the Same blog</a></p>
+        </div>
+
+        <div class="blog__contentholder--left">
+        {{ $.Scratch.Set "currentyr" "1900" }}
+        {{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
+
+            <!-- Show the years as headers to break up post listings -->
+            {{ if not (eq ($.Scratch.Get "currentyr") (.Date.Format "2006"))}}
+                <h2>{{ .Date.Format "2006" }}</h2>
+            {{ end }}
+
+            <!-- Post listings -->
+            <div class="blog__blogitem">
+            <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+            <p class="blogitem__date">{{ .Date.Format "2 January 2006" }}</p>
+            {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
+
+            </div>
+
+            {{ $.Scratch.Set "currentyr" (.Date.Format "2006") }}
+
+        {{- end }}
+
+        {{ partial "pagination" . }}
+        </div>
+
+    </article>
+</div>
+
+{{ partial "footer" . }}

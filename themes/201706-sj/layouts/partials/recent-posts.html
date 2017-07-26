@@ -1,0 +1,5 @@
+{{ range first 1 (where .Data.Pages "Section" "blog") }}
+    <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
+    <p><b>{{ .Date.Format "2 January 2006" }}</b></p>
+{{ end }}

@@ -1,0 +1,53 @@
+.logo__link {
+        /*text-decoration-color: $colour1;
+        text-decoration-line: underline;
+        text-decoration-skip: ink;*/
+
+        text-decoration: none;
+}
+
+.logo {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 5.5em;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: white;
+
+    span:nth-child(1) {
+      color: rgba($colour3, 0.75);
+    }
+    span:nth-child(2) {
+      color: rgba($colour2, 0.75);
+    }
+    span:nth-child(3) {
+      color: rgba($colour3, 0.75);
+    }
+    span:nth-child(4) {
+      color: rgba($colour4, 0.75);
+    }
+    span:nth-child(5) {
+      color: rgba($colour5, 0.75);
+    }
+
+    @supports (mix-blend-mode: multiply) {
+        span {
+            mix-blend-mode: color-burn;
+        }
+        span:nth-child(1) {
+            color: $colour3;
+        }
+        span:nth-child(2) {
+            color: $colour2;
+        }
+        span:nth-child(3) {
+            color: $colour4;
+        }
+        span:nth-child(4) {
+            color: $colour1;
+        }
+        span:nth-child(5) {
+            color: $colour5;
+        }
+    }
+
+}

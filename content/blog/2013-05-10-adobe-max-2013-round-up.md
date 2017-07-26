@@ -1,0 +1,66 @@
+---
+title: Adobe MAX 2013 round-up
+author: Sally
+type: post
+date: 2013-05-10T23:04:36+00:00
+url: /blog/2013/05/10/adobe-max-2013-round-up/
+categories:
+  - Conference
+tags:
+  - Adobe
+  - creative cloud
+  - keynote
+  - MAX
+  - speaking
+
+---
+This week I had the huge honour of speaking at Adobe MAX, Adobe&#8217;s annual conference for digital professionals, which was held this year in Los Angeles.
+
+As someone based in the UK, MAX isn&#8217;t always achievable, and even less so now I&#8217;m a humble freelancer. October 2011 was my previous MAX (and also my first), and I was absolutely thrilled to be able to attend this time.
+
+I&#8217;ve collected together some lengthy thoughts here &#8211; on my week&#8217;s highlights, on my session, and most importantly on the announcements themselves.
+
+## Highlights
+
+There are many things that makes MAX great, and my favourites this time were&#8230;
+
+  * A very jet lagged breakfast at <a title="Original Pantry Cafe" href="http://www.pantrycafe.com/" target="_blank">The Original Pantry Cafe</a> on the first morning &#8211; eggs, bacon, potatoes, salsa, toast and tea kept me going for a while!
+  * The second keynote &#8211; I know people love hearing the big announcements from Adobe, and that side of keynotes is always cool, but I hugely enjoyed the second day&#8217;s shift in pace to focus on some creative case studies. Hearing everyone&#8217;s stories was fascinating, and I&#8217;d recommend anyone checks out the video on <a title="Adobe MAX TV" href="http://max.adobe.com/sessions/online.html#tv)" target="_blank">Adobe TV</a>, whether they&#8217;re a fan of Adobe products or not.
+  * Sneaks &#8211; I absolutely loved the Sneaks the first time I saw them, and this year was just as good. They&#8217;re not all online yet, but check them out when they are &#8211; this is Adobe showing off things that are currently in development. My favourites were the Brackets elements (I&#8217;m a big fan of <a title="Brackets" href="http://brackets.io/" target="_blank">Brackets</a> and everything that it stands for &#8211; check it out if you haven&#8217;t) around Theseus (<a href="https://outlook.precedent.co.uk/owa/redir.aspx?C=PZxcgnlBf0WsMJe5hErCE56lk3T8INAIHBbWIMzpg56tk6saFhBRXsjfYeewCRn5eOGFfSBFeG8.&URL=https%3a%2f%2fgithub.com%2fadobe-research%2ftheseus" target="_blank">https://github.com/adobe-research/theseus</a>) and the PSD inspector, but some of the image tools were very, very cool.
+  * MAX Bash &#8211; What can I say? Photos, food, gymnasts, a tent full of a graffiti wall and paint fumes, drinking whatever the bar had left, men with paper mache pigs dancing to The Black Keys, getting kicked out right at the end and playing tramp bingo on the way back to the hotel (I won with a score of 5). Another brilliant night under the LA stars (and thankfully no rain!).
+  * The many, many sessions &#8211; I may have been attending as a speaker, but I absolutely love conferences because of the chance to soak up knowledge from others. I was gutted that due to a problem with my flight booking I had to leave much earlier than expected on Wednesday and could only catch a single session that day, so I&#8217;m very glad that sessions are up on <a href="http://max.adobe.com/sessions/online.html#tv" target="_blank">http://max.adobe.com/sessions/online.html#tv</a> &#8211; give them a watch, there&#8217;s some great stuff there.
+  * The Community Summit and party &#8211; it was great to hear about some of the new initiatives first-hand instead of through belated Connect recordings, and to finally meet people who have only ever been names on screens.
+  * The EMEA gathering organised by Christie at Adobe &#8211; a great mix of people in an informal environment.
+  * The people &#8211; from conversations at the conference itself, to getting chatting about gigs at Shepherd&#8217;s Bush Empire with an attendee whilst walking back to a hotel, to meeting two new people in the Super Shuttle on the way to the airport and now having a new XBL buddy &#8211; wherever you go a MAX lanyard or a tshirt guarantees you&#8217;ll make new friends.
+
+## My session
+
+My session, <a title="Effective technical strategy and planning" href="http://tv.adobe.com/watch/max-2013/effective-technical-strategy-and-planning-for-mobile-apps/" target="_blank">Effective Technical Strategy and Planning for Websites and Mobile Apps</a>, is one of the many available on Adobe TV as an audio recording and associated slides.
+
+The slides are also on SlideShare if you&#8217;d like to flick through them at your leisure without the sound of my voice dictating pace, or if you&#8217;d like to download them:
+
+<a href="http://www.slideshare.net/sallyjenkinson/effective-technical-strategy-and-planning-for-websites-and-mobile-apps" target="_blank">http://www.slideshare.net/sallyjenkinson/effective-technical-strategy-and-planning-for-websites-and-mobile-apps</a>
+
+The mind map resource, or &#8220;galaxy diagram&#8221; as I&#8217;ve had a few people since call it, can also be found in PDF and PNG form here:
+
+<a title="Sally Jenkinson - technical starting points diagram" href="http://recordssoundthesame.com/startingpoints/" target="_blank">http://recordssoundthesame.com/startingpoints/</a>
+
+Despite a few slightly sleepless nights in advance, I really enjoyed giving the session and I hope it was useful for everyone that came along. I really appreciated such a full room too, and that people seemed to be paying attention, so a big thank you to everyone who attended. If you have thought of any questions since the talk, or want to get in touch for any reason, please feel free to give me a shout using sally.jenkinson@gmail.com.
+
+## The announcements
+
+Now, I&#8217;m going to be brutally honest here. I was genuinely excited sitting in the Nokia Theatre on Monday morning, but came out of the first Keynote really quite underwhelmed. I sat in the lunch area alone, reading through a barrage of tweets on the #AdobeMAX hashtag, the majority of which it felt at the time to be incredibly negative. This was mainly down to the decision to move from the Creative Suite model of old, to the new Creative Cloud model, whereby Adobe software previously available in CS form will now only be available through a subscription (for new releases from June). I also generally felt a bit underwhelmed with most of the product updates announced, but couldn&#8217;t quite put my finger on why. The only bit that I really sat up for was the end, the hardware experiments, but even then something felt missing &#8211; these weren&#8217;t actually things that I could recommend that people go out and buy. Later that day I sat on the bus to head back to the hotel, and it was then that I saw the <a title="The future of Fireworks" href="http://blogs.adobe.com/fireworks/2013/05/the-future-of-adobe-fireworks.html" target="_blank">blog post regarding Fireworks</a>. I haven&#8217;t used Fireworks for years, I never really got on with it and rarely have use for a graphics editor, but I hated that a large portion of the community was sad. This wasn&#8217;t how I wanted to be feeling about MAX!
+
+I resisted the temptation to do what we all tend to do at times like that, to jump straight in and tweet hurried thoughts. I&#8217;m glad I didn&#8217;t, because I have since worked through the rationale. So here we go&#8230;
+
+The move to CC, whilst clearly not a unanimously popular one, is one that I wasn&#8217;t actually surprised by. Having previously worked agency side and seen the huge outlay and problems that rolling out new major versions can cause, I think that (volume licence deals pending) this _could_ be a good thing for many. On-going costs will however be a massive consideration. My personal perspective is slightly warped &#8211; as a MAX attendee I received 12 months free CC subscription, so it&#8217;s hard to know how I felt without this getting in the way. As someone who started freelancing without any work initially lined up, and someone who on the whole isn&#8217;t a fan of subscription deals, I&#8217;m still not sure I&#8217;m 100% sold. £27.34 (upgrade price, £46.88 for other individuals) isn&#8217;t much when you have a regular wage coming in, but for those who are going through a tough spell it is yet another monthly expense which can cause some pain. This is an annual subscription &#8211; you can&#8217;t just drop it when you&#8217;re having a few tough months. The other main thought was one of the youngsters out there. Rightly or wrongly (yes Adobe lawyers, we all know it&#8217;s wrongly really) I&#8217;m sure many of the MAX attendees may have started out with a copy of Photoshop that they &#8216;borrowed&#8217; from a &#8216;mate&#8217; over the years. Piracy is a huge problem for Adobe, as with many software companies. Far be it from me to condone this, but it clearly has played a part in introducing many to software which would otherwise have been unachievable to them. Even at the education pricing rate this still requires an annual subscription. I would love to see Adobe continuing to offer some kind of free trial, which it is unclear whether they will at the moment, or I will worry that the future stream of MAX attendees may start to dry up as youngsters (she says, pre-30) start looking for more easily accessible options.
+
+For the record I am very much in favour of the concept of shipping updates when they&#8217;re ready, and I understand that a model like this is the best way to support that. I am also in favour of the idea of your Adobe ID being uncoupled from websites, and for it to be a key part of things like <a title="Project Mighty" href="http://blogs.adobe.com/conversations/2013/05/adobe-xd-explores-the-analog-future.html" target="_blank">Project Mighty</a> and other experiments. I&#8217;m just not sure that the cloud subscription model works for everyone as a blanket&#8230; but we shall see.
+
+My other feelings, I realised had been connected to Adobe&#8217;s well publicised shift in MAX itself. MAX used to be associated with developers, and be thought of as a tech conference when Flash and ColdFusion updates were big news. It&#8217;s now &#8220;the creativity conference&#8221;, and there&#8217;s nothing wrong with that. What I personally was feeling was that of being underwhelmed because updates to Illustrator, or Behance (a network for creatives), Premiere, AfterEffects etc are just not my thing. Even Photoshop&#8217;s de-blur tool didn&#8217;t feel exciting as I&#8217;d seen more impressive demos in the Sneaks of 2011. I&#8217;m not a fan of Muse, I&#8217;ve said it, but that&#8217;s merely because the strapline of &#8220;Create websites without writing a single line of code&#8221; terrifies the hell out of me. Code is awesome! I love code! Why would you want to NOT code?!
+
+&#8230;and that&#8217;s precisely what I realised. I stopped being grumpy that the announcements were not pandering to my personal needs. I looked up from the keyboard warriors on Twitter, and around me to real people throughout the rest of the week instead. What I saw was Adobe employees and other attendees genuinely excited by the direction the tools were headed in. I realised it&#8217;s not about individual features, or which new products have been announced. Perhaps ironically considering the demise of the name, it&#8217;s the **suite** itself that is impressive. It&#8217;s the spaces **between** each product, the links, the attempts to drag this crazy responsive world kicking and screaming back into something resembling order by providing different focuses on the current issues being faced. The reason I&#8217;d been interested in the hardware also became apparent &#8211; I love that Adobe are playing. Play and experimentation were common themes in many talks, and it feels like this is what Adobe are doing. Technology is facilitating creativity, which is a concept that I love. During the week I went to some fantastic sessions, many of which were very technical, and all of which I came away from feeling inspired and wanting to go home and code. That&#8217;s my creativity, and MAX is a creative conference in more ways than it may initially appear.
+
+It&#8217;s not about me and my individual views. It&#8217;s not about developers. It&#8217;s not about designers. We&#8217;re all in this together, and the more tools we have to facilitate communication, potentially through rapid prototyping, then that&#8217;s great. It doesn&#8217;t matter that I may turn my nose up at something that generates code &#8211; if that lets you build something which rapidly takes an idea through to reality, and you can show me that to illustrate a concept, then fantastic. If I can then tie that starting point into my workflow seamlessly, even better.
+
+As a certain Mr <a title="Zeldman - Adobe Love" href="http://www.zeldman.com/2013/05/08/adobe-love/" target="_blank">Jeffrey Zeldman reflected on his MAX experience the other day</a>, &#8220;I leave with the impression of an exciting 21st century company in emergence&#8221;. So did I.

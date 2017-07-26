@@ -1,0 +1,56 @@
+.promo {
+    padding: 1em;
+    background-color: $light1;
+    min-height: 300px;
+    text-align: left;
+    color: $white1;
+    background-image: url('/layout/poly3.svg');
+
+    @media (min-width: $mainlayoutswitchbreakpoint) {
+        padding-top: 2em;
+        min-height: 400px;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 3em;
+
+        @media (min-width: $mainlayoutswitchbreakpoint) {
+            font-size: 3.5em;
+        }
+    }
+
+    .subtitle {
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.5em;
+        color: $light1;
+
+        @media (min-width: $mainlayoutswitchbreakpoint) {
+            font-size: 2em;
+            mix-blend-mode: difference; //difference, color dodge
+        }
+    }
+
+    .subtitle--sub {
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.2em;
+        color: white;
+
+        a {
+            color: white;
+
+            &:hover {
+                text-decoration-color: $colour2;
+
+            }
+        }
+
+        @media (min-width: $mainlayoutswitchbreakpoint) {
+            font-size: 1.2em;
+        }
+
+        @media (min-width: 1050px) {
+            color:#666;
+        }
+    }
+}

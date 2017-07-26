@@ -1,0 +1,133 @@
+$c1: $colour3;
+$c2: $colour4;
+$c3: $colour1;
+$space2border: 40px;
+$border-width: 5px;
+$spansize: 10px;
+$text-color: #222;
+
+.history {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .history__jobdate {
+        position: relative;
+        float: left;
+        text-align: right;
+        width: 200px;
+        display: block;
+        font-size: 2rem;
+        color: lighten($text-color, 20%);
+        vertical-align: middle;
+        line-height: $spansize + 2 * $border-width;
+        font-weight: 600;
+        left: $border-width * 1.5 + ($spansize * 0.5);
+    }
+
+    span {
+        position: relative;
+        float: right;
+        height: $spansize;
+        width: $spansize;
+        margin-right: 0;
+        margin-left: $space2border - $border-width * 1.5;
+        border-radius: 100%;
+        background: white;
+        display: block;
+        z-index: 2;
+        border: $border-width solid tomato;
+        box-sizing: content-box;
+    }
+
+    .history__job {
+        padding-top: 50px;
+        width: 100%;
+        display: block;
+    }
+
+    .history__jobdescription {
+        position: relative;
+        float: left;
+        display: block;
+        width: calc(100% - 250px);
+        padding-left: $space2border;
+        padding-bottom: 3em;
+        border-left: $border-width solid tomato;
+    }
+
+    .history__jobcontent {
+        margin-top: 20px;
+    }
+
+    h3 {
+        position: relative;
+        top: -11px;
+        vertical-align: middle;
+        font-size: 25px;
+        font-weight: 600;
+        color: lighten($text-color, 0%);
+        margin-bottom: 0;
+    }
+
+    h4 {
+        position: relative;
+        font-size: 20px;
+        font-weight: 500;
+        color: lighten($text-color, 25%);
+    }
+}
+
+
+.history .colour1 .history__jobdescription {border-left: $border-width solid $c1;}
+.history .colour1 span {border: $border-width solid $c1;}
+
+.history .colour2 .history__jobdescription {border-left: $border-width solid $c2;}
+.history .colour2 span {border: $border-width solid $c2;}
+
+.history .colour3 .history__jobdescription {border-left: $border-width solid $c3;}
+.history .colour3 span {border: $border-width solid $c3;}
+
+.history .end .history__jobdescription {border-left: $border-width solid transparent;}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .history {
+        width: 90%;
+
+        .history__jobdescription {
+            padding-top: 30px;
+            padding-bottom: 40px;
+            padding-left: $space2border;
+            width: 90%;
+        }
+
+        .history__jobdate {
+            position: relative;
+            float: left;
+            top: 0px;
+            left: $border-width * -0.5 + ($spansize * -0.5);
+            text-align: left;
+            width: 100%;
+            display: block;
+            font-size: 16px;
+        }
+
+        span {
+            float: left;
+            margin-left: 0;
+            margin-right: $space2border - $border-width * 1.5;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+    }
+}

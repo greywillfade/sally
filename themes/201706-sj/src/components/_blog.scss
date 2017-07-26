@@ -1,0 +1,121 @@
+.blog__contentholder {
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+    background-image: linear-gradient(white, $light1);
+    margin-top: -4em;
+    padding: 1em;
+}
+
+.blog__contentholder--left {
+    max-width: 950px;
+}
+
+.blog__blogitem {
+    /*background-color: $white1;
+    border-radius: 1em;
+    padding: 1em;*/
+    border-bottom: 2px solid white;
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+
+    p {
+        margin-bottom: 0.7em;
+    }
+
+    a {
+
+        font-family: 'Cabin', sans-serif;
+        font-size: $big-h4font;
+        color: $colour3;
+        text-decoration: none;
+
+    }
+}
+
+.blogitem__date {
+    color: lighten($colour3, 20%);
+    font-weight: bold;
+}
+
+ul.pagination {
+    list-style-type: none;
+
+    li a {
+        color: darken($colour2, 20%);
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: 'Cabin', sans-serif;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        text-decoration: $colour2 underline wavy;
+    }
+}
+
+.lede {
+    font-size: 1.7em;
+}
+
+//Blog single post
+.large-article-header {
+    padding: 3em;
+    margin-bottom:2em;
+}
+
+.large-article-header-content .article-date {
+  color: #fefefe;
+}
+
+.large-article-header-content .article-title h1 {
+    line-height: 5rem;
+    color: #fefefe;
+}
+
+.large-article-header-content .article-details {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+    a {
+        color: #fefefe;
+    }
+}
+
+.large-article-header-content .article-author {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    margin: 1rem 0 0 0;
+    color: #fefefe;
+
+    img {
+        margin-right: 1em;
+        border-radius: 50%;
+        max-width: 80px;
+    }
+}
+
+.large-article-header-content .article-comments {
+    margin: 1rem 0 0 0;
+}
+
+.blog__morelinks {
+    background-color: $colour6;
+    padding: 1em 1em 0.5em 1em;
+    color: white;
+
+    a {
+        color: darken($colour2, 10%);
+    }
+}

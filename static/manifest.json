@@ -1,0 +1,29 @@
+{
+    "name": "Sally",
+    "short_name": "Sally",
+    "icons": [{
+        "src": "/img/favicons/favicon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+        }, {
+        "src": "/img/favicons/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+        }, {
+        "src": "/img/favicons/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+        }, {
+        "src": "/img/favicons/favicon-196x196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+        }, {
+        "src": "/img/favicons/mstile-310x310.png",
+        "sizes": "310x310",
+        "type": "image/png"
+        }],
+    "start_url": "/?utm_source=homescreen",
+    "display": "browser",
+    "background_color": "#f6bfad",
+    "theme_color": "#f6bfad"
+}

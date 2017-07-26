@@ -1,0 +1,64 @@
+.contentholder--bright1 {
+    background-color:lighten($colour3, 10%);
+    color:$white1;
+
+    a {
+        color: $colour6;
+        font-weight: bold;
+    }
+}
+
+.contentholder--bright2 {
+    background-color:lighten($colour2, 12%);
+    color:$white1;
+
+    a {
+        //color: darken( $colour2, 25% );
+        color: $colour1;
+        font-weight: bold;
+    }
+}
+
+.contentholder--bright3 {
+    background-color:lighten($colour2, 20%);
+    color:$white1;
+
+    a {
+        color: darken($colour1, 50%);
+    }
+}
+
+.contentholder--dark1 {
+    background-color:lighten($colour3, 27%);
+    color:$white1;
+}
+
+.contentholder--bgborder {
+    padding: 1em;
+    background: $colour1;
+    -moz-box-shadow: 7px 7px 0px darken($colour1, 15%);
+    -webkit-box-shadow: 7px 7px 0px darken($colour1, 15%);
+    box-shadow: 7px 7px 0px darken($colour1, 15%);
+
+    .textlist--subtitle {
+        margin-top:1em;
+        color: white;
+    }
+
+    .textlist--date {
+        font-weight: bold;
+        color: white;
+    }
+
+    a {
+        color: $colour2;
+
+        button {
+            border-color: white;
+            color: white;
+            background-color: $colour2;
+        }
+    }
+
+
+}

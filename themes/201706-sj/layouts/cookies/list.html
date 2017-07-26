@@ -1,0 +1,17 @@
+{{ partial "base" . }}
+
+<div class="wrapper">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+        <div class="blog__contentholder">
+
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+
+        </div>
+
+    </article>
+</div>
+
+{{ partial "footer" . }}

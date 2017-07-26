@@ -1,0 +1,53 @@
+{{ partial "base" . }}
+
+<div class="wrapper wrapper-nogap">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+        <section style="background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('{{ .Params.headerimg }}') #589ec9 no-repeat center; background-size: cover;">
+            <div class="large-article-header" >
+                <div class="large-article-header-content">
+                    <div class="row">
+                        <div class="article-date">
+                            <p>Published on {{ .Date.Format "Monday, 2 Jan, 2006" }}</p>
+                        </div>
+                        <div class="article-title">
+                            <h1>{{ .Title }}</h1>
+                        </div>
+                        <div class="article-details">
+                            <div class="article-author">
+                                <img src="/img/sallyjenkinson.jpg" alt="Sally Jenkinson" />
+                                Sally Jenkinson
+                            </div>
+                            <!-- TODO: Keep in case want to use it for PWA stuff-->
+                            <!--<div class="article-comments">
+                                <a href="#"><i class="fa fa-comment" aria-hidden="true"></i> 3 Comments</a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="blog__contentholder">
+            {{ .Content }}
+
+            <div class="blog__morelinks">
+                <h4>Read more from the blog</h4>
+                {{ if .PrevInSection }}
+                    <p>Back in time:<br />
+                    <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a></p>
+                {{ end }}
+                {{ if .NextInSection }}
+                    <p>Forward in time:<br />
+                    <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}</a></p>
+                {{ end }}
+            </div>
+        </div>
+
+
+
+    </article>
+</div>
+
+{{ partial "footer" . }}

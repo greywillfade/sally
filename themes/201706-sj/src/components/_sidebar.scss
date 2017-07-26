@@ -1,0 +1,96 @@
+.sidebar__content {
+    position:sticky;
+    top: 1em;
+    text-align: center;
+
+    @media (min-width: $mainlayoutswitchbreakpoint) {
+        text-align: left;
+    }
+}
+
+ul.sidebar__nav {
+    list-style-type: none;
+
+    li a {
+        color: $colour3;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: 'Cabin', sans-serif;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        text-decoration: $colour2 underline wavy;
+    }
+}
+
+//The below is thanks to https://codepen.io/ruandre/pen/howFi
+$background: $colour2; //hsl(210, 45, 10);
+
+ul.sidebar__social {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  //padding: 48px;
+  //padding: 4.8rem;
+  //text-align: left;
+
+  li {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+
+  a, svg {
+    display: block;
+  }
+
+  a {
+    position: relative;
+    height: 35px;
+    height: 3.5rem;
+    width: 35px;
+    width: 3.5rem;
+  }
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+%social-icon-hover {
+    border-radius: 100%;
+    //color: $background;
+    //fill: $background;
+    color: white;
+    fill: white;
+    transform: scale(1.25);
+    transition: background-color 0.5s, transform 0.5s ease-out;
+}
+
+$colourmap: (
+    icon-1: $colour3,
+    icon-2: lighten($colour3, 10%),
+    icon-3: lighten($colour3, 20%),
+    icon-4: $colour4,
+    icon-5: lighten($colour4, 10%),
+    icon-6: $colour1,
+    icon-7: darken($colour1, 10%),
+    icon-8: darken($colour1, 20%),
+    icon-9: darken($colour1, 30%)
+
+);
+
+@each $icon, $bgcolor in $colourmap {
+
+    .#{$icon} {
+        color: $bgcolor;//hsl($i * 12, 70, 50);
+        fill: $bgcolor;//hsl($i * 12, 70, 50);
+
+        &:hover {
+            background: $bgcolor;
+            @extend %social-icon-hover;
+        }
+    }
+}

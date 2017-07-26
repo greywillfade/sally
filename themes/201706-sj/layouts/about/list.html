@@ -1,0 +1,18 @@
+{{ partial "base" . }}
+
+<div class="wrapper">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+        <div class="promo" style="background: url('/img/promo-sj4.jpg') #6BBCB6 no-repeat center; background-size: cover;">
+        </div>
+        <div class="contentholder--bright2" style="padding:2em; margin-bottom: 2em;">
+            <h1 class="test">About me</h1>
+            <p class="subtitle" style="font-size: 2.441rem;">I’m currently a consultant and digital solutions architect based in the UK who helps global organisations from big to small with their discovery, planning, transformation, and strategic digital decisions. This is how I got here.</p>
+        </div>
+
+        {{ .Content }}
+    </article>
+</div>
+
+{{ partial "footer" . }}

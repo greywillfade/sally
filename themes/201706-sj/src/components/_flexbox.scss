@@ -1,0 +1,49 @@
+//Standard boxing flexing
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.flexbox-container > div {
+    //width: 100%;
+    padding: 2em;
+}
+
+//If you want wrapped ones instead
+.flexbox-container--wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flexbox-container--wrap > div {
+  flex: 1 0 25%;
+  min-width: 200px;
+  min-height: 10vh;
+  margin:1em;
+}
+
+.flexbox-container--wrap > div:nth-last-child(2):nth-child(4n) {
+  min-width: 33%;
+}
+
+
+
+@media (min-width: 900px) {
+
+    .flexbox-container {
+    	-webkit-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .flexbox-container > div {
+        -webkit-flex: 1;
+        flex: 1;
+    }
+
+    .flexbox-container > div:first-child {
+    	//margin-right: 20px;
+    }
+}
