@@ -1,9 +1,17 @@
-<html>
- <head>
-  <title>{{ .Title }}</title>
- </head>
- <body>
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
- </body>
-</html>
+{{ partial "base" . }}
+
+<div class="wrapper">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+
+        <div class="promo" style="margin-bottom:2em;">
+            <h1>{{ .Title }}</h1>
+            <p class="subtitle">It looks like something isn't quite where you were expecting it to be, which is probably because of how I've moved content around over the years. Oops.</p>
+        </div>
+
+        {{ .Content }}
+    </article>
+</div>
+
+{{ partial "footer" . }}
