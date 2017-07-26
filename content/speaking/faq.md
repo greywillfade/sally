@@ -1,3 +1,8 @@
++++
+description = "Things that may be useful for you to know if you're an event organiser"
+menuflag    = "speaking"
++++
+
 # Speaking FAQs
 You’re hopefully here because you’re interested in me speaking at your event, which is exciting for me because I always like getting those emails. So that we can make sure that we’re the right people for each other, I’ve put together some common questions and answers, along with what’s really useful for me to know about your event.
 

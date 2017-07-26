@@ -19,6 +19,10 @@ ul.sidebar__nav {
         text-decoration: none;
     }
 
+    li a.nav--active {
+        text-decoration: lighten($colour7,20%) underline wavy;
+    }
+
     li a:hover {
         text-decoration: $colour2 underline wavy;
     }

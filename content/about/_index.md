@@ -1,6 +1,7 @@
 +++
 title       = "About"
-description = "TODO description"
+description = "I’m currently a consultant and digital solutions architect based in the UK who helps global organisations from big to small with their discovery, planning, transformation, and strategic digital decisions. This is how I got here."
+menuflag    = "about"
 +++
 
 ## Starting out

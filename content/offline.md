@@ -1,7 +1,6 @@
 +++
-date = "2016-10-16T19:28:41+02:00"
-draft = false
-title = "You are offline."
+title = "Offline"
+description = "Offline page"
 type = "offline"
 +++
 

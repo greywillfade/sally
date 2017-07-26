@@ -1,6 +1,7 @@
 +++
 title       = "Contact me"
-description = "TODO description"
+description = "Here's how to get in touch if you want to know more about my work, ask me to speak at your event, write about something, or just have a question."
+menuflag    = "contact"
 +++
 
 ### I'd like to talk about work or speaking. How can I reach you?

@@ -1,6 +1,7 @@
 +++
 title       = "Speaking"
-description = "TODO description"
+description = "A summary of my past and upcoming public talks, plus any related resources"
+menuflag    = "speaking"
 +++
 
 I started speaking in 2011 at user groups in Europe before branching out into conferences a couple of years later. Since then I‘ve spoken at a wide range of different events globally, including **Adobe MAX** and **EmpireJS** in the US, **From The Front** in Italy, **ACE! Conference** and **Front-Trends** in Poland, and **Fronteers** in Amsterdam (amongst many others). As well as giving 'standard' talks I've also enjoyed progressing into the world of closing keynotes, and being MC.

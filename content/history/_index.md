@@ -1,6 +1,7 @@
 +++
 title       = "History"
-description = "TODO description"
+description = "A summary of key roles and events in my career to date"
+menuflag    = "history"
 +++
 
 ## Industry awards & certification

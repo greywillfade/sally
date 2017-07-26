@@ -1,6 +1,6 @@
 +++
 title       = "Cookie policy"
-description = "TODO description"
+description = "Very important official cookie policy"
 +++
 
 ## Policy details

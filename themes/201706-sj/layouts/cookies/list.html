@@ -4,9 +4,28 @@
     {{ partial "sidebar" . }}
     <article class="content">
 
+        <section style="background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('/img/cookies.jpg') #589ec9 no-repeat center; background-size: cover;">
+            <div class="large-article-header" >
+                <div class="large-article-header-content">
+                    <div class="row">
+                        <div class="article-title">
+                            <h1>{{ .Title }}</h1>
+                        </div>
+                        <div class="article-details">
+                            <div class="article-author">
+                                <img src="/img/sallyjenkinson.jpg" alt="Sally Jenkinson" />
+                                Official Sally Jenkinson cookie policy
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <div class="blog__contentholder">
 
-            <h1>{{ .Title }}</h1>
             {{ .Content }}
 
         </div>
