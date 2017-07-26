@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>http://sallylait.com/offline/</loc>
-    <lastmod>2016-10-16T19:28:41+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://sallylait.com/blog/2016/09/14/pokemon-privilege/</loc>
     <lastmod>2016-09-14T14:55:15+00:00</lastmod>
   </url>
@@ -570,6 +565,10 @@
   
   <url>
     <loc>http://sallylait.com/history/</loc>
+  </url>
+  
+  <url>
+    <loc>http://sallylait.com/offline/</loc>
   </url>
   
   <url>

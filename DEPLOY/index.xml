@@ -61,15 +61,6 @@ A good marker to start thinking about this may be when you&amp;#8217;re regularl
     </item>
     
     <item>
-      <title>You are offline.</title>
-      <link>http://sallylait.com/offline/</link>
-      <pubDate>Sun, 16 Oct 2016 19:28:41 +0200</pubDate>
-      <author>sally@recordssoundthesame.com (Sally Jenkinson/Lait)</author>
-      <guid>http://sallylait.com/offline/</guid>
-      <description>We&amp;rsquo;ll try to show you what we&amp;rsquo;ve already got saved, but to see the rest please find a connection later on.</description>
-    </item>
-    
-    <item>
       <title>Pokémon Privilege</title>
       <link>http://sallylait.com/blog/2016/09/14/pokemon-privilege/</link>
       <pubDate>Wed, 14 Sep 2016 14:55:15 +0000</pubDate>
@@ -1081,6 +1072,15 @@ Firstly, on a serious note, the whole blogging thing is actually something I&amp
       <guid>http://sallylait.com/speaking/faq/</guid>
       <description>Speaking FAQs You’re hopefully here because you’re interested in me speaking at your event, which is exciting for me because I always like getting those emails. So that we can make sure that we’re the right people for each other, I’ve put together some common questions and answers, along with what’s really useful for me to know about your event.
 As I run a small business, I have to choose my speaking engagements carefully so as not to interfere with any booked work and to ensure that I can give you a great, polished performance.</description>
+    </item>
+    
+    <item>
+      <title>Offline</title>
+      <link>http://sallylait.com/offline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Jenkinson/Lait)</author>
+      <guid>http://sallylait.com/offline/</guid>
+      <description>We&amp;rsquo;ll try to show you what we&amp;rsquo;ve already got saved, but to see the rest please find a connection later on.</description>
     </item>
     
   </channel>
