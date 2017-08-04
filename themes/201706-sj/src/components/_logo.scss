@@ -2,7 +2,6 @@
         /*text-decoration-color: $colour1;
         text-decoration-line: underline;
         text-decoration-skip: ink;*/
-
         text-decoration: none;
 }
 
@@ -61,4 +60,5 @@
     background: -webkit-linear-gradient($colour6 25%, $colour2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-left: 20px;
 }

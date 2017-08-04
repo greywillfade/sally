@@ -1,21 +1,20 @@
+/* Remove until I've stopped messing around with the layout
+
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
     '/css/master.css',
-    '/js/lettering.js',
     '/manifest.json',
     '/img/favicons/favicon-32x32.png',
 ];
 
 const OFFLINE_CACHE_FILES = [
     '/css/master.css',
-    '/js/lettering.js',
     '/offline/index.html',
 ];
 
 const NOT_FOUND_CACHE_FILES = [
     '/css/master.css',
-    '/js/lettering.js',
     '/404.html',
 ];
 
@@ -48,11 +47,7 @@ const SUPPORTED_METHODS = [
     'GET',
 ];
 
-/**
- * isBlackListed
- * @param {string} url
- * @returns {boolean}
- */
+
 function isBlacklisted(url) {
     return (CACHE_BLACKLIST.length > 0) ? !CACHE_BLACKLIST.filter((rule) => {
         if(typeof rule === 'function') {
@@ -63,20 +58,11 @@ function isBlacklisted(url) {
     }).length : false
 }
 
-/**
- * getFileExtension
- * @param {string} url
- * @returns {string}
- */
 function getFileExtension(url) {
     let extension = url.split('.').reverse()[0].split('?')[0];
     return (extension.endsWith('/')) ? '/' : extension;
 }
 
-/**
- * getTTL
- * @param {string} url
- */
 function getTTL(url) {
     if (typeof url === 'string') {
         let extension = getFileExtension(url);
@@ -90,10 +76,6 @@ function getTTL(url) {
     }
 }
 
-/**
- * installServiceWorker
- * @returns {Promise}
- */
 function installServiceWorker() {
     return Promise.all(
         [
@@ -122,10 +104,6 @@ function installServiceWorker() {
         });
 }
 
-/**
- * cleanupLegacyCache
- * @returns {Promise}
- */
 function cleanupLegacyCache() {
 
     let currentCaches = Object.keys(CACHE_VERSIONS)
@@ -206,8 +184,6 @@ function precacheUrl(url) {
             })
     }
 }
-
-
 
 self.addEventListener(
     'install', event => {
@@ -381,3 +357,5 @@ self.addEventListener('message', (event) => {
     }
 
 });
+
+*/
