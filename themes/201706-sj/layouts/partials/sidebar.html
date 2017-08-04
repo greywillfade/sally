@@ -3,14 +3,36 @@
     <div class="sidebar__content">
         <a href="/" class="logo__link"><div class="logo--gradient">Sally</div></a>
 
-        <ul class="sidebar__nav">
-            <li><a href="/"{{ if eq .Kind "home" }} class="nav--active"{{ end }}>Home</a></li>
-            <li><a href="/about/"{{ if eq .Params.menuflag "about" }} class="nav--active"{{ end }}>About</a></li>
-            <li><a href="/history/"{{ if eq .Params.menuflag "history" }} class="nav--active"{{ end }}>History</a></li>
-            <li><a href="/speaking/"{{ if eq .Params.menuflag "speaking" }} class="nav--active"{{ end }}>Speaking</a></li>
-            <li><a href="/blog/"{{ if eq .Section "blog" }} class="nav--active"{{ end }}>Blog</a></li>
-            <li><a href="/contact/"{{ if eq .Params.menuflag "contact" }} class="nav--active"{{ end }}>Contact</a></li>
-        </ul>
+        <nav class="menu">
+            <a class="menu__item{{ if eq .Kind "home" }} menu__item--active{{ end }}" href="/">
+                <span class="menu__item-name">Home</span>
+                <span class="menu__item-label">Return to the homepage</span>
+            </a>
+            <a class="menu__item{{ if eq .Params.menuflag "about" }} menu__item--active{{ end }}" href="/about/">
+                <span class="menu__item-name">About</span>
+                <span class="menu__item-label">What I do and why</span>
+            </a>
+            <a class="menu__item{{ if eq .Params.menuflag "history" }} menu__item--active{{ end }}" href="/history/">
+                <span class="menu__item-name">History</span>
+                <span class="menu__item-label">Timeline of my experience</span>
+            </a>
+            <a class="menu__item{{ if eq .Params.menuflag "speaking" }} menu__item--active{{ end }}" href="/speaking/">
+                <span class="menu__item-name">Speaking</span>
+                <span class="menu__item-label">Details of talks</span>
+            </a>
+            <a class="menu__item{{ if eq .Section "blog" }} menu__item--active{{ end }}" href="/blog/">
+                <span class="menu__item-name">Blog</span>
+                <span class="menu__item-label">Read my latest posts</span>
+            </a>
+            <a class="menu__item{{ if eq .Params.menuflag "labs" }} menu__item--active{{ end }}" href="/labs/">
+                <span class="menu__item-name">Labs</span>
+                <span class="menu__item-label">Side projects and tools</span>
+            </a>
+            <a class="menu__item{{ if eq .Params.menuflag "contact" }}menu__item--active{{ end }}" href="/contact/">
+                <span class="menu__item-name">Contact</span>
+                <span class="menu__item-label">Get in touch</span>
+            </a>
+        </nav>
 
         <ul class="sidebar__social">
             <li><a href="/contact/" class="icon-1 email" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg></a></li>
