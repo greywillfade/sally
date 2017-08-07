@@ -8,6 +8,14 @@
     }
 }
 
+.menu__trigger {
+
+    @media screen and (min-width: $mainlayoutswitchbreakpoint) {
+        display: none;
+    }
+
+}
+
 ul.sidebar__nav {
     list-style-type: none;
 
