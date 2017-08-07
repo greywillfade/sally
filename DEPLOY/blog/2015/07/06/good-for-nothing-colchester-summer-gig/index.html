@@ -64,16 +64,40 @@
     <aside class="sidebar">
 
     <div class="sidebar__content">
-        <a href="/" class="logo__link"><div class="logo">Sally</div></a>
+        <a href="/" class="logo__link"><div class="logo--gradient">Sally</div></a>
 
-        <ul class="sidebar__nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/history/">History</a></li>
-            <li><a href="/speaking/">Speaking</a></li>
-            <li><a href="/blog/" class="nav--active">Blog</a></li>
-            <li><a href="/contact/">Contact</a></li>
-        </ul>
+        <a href="" class="menu__trigger">Menu</a>
+
+        <nav class="menu">
+            <a class="menu__item" href="/">
+                <span class="menu__item-name">Home</span>
+                <span class="menu__item-label">Return to the homepage</span>
+            </a>
+            <a class="menu__item" href="/about/">
+                <span class="menu__item-name">About</span>
+                <span class="menu__item-label">What I do and why</span>
+            </a>
+            <a class="menu__item" href="/history/">
+                <span class="menu__item-name">History</span>
+                <span class="menu__item-label">Timeline of my experience</span>
+            </a>
+            <a class="menu__item" href="/speaking/">
+                <span class="menu__item-name">Speaking</span>
+                <span class="menu__item-label">Details of talks</span>
+            </a>
+            <a class="menu__item menu__item--active" href="/blog/">
+                <span class="menu__item-name">Blog</span>
+                <span class="menu__item-label">Read my latest posts</span>
+            </a>
+            <a class="menu__item" href="/labs/">
+                <span class="menu__item-name">Labs</span>
+                <span class="menu__item-label">Side projects and tools</span>
+            </a>
+            <a class="menu__item" href="/contact/">
+                <span class="menu__item-name">Contact</span>
+                <span class="menu__item-label">Get in touch</span>
+            </a>
+        </nav>
 
         <ul class="sidebar__social">
             <li><a href="/contact/" class="icon-1 email" title="Email"><svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg></a></li>
@@ -248,30 +272,12 @@
 
 
 <footer>
-    <p class="smallprint">&copy; Sally Jenkinson 2017 | Important <a href="/cookies/">cookie policy</a> &#x1F36A</p>
+    <p class="smallprint">&copy; Sally Lait 2017 | Important <a href="/cookies/">cookie policy</a> &#x1F36A</p>
 </footer>
 
-<script src="/js/jquery-3.1.0.slim.min.js"></script>
-<script src="/js/lettering.js"></script>
-
 <script>
-$(".logo").lettering();
-</script>
 
-<script>
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker
-        .register('/sw.js', { scope: '/' })
-        .then(function(registration) {
-            console.log('Service Worker has been registered');
-        });
 
-    navigator.serviceWorker
-        .ready
-        .then(function(registration) {
-            console.log('Service Worker is now ready');
-        });
-}
 </script>
 
 </body>
