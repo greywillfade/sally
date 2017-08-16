@@ -52,13 +52,22 @@
 }*/
 
 .logo--gradient {
-    font-family: 'Satisfy', sans-serif;
-    font-size: 5.5em;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    color: $colour6;
-    background: -webkit-linear-gradient($colour6 25%, $colour2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-left: 20px;
+
+    background-image: url('/layout/memphisbw.svg');
+    border-radius: 50%;
+    text-align: center;
+    //background: -webkit-linear-gradient($colour6 25%, $colour2);
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+
+    .logo--text {
+        font-family: 'Satisfy', sans-serif;
+        font-size: 7em;
+        font-weight: 800; //700
+        letter-spacing: -0.3rem;//0.1rem;
+        color: $colour4;
+        mix-blend-mode:difference;
+        display: inline-block;
+
+    }
 }

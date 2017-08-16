@@ -3,31 +3,44 @@
     background-color: $light1;
     min-height: 300px;
     text-align: left;
-    color: $white1;
-    background-image: url('/layout/poly3.svg');
+    //color: $white1;
+    background-image: url('/layout/memphisbw.svg');
+    background-size: 400px;
+    background-repeat: repeat;
+
 
     @media (min-width: $mainlayoutswitchbreakpoint) {
         padding-top: 2em;
         min-height: 400px;
-        background-size: cover;
+        background-size: 500px;
+        //background-size: cover;
     }
 
     h1 {
         font-size: 3em;
+        background: $colour3;
+        color: white;
+        display:inline-block;
+        padding: 0.2em;
 
         @media (min-width: $mainlayoutswitchbreakpoint) {
             font-size: 3.5em;
+
         }
     }
 
     .subtitle {
-        font-family: 'Cabin', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
         color: $light1;
+        background-color: blue;
+        background: $colour7;
+        display:inline-block;
+        padding: 0.2em;
 
         @media (min-width: $mainlayoutswitchbreakpoint) {
             font-size: 2em;
-            mix-blend-mode: difference; //difference, color dodge
+            //mix-blend-mode: difference; //difference, color dodge
         }
     }
 
