@@ -1,5 +1,9 @@
 /* Huge thanks to Rachel Andrew's Grid by Example site for this */
 
+.sidebar {
+    background-color: $dark1;
+}
+
 .wrapper {
   display: grid;
   grid-gap: 1em;
@@ -19,7 +23,6 @@
   .sidebar {
     float: left;
     width: 19.1489%;
-    background-color: white;
     min-height: 100vh;
   }
 
