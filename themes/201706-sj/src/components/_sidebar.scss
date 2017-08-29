@@ -31,27 +31,6 @@
     }
 }
 
-/*
-ul.sidebar__nav {
-    list-style-type: none;
-
-    li a {
-        color: $colour3;
-        text-transform: uppercase;
-        font-size: 2rem;
-        font-family: 'Cabin', sans-serif;
-        text-decoration: none;
-    }
-
-    li a.nav--active {
-        text-decoration: lighten($colour7,20%) underline wavy;
-    }
-
-    li a:hover {
-        text-decoration: $colour2 underline wavy;
-    }
-}*/
-
 //The below is thanks to https://codepen.io/ruandre/pen/howFi
 $background: $colour2; //hsl(210, 45, 10);
 
@@ -60,9 +39,6 @@ ul.sidebar__social {
   font-size: 0;
   list-style: none;
   margin: 0;
-  //padding: 48px;
-  //padding: 4.8rem;
-  //text-align: left;
 
   li {
     display: inline-block;
