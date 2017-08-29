@@ -33,8 +33,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
         color: $light1;
-        background-color: blue;
-        background: $colour7;
+        background: $colour4;
         display:inline-block;
         padding: 0.2em;
 
@@ -47,6 +46,9 @@
     .subtitle--sub {
         font-family: 'Cabin', sans-serif;
         font-size: 1.2em;
+        background: $colour6;
+        display:inline-block;
+        padding: 0.2em;
         color: white;
 
         a {
@@ -54,7 +56,6 @@
 
             &:hover {
                 text-decoration-color: $colour2;
-
             }
         }
 
@@ -62,8 +63,5 @@
             font-size: 1.2em;
         }
 
-        @media (min-width: 1050px) {
-            color:#666;
-        }
     }
 }

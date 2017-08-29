@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Sally"
 theme = "201706-sj"
 publishDir = "DEPLOY"
-copyright = "All content is copyright Sally Jenkinson/Lait"
+copyright = "All content is copyright Sally Lait"
 
 # Define how many posts should appear on a site
 paginate = 10
@@ -11,14 +11,14 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Sally Jenkinson/Lait"
+	name = "Sally Lait"
 	description = "Personal site of Sally, solutions architect and consultant, speaker, coder, gamer, author, tea enthusiast."
 
 	# Format dates with Go's time formatting
 	date_format = "02.01.2006"
 
 [author]
-	name = "Sally Jenkinson/Lait"
+	name = "Sally Lait"
 	email = "sally@recordssoundthesame.com"
 
 [taxonomies]

@@ -1,15 +1,15 @@
 .contentholder--bright1 {
-    background-color:lighten($colour3, 10%);
+    background-color:$colour3;
     color:$white1;
 
     a {
-        color: $colour6;
+        color: $colour1;
         font-weight: bold;
     }
 }
 
 .contentholder--bright2 {
-    background-color:lighten($colour2, 12%);
+    background-color:$colour2;
     color:$white1;
 
     a {
@@ -20,17 +20,15 @@
 }
 
 .contentholder--bright3 {
-    background-color:lighten($colour2, 20%);
-    color:$white1;
+    background-color:$light1;
 
     a {
-        color: darken($colour1, 50%);
+        color: $colour2;
     }
 }
 
-.contentholder--dark1 {
-    background-color:lighten($colour3, 27%);
-    color:$white1;
+.contentholder--bright4 {
+    background-color: $colour1;
 }
 
 .contentholder--bgborder {

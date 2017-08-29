@@ -25,17 +25,18 @@
     }
 
     a {
-
         font-family: 'Cabin', sans-serif;
         font-size: $big-h4font;
-        color: $colour3;
         text-decoration: none;
-
+        background: $colour6;
+        display:inline-block;
+        padding: 0.2em;
+        color: white;
     }
 }
 
 .blogitem__date {
-    color: lighten($colour3, 20%);
+    color: $colour4;
     font-weight: bold;
 }
 
