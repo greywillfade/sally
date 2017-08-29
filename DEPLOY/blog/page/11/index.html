@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 
     
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i|Source+Sans+Pro:400,400i,600,600i,700,700i|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i|Source+Sans+Pro:400,400i,600,600i,700,700i|Satisfy|Montserrat:400,500,600,700,800" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/master.css">
 
@@ -44,7 +44,6 @@
     <meta name="msapplication-wide310x150logo" content="/img/favicons/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/img/favicons/mstile-310x310.png" />
     <meta name="theme-color" content="#f6bfad">
-
     <link rel="manifest" href="/manifest.json?v=s1.01">
     <link href="/blog/index.xml" rel="alternate feed" type="application/rss+xml" title="Blog RSS" />
 
@@ -64,11 +63,11 @@
     <aside class="sidebar">
 
     <div class="sidebar__content">
-        <a href="/" class="logo__link"><div class="logo--gradient">Sally</div></a>
+        <a href="/" class="logo__link"><div class="logo--gradient"><div class="logo--text">Sally</div></div></a>
 
-        <a href="" class="menu__trigger">Menu</a>
+        <a href="#" class="menu__trigger" id="menu-trigger">Menu</a>
 
-        <nav class="menu">
+        <nav id="menu-reveal" class="menu">
             <a class="menu__item" href="/">
                 <span class="menu__item-name">Home</span>
                 <span class="menu__item-label">Return to the homepage</span>
@@ -89,10 +88,7 @@
                 <span class="menu__item-name">Blog</span>
                 <span class="menu__item-label">Read my latest posts</span>
             </a>
-            <a class="menu__item" href="/labs/">
-                <span class="menu__item-name">Labs</span>
-                <span class="menu__item-label">Side projects and tools</span>
-            </a>
+            
             <a class="menu__item" href="/contact/">
                 <span class="menu__item-name">Contact</span>
                 <span class="menu__item-label">Get in touch</span>
@@ -252,6 +248,7 @@
     <p class="smallprint">&copy; Sally Lait 2017 | Important <a href="/cookies/">cookie policy</a> &#x1F36A</p>
 </footer>
 
+<script src="/js/main.js" defer="defer"></script>
 <script>
 
 
