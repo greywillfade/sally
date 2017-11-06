@@ -9,10 +9,28 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Tue, 18 Apr 2017 17:13:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2017 17:13:23 +0000</lastBuildDate>
     
 	<atom:link href="http://sallylait.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Improving the discoverability and usability of open sports and physical activity opportunity data</title>
+      <link>http://sallylait.com/blog/2017/11/01/improving-discoverability-and-usability/</link>
+      <pubDate>Wed, 01 Nov 2017 17:13:23 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>http://sallylait.com/blog/2017/11/01/improving-discoverability-and-usability/</guid>
+      <description>I wrote recently about how we’re working towards redesigning and redeveloping the OpenActive website (our redesign/development tender is currently open). As part of this we’re looking at people’s experiences of using open opportunity data, and how we can better support this by improving the data’s discoverability and usability. Please note that this article was previously written for the OpenActive blog as part of my role on the project as an Open Data Institute Associate, and is recorded here for posterity.</description>
+    </item>
+    
+    <item>
+      <title>Redeveloping the OpenActive website</title>
+      <link>http://sallylait.com/blog/2017/10/13/redeveloping-the-openactive-website/</link>
+      <pubDate>Fri, 13 Oct 2017 17:13:23 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>http://sallylait.com/blog/2017/10/13/redeveloping-the-openactive-website/</guid>
+      <description>We’ve started the process of redesigning and redeveloping the OpenActive website, and as part of trying to do this openly we’d like to ask for your initial thoughts. Please note that this article was previously written for the OpenActive blog as part of my role on the project as an Open Data Institute Associate, and is recorded here for posterity.  For anyone reading this who may be new to the world of open opportunity data (or who needs a brief ‘previously on OpenActive’ refresher), here’s the story so far:</description>
+    </item>
     
     <item>
       <title>Render Conference – Being a keynote speaker and MC</title>

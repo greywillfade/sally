@@ -6,7 +6,7 @@ menuflag    = "contact"
 
 ### I'd like to talk about work or speaking. How can I reach you?
 
-The best way to get hold of me is either on the form here or my email, which is <b>sally at recordssoundthesame.com</b>. If it's something tiny, <a href="http://twitter.com/sjenkinson">Twitter</a> is a good alternative.
+The best way to get hold of me is either on the form here or my email, which is <b>sally at recordssoundthesame.com</b>. If it's something tiny, <a href="http://twitter.com/sallylait">Twitter</a> is a good alternative.
 
 ### Can I call/Hangout/Skype instead? I like talking in person.
 Sure! Email me and we can arrange a time and share details then.

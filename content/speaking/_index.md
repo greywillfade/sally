@@ -8,4 +8,4 @@ I started speaking in 2011 at user groups in Europe before branching out into co
 
 My talks have spanned a range of topics, but I mostly enjoy giving those with a broad subject matter where I can speak about areas that are informed by my work. You can get a feel for the kind of things that I talk about in some of the below videos and links. In addition to conferences, I also speak at schools, universities, and private corporate events.
 
-Further speaking information is available on [Lanyrd](http://lanyrd.com/profile/sjenkinson/), or you can view some of the [Twitter feedback](https://twitter.com/sjenkinson/timelines/578535730181496832) I've had on my talks.
+Further speaking information is available on [Lanyrd](http://lanyrd.com/profile/sjenkinson/), or you can view some of the [Twitter feedback](https://twitter.com/sallylait/timelines/578535730181496832) I've had on my talks.

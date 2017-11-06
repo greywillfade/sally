@@ -20,7 +20,7 @@ Websites are no longer the end stopping point, and are instead usually just the 
 
 I now operate through my company [Records Sound the Same](http://recordssoundthesame.com), which I founded in 2014, and bring in trusted collaborators when there’s a need to scale up. The company provides strategic technical consultancy services focused on helping with digital transformation, planning appropriate solutions, and teaching people new skills. We try to do some good, and work with nice people, including the **Manor Racing F1 team**, **RNLI**, and **Inghams**. Head over to have a look at the site for more extensive information on our capabilities and projects.
 
-![Sally Jenkinson at The Lead Developer](/img/promo-sj3.jpg)
+![Sally Jenkinson/Lait at The Lead Developer](/img/promo-sj3.jpg)
 
 ## Time elsewhere
 
@@ -30,4 +30,4 @@ I'm now based in Suffolk in the UK, but my clients are spread over this country 
 
 As you heard above, I hold a First Class BSc (Hons) degree from the Open University, plus I speak a variety of languages at a different levels, including Japanese, French, German and Indonesian (I lived in Jakarta, Indonesia for eight years).
 
-You can find more recommendations and endorsements on my [LinkedIn](https://www.linkedin.com/in/sallyjenkinson/) page, or if you'd like to discuss my full CV please get in touch. I tweet as [@sjenkinson](https://twitter.com/sjenkinson) if you'd like to say hello about anything else.
+You can find more recommendations and endorsements on my [LinkedIn](https://www.linkedin.com/in/sallylait/) page, or if you'd like to discuss my full CV please get in touch. I tweet as [@sallylait](https://twitter.com/sallylait) if you'd like to say hello about anything else.

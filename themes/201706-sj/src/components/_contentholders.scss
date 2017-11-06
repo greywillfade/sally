@@ -30,6 +30,18 @@
     background-color: $colour1;
 }
 
+.contentholder--flag {
+    background-color: $colour1;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.contentholder--flag:before {
+    content: "\01F6A9";
+}
+
+
+
 .contentholder--bgborder {
     padding: 1em;
     background: $colour1;
