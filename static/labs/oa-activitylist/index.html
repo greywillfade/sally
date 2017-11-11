@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+    <title>OpenActive activity list</title>
+    <script src="d3.v4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #FCF2F1;
+            font-family: 'Montserrat', sans-serif;
+        }
+        #activitytitle {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            color: #2F6690;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <svg></svg>
+        <p id="activitytitle">Activity list</p>
+    </div>
+
+    <script>
+    var originalData;
+    var width = (window.innerWidth * 0.9);
+    var height = (window.innerHeight * 0.9);
+    var radius = Math.min(width, height) / 2;
+    var formatNumber = d3.format(",d");
+
+    var x = d3.scaleLinear()
+        .range([0, 2 * Math.PI]);
+
+    var y = d3.scaleSqrt()
+        .range([0, radius]);
+
+    var color = d3.scaleOrdinal().range(["#69B9FF","#B5E2FA","#EDDEA4","#F7A072", "#0FA3B1"]); //003459 //7C9EB2
+
+    var partition = d3.partition();
+
+    var arc = d3.arc()
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
+    .innerRadius(function(d) { return Math.max(0, y(d.y0)); })
+    .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
+
+    // Size our <svg> element, add a <g> element, and move translate 0,0 to the center of the element.
+    var g = d3.select('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .append('g')
+        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+
+    //We need to reformat the original data to fit the different parent/child structure that we need for the visualisation
+
+    //Grab data from json file
+    d3.json("https://www.openactive.io/activity-list/activity-list.jsonld", function(error, data) {
+        if (error) throw error;
+
+        //Just get the concepts stuff, we don't need the headers
+        originalData = data.concepts;
+
+        //Set up the new, formatted object
+        var formattedObj = { "name": "Activities", "children": [] };
+
+        //Loop through original array of objects
+        originalData.forEach( function (arrayItem) {
+
+            //If item has property 'broader' (then it's a child item)
+            if(typeof arrayItem.broader != "undefined" && arrayItem.broader.length > 0) {
+
+                //Look through current original array for the object with an id that matches the 'broader' term, and return its index within the 'result' array
+                var parentindex = findObjectByKey(formattedObj.children, 'id', arrayItem.broader);
+
+                //If found, add the item as a child of the parent
+                //TODO: check for what happens if we get children in the data before parents.
+                if(typeof parentindex != "undefined" && parentindex > -1) {
+
+                    //If children already exist we add to the array
+                    if (typeof formattedObj.children[parentindex].children != "undefined" && formattedObj.children[parentindex].children.length > 0) {
+                        formattedObj.children[parentindex].children.push(arrayItem);
+                    }
+                    //Nothing is here yet, so we need to create a new array
+                    else {
+                        formattedObj.children[parentindex].children = [];
+                        formattedObj.children[parentindex].children.push(arrayItem);
+                    }
+                }
+            }
+            else {
+                //Else add it to the array at parent level
+                formattedObj.children.push(arrayItem);
+            }
+        });//endloop
+
+    //At this point we want to start doing the visualisation.
+
+        // Find the root node of our data, and begin sizing process.
+        var root = d3.hierarchy(formattedObj);
+        root.sum(function(d) { return 1 });
+
+        g.selectAll("path")
+          .data(partition(root).descendants())
+          .enter().append("path")
+          .attr("d", arc)
+          .style("fill", function (d) {
+              return color((d.children ? d : d.parent).data.prefLabel);
+          })
+          .style('stroke', '#FCF2F1')
+          .style("opacity", 0.7)
+          .on("click", click)
+          .on("mouseover", mouseover)
+          .on("mouseout", mouseout)
+          .append("title")
+          .text(function(d) {
+              return (typeof d.data.prefLabel === "undefined" ? "All items" : d.data.prefLabel);
+          });
+
+        function mouseover(d) {
+            if(d.data.prefLabel == undefined) {
+                document.getElementById("activitytitle").innerHTML = "";
+            }
+            else {
+                document.getElementById("activitytitle").innerHTML = d.data.prefLabel;
+            }
+        }
+
+        function mouseout(d) {
+            document.getElementById("activitytitle").innerHTML = "";
+        }
+    }); //End data load
+
+    //Helper for finding parents
+    function findObjectByKey(array, key, value) {
+        for (var i = 0; i < array.length; i++) {
+            if (array[i][key] === value) {
+                return i;
+            }
+        }
+        return null;
+    }
+
+    function click(d) {
+        if(d.children) { //Only fire when there are children (otherwise need to remove title, gets messy looking)
+            g.transition()
+              .duration(750)
+              .tween("scale", function() {
+                var xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
+                    yd = d3.interpolate(y.domain(), [d.y0, 1]),
+                    yr = d3.interpolate(y.range(), [d.y0 ? 20 : 0, radius]);
+                return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
+              })
+            .selectAll("path")
+              .attrTween("d", function(d) { return function() { return arc(d); }; });
+        }
+    }
+
+    d3.select(self.frameElement).style("height", height + "px");
+    </script>
+</body>
+</html>
