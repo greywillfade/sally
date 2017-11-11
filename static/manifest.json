@@ -24,6 +24,6 @@
         }],
     "start_url": "/?utm_source=homescreen",
     "display": "browser",
-    "background_color": "#f6bfad",
-    "theme_color": "#f6bfad"
+    "background_color": "#A63446",
+    "theme_color": "#A63446"
 }
