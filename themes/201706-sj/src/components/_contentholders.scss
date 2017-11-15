@@ -68,6 +68,11 @@
             background-color: $colour2;
         }
     }
+}
 
-
+.contentholder--bgborder--future {
+    background: darken($colour1, 15%);
+    -moz-box-shadow: 7px 7px 0px darken($colour1, 25%);
+    -webkit-box-shadow: 7px 7px 0px darken($colour1, 25%);
+    box-shadow: 7px 7px 0px darken($colour1, 25%);
 }
