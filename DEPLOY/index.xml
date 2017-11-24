@@ -9,10 +9,20 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Wed, 01 Nov 2017 17:13:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Nov 2017 15:01:00 +0000</lastBuildDate>
     
 	<atom:link href="http://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Starting out with neural networks</title>
+      <link>http://sallylait.com/blog/2017/11/22/starting-out-with-neural-networks/</link>
+      <pubDate>Wed, 22 Nov 2017 15:01:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>http://sallylait.com/blog/2017/11/22/starting-out-with-neural-networks/</guid>
+      <description>In this post I&#39;ll talk about the process I went through when starting to explore the strange and wonderful world of recurrent neural networks
+It all started with Dan Hon. You may know of Dan from his rather amusing posts, including &amp;ldquo;I trained an A.I. to generate British placenames&amp;rdquo;, &amp;ldquo;I trained an A.I. to generate ICD-10 codes&amp;rdquo;, English idioms, Ask MetaFilter, and more. On Monday I was coming home from London on the train, and Dan popped up on Twitter with his latest creation: &amp;ldquo;I trained an A.</description>
+    </item>
     
     <item>
       <title>Improving the discoverability and usability of open sports and physical activity opportunity data</title>
