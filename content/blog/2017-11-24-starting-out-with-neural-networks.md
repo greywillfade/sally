@@ -2,9 +2,9 @@
 title: Starting out with neural networks
 author: Sally
 type: post
-date: 2017-11-22T15:01:00+00:00
-url: /blog/2017/11/22/starting-out-with-neural-networks/
-description:
+date: 2017-11-24T16:41:00+00:00
+url: /blog/2017/11/24/starting-out-with-neural-networks/
+description: In this post I'll talk about the process I went through when starting to explore the strange and wonderful world of recurrent neural networks
 class: bi-1
 categories:
   - learning
