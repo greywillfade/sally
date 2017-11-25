@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vibration API demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Vibration API demo">
+<style type="text/css">
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}    
+</style>
+</head>
+
+<body>
+<h1>Vibration API demo</h1>
+<p>Bzzz, bzzzzzzzz....</p>
+<p>(If your device is not vibrating, then it doesn't support the API)</p>
+<p><a href="http://www.w3.org/TR/vibration/">Spec</a> | <a href="http://caniuse.com/#feat=vibration">Can I Use</a></p>
+</body>
+    
+<script type="text/javascript">
+    navigator.vibrate([100, 300, 100, 300, 100, 300, 600, 300, 600, 300, 600, 300, 100, 300, 100, 300, 100]);
+</script>
+</html>

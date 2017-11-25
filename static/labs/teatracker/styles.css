@@ -1,0 +1,197 @@
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1em;
+    color: #555555;
+    background: #a7a8ac;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*blue 173a53*/
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0;
+}
+
+a {
+    color:#fff;
+}
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+ul, ol, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+    font-size: 1.5em;
+}
+
+
+/* =============================================================================
+   General styles
+   ========================================================================== */
+::-moz-selection {
+    background: #FFCC34;
+    color: #f7f7f7;
+}
+
+::selection {
+    background: #FFCC34;
+    color: #f7f7f7;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 100;
+    padding: 0;
+    margin: -0.2em 0;
+    font-family: 'Sue Ellen Francisco', cursive;
+    color:#fff;
+    text-transform: lowercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #333;
+}
+
+.count, .textdata p.highlight {
+    font-weight: bold;
+    font-size: 2em;
+    color: #f36639;
+}
+
+.textdata p{
+    font-size: 1.5em;
+}
+
+.textdata p.highlight {
+    font-size: 2.8em;
+    margin: -0.1em auto;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+#chartholder {
+    height: 250px;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.loader {
+    font-size: 1em!important;
+}
+
+
+/* =============================================================================
+   Flexbox layout
+   ========================================================================== */
+
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.wrapper > * {
+    margin: 10px;
+    padding: 1.5em;
+    -webkit-box-flex: 1 0 100%;
+    -moz-box-flex: 1 0 100%;
+    -webkit-flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    margin: 0;
+    padding: 1.5em;
+    background: #173a53;
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+}
+
+.teamod-1 {
+    background: #fff;
+    padding: 0.5em;
+}
+
+.teamod-3 {
+    background: #dbdbdb;
+}
+
+.colour1 {
+    background: #f36639;
+    color: #fff;
+}
+
+#chartholder {
+    height: 700px;
+}
+
+.barbg {
+    background-color:#173A53;
+}
+
+.bardata {
+    background-color:#f36639;
+    margin:0.4em 0;
+}
+
+
+@media all and (min-width: 45em) {
+    
+    .wrapper {
+        flex-direction: row;
+    }
+    
+    .teamod-3 {
+        width:30%;
+        -webkit-box-flex: 1 0;
+        -moz-box-flex: 1 0;
+        -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+        flex: 1 0;
+    }
+    
+    #chartholder {
+        height: 500px;
+    }
+
+}

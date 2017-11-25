@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Sally Jenkinson"/>
+<title>When's bin day?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
+<style>
+body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #1C1C1C;
+}
+
+.todayinfo {
+	background-color: #9BC1BC;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+.bininfo {
+	background-color: #E6EBE0;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+.sallyinfo {
+	background-color: #5CA4A9;
+	color: #E6EBE0;
+	padding: 1em;
+	font-size: 0.8em;
+}
+
+.garden {
+	padding: 1em;
+	background-color: #92BDA3;
+	text-transform: uppercase;
+}
+
+.sallyinfo a {
+	color: #E6EBE0;
+}
+
+#today, #nextbins, #typeofbins, #gardenday {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+</style>
+
+<script type="text/javascript">
+
+
+	var SPECIALWEEKS = [1, 16, 18, 22, 35, 48];
+	var BROWNSPECIALWEEKS = [15]; //Note, full schedule not yet available
+	var today = new Date();
+
+    function getTodayDate() {
+        var dd = today.getDate();
+        var mm = today.getMonth()+1;
+        var yyyy = today.getFullYear();
+		var daysOfWeek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+        return daysOfWeek[today.getDay()] + " " + dd + " . " + mm + " . " + yyyy;
+    }
+
+    Date.prototype.getWeek = function() {
+
+    	var target = new Date(this.valueOf());
+	    var dayNr = (this.getDay() + 6) % 7; // ISO week date weeks start on Monday, so amend the day number
+	    target.setDate(target.getDate() - dayNr + 3); // Set the target to the Thursday of this week so the target date is in the right year
+	    var firstThursday = target.valueOf(); // ISO 8601 states that week 1 is the week with january 4th in it
+	    target.setMonth(0, 1);
+	    if (target.getDay() != 4) {
+	        target.setMonth(0, 1 + ((4 - target.getDay()) + 7) % 7);
+	    }
+	    return 1 + Math.ceil((firstThursday - target) / 604800000); // Calculate week number: Week 1 (january 4th) plus the number of weeks between target date and january 4th
+	};
+
+	function checkWeek() {
+		//Get the week of the year for today
+		var weeknum = today.getWeek();
+		console.log(weeknum);
+
+		//Is it a special week, changing the day collection?
+		if (SPECIALWEEKS.indexOf(weeknum) > -1 ) {
+			if(today.getDay() == 4) {
+				document.querySelector('#nextbins').textContent = "Today!";
+			}
+			else if (today.getDay() < 4) {
+				document.querySelector('#nextbins').textContent = "Thursday";
+			}
+			else {
+				document.querySelector('#nextbins').textContent = "Done this week";
+			}
+			
+		}
+		else {
+			if(today.getDay() == 3) {
+				document.querySelector('#nextbins').textContent = "Today!";
+			}
+			else if (today.getDay() < 3) {
+				document.querySelector('#nextbins').textContent = "Wednesday";
+			}
+			else {
+				document.querySelector('#nextbins').textContent = "Done this week";
+			}
+		}
+
+		//Is it a brown special week, changing the day collection?
+		if (weeknum < 3) { //No collection until Week 3
+			document.querySelector('#gardenday').textContent = "Collections start Jan 20th";
+		}
+		else {
+
+			if (BROWNSPECIALWEEKS.indexOf(weeknum) > -1 ) {
+				document.querySelector('#gardenday').textContent = "Friday evening";
+			}
+			else {
+				if (weeknum % 2 === 0) {
+					document.querySelector('#gardenday').textContent = "Next Thursday evening";
+				}
+				else {
+					document.querySelector('#gardenday').textContent = "This Thursday evening";
+				}
+			}
+		}
+		
+
+		//If it's an even week, it's black (rubbish)
+		if (weeknum % 2 === 0) {
+			return "Rubbish";
+		}
+		else { //If it's odd, it's blue (recycling)
+			return "Recycling";
+		}
+	}
+
+</script>
+</head>
+
+<body>
+	<div class="todayinfo">
+	<p>Today is </p>
+	<p id="today">...</p>
+	</div>
+
+	<div class="bininfo">
+		<p>Put the bins out on the evening of</p>
+		<p id="nextbins">...</p>
+		<p>for</p>
+		<p id="typeofbins">...</p>
+	</div>
+
+	<div class="garden">
+		<p>put garden waste out on</p>
+		<p id="gardenday">...</p>
+	</div>
+ 
+	<div class="sallyinfo"><p>Waste and Recycling data from Babergh Council, updated for the 2017 schedule. Brown bin data will vary depending on location.</p>
+	<p>Site by <a href="http://sallyjenkinson.co.uk">Sally Jenkinson</a></p></div>
+</body>
+    
+<script type="text/javascript"> 
+	document.querySelector('#today').textContent = getTodayDate();
+	document.querySelector('#typeofbins').textContent = checkWeek();
+</script>
+</html>

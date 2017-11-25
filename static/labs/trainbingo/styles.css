@@ -1,0 +1,181 @@
+/*
+Styles for Train Bingo by Sally Jenkinson
+www.sallyjenkinson.co.uk
+@sjenkinson
+*/
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+html, body, div { 
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#eee;
+}
+
+ol, ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, nav, section, article, hgroup, figure {
+	display: block;	
+}
+
+footer {
+    margin:0 auto;
+    width:100%;
+    max-width:961px;
+    text-align:center;
+    color:#fff;
+    background-color:#8C0600;
+    padding:1em 0;
+    font-size:0.8em;
+}
+
+footer a {
+    color:#fff;
+}
+
+.grid {
+	margin: 0 -1em;
+	overflow: hidden;
+}
+
+.grid > h2 {
+	margin-left: 0.45em;
+}
+
+.grid > section {
+	padding: 1em 1em 0.5em;
+}
+
+.grid ul {
+	overflow: hidden;
+}
+
+.grid ul li {
+	margin-bottom: 0.3em;
+}
+
+.grid {
+    overflow: hidden;
+    padding: 0.5em 0 0 0.5em;
+    max-width: 76em;
+    margin: 0 auto;
+}
+    
+.grid li {
+    padding: 0 0.5em 0.5em 0;
+    width: 50%;
+    float: left;
+}
+    
+.grid li a {
+    color: #fff;
+}
+    
+#bingocard {
+    font-size:0.8em;
+    text-transform:uppercase; 
+}
+
+#bingocard a {
+    text-decoration:none;
+}
+
+#bingotitle {
+    margin:0 auto;
+    width:100%;
+    max-width:961px;
+    margin-top:0em;
+    text-align:center;
+    background-color:#8C0600;
+    color:#fff;
+}
+    
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    text-transform:uppercase;
+    font-size:3.5em;
+    padding:0.5em 0;
+    margin:0;
+}
+
+.grid li > div {
+    background: #9EA697;
+    padding: 5em 2em;
+    text-align: center;
+    height:13em;
+}
+
+.grid li > div.active {
+    background: #60A62E;
+}
+
+.pageinfomore {
+    display:none;
+}
+
+/* Small variant */
+@media all and (min-width:40em) {
+    
+	.grid ul li {
+		width: 50%;
+		float: left;
+	}
+    
+	.grid ul li:nth-child(odd) {
+		padding-right: 1em;
+		clear: left;
+	}
+    
+    .grid li {
+        width: 33.3333333%;
+    }
+    
+    h1 {
+        font-size:4.5em;
+    }  
+}
+
+
+/* Large variant */
+@media all and (min-width: 54em) {
+
+	.grid > section {
+		float: left;
+		width: 33.3333333%;
+	}
+    
+	.grid > section:nth-of-type(3n+1) {
+		clear: left;
+	}
+    
+	.grid ul li {
+		width: auto;
+		float: none;
+	}
+    
+	.grid ul li:nth-child(odd) {
+		padding-right: 0;
+	}
+    
+    .grid li {
+        width: 25%;
+    }
+    
+    .grid li > div {
+        padding: 5em 2em;
+    }
+}

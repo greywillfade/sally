@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Tea Tracker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Tea tracker - what is Sally Jenkinson drinking?">
+<meta name="keywords" content="tea, jasmine, green, analytics, dashboard, data, drinks, sally jenkinson" />
+<link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Raleway:400,200' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' href='styles.css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2631465-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<header class="header">
+    <h1>Tea Tracker</h1>
+</header>
+
+<div class="wrapper">
+    <div class="teamod-3 colour1">
+        <h2>Introduction</h2>
+        <p>I like tea. Whenever I have a cup, for a while I tracked it (with a fairly decent level of accuracy) using a little HTML5 app I built and wrapped using PhoneGap. This page was originally built to play with AngularJS.</p>
+        <p>I've shut the project down now, and this site houses the data that I collected between the 1st November 2013 and 13th November 2015. The data is available under a Creative Commons attribution for you to use, should you wish (<a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>). </p>
+        <p><a href="http://recordssoundthesame.com/blog/2014/04/15/introducing-tea-tracker/">The blog post</a></p>
+        <p><a href="data/teatrackercsv.csv">Data as CSV</a> | <a href="data/teatrackerjson.zip">Data as JSON</a></p>
+    </div>
+
+    <div class="teamod-3 textdata">
+        <h2>The final tea</h2>
+        <p>Tea Tracker concluded after two years with the final cup of tea.
+        <p class="highlight">Green</p>
+        <p class="highlight lower">08:53 am</p>
+        <p>13.11.2015</p>
+    </div>
+
+    <div class="teamod-3 textdata">
+        <h2>Most popular tea</h2>
+        <p>The clear winner, unsurprisingly, was:</p>
+        <p class="highlight">Jasmine</p>
+        <p class="highlight">623 cups</p>
+    </div>
+</div>
+    
+
+<div class="wrapper">
+<div class="teamod-1">
+    <h2>Historical tea data</h2>
+
+    <div id="container-teatypes" style="height: 400px; margin: 0 auto"></div>
+    <script type="text/javascript">
+    $(function () {
+    $('#container-teatypes').highcharts({
+        chart: {
+            type: 'line',
+            animation: false,
+            borderRadius: 0
+        },
+        colors: ['#F36639', '#173A53', '#FF9800', '#00B286', '#199FFF', '#FFB03C', '#999', '#1B3BCC', '#CC2724', '#FEA1AC'],
+        legend: {
+            backgroundColor: '#ffffff',
+            borderWidth: 0,
+            itemMarginTop: 10,
+            itemMarginBottom: 10,
+            itemStyle: {
+                lineHeight: '14px'
+            },
+            margin: 30
+        },
+        credits: {
+            enabled:false
+        },
+        xAxis: {
+            lineColor: '#dbdbdb',
+            labels: {
+                y: 30 
+            },
+            categories: ['Nov 13', 'Dec 13', 'Jan 14', 'Feb 14', 'Mar 14', 'Apr 14','May 14', 'Jun 14', 'Jul 14', 'Aug 14', 'Sep 14', 'Oct 14', 'Nov 14', 'Dec 14', 'Jan 15', 'Feb 15', 'Mar 15', 'Apr 15','May 15', 'Jun 15', 'Jul 15', 'Aug 15', 'Sep 15', 'Oct 15', 'Nov 15']
+        },
+        yAxis: {
+            title: {
+                text: 'Cups',
+                style : {
+                    color: '#173A53',
+                    fontSize: '15px',
+                    fontWeight: 'normal'
+                }
+            },
+            gridLineColor: '#dbdbdb',
+            min: 0,
+            labels: {
+                align: 'left',
+                x: 0,
+                y: -2
+            }
+        },
+
+        series: [{
+            name: 'Jasmine',
+            data: [41, 33, 43, 41, 7, 20, 32, 15, 11, 23, 27, 14, 23, 29, 63, 34, 14, 18, 23, 19, 14, 9, 24, 36, 10]
+        }, {
+            name: 'Green',
+            data: [16, 11, 5, 12, 18, 20, 28, 18, 13, 5, 10, 6, 21, 19, 15, 16, 28, 5, 13, 14, 10, 14, 10, 14, 4]
+        }, {
+            name: 'Peppermint',
+            data: [1, 0, 6, 4, 1, 5, 3, 1, 1, 5, 2, 4, 0, 3, 6, 3, 1, 0, 1, 3, 0, 1, 1, 1, 0]
+        }, {
+            name: 'White English Breakfast',
+            data: [10, 10, 10, 5, 0, 9, 5, 19, 17, 6, 5, 12, 3, 7, 5, 14, 10, 15, 6, 10, 2, 6, 4, 2, 2]
+        }, {
+            name: 'Camomile',
+            data: [3, 0, 1, 1, 2, 8, 2, 4, 0, 6, 6, 6, 4, 6, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }, {
+            name: 'Dark English Breakfast',
+            data: [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }, {
+            name: 'Rooibos',
+            data: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }, {
+            name: 'Oolong',
+            data: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }, {
+            name: 'Earl Grey',
+            data: [0, 1, 0, 0, 0, 0, 1, 4, 0, 1, 1, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 1, 2, 0]
+        }, {
+            name: 'Jiaogulan',
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+        ],
+        title: {
+            text: ''
+        },
+        loading: true
+    });
+});
+  </script>
+</div>
+</div>
+
+
+<!-- General tea data and volumes -->
+<div class="wrapper">
+    <div class="teamod-3 textdata">
+        <h2>Total number of cups</h2>
+        <p>From November 2013 to November 2015 I drank</p>
+        <p class="highlight lower">1307 cups</p>
+    </div>
+
+    <div class="teamod-3 textdata">
+        <h2>Average cups per week</h2>
+        <p>Surprisingly, over the course of a week I don't drink as much as I thought</p>
+        <p class="highlight lower">12 cups</p>
+    </div>
+
+    <div class="teamod-3 textdata">
+        <h2>Total volume</h2>
+        <p>If all the tracked tea was in bath tubs, I would have</p>
+        <p class="highlight">1.69 full tubs</p>
+    </div>
+</div>
+    
+
+<!--- Bar chart of popular tea types -->
+<div class="wrapper">
+<div class="teamod-1">
+    <h2>Tea by type</h2>
+                
+    <div>
+        <p><span class="count">623</span><br>Jasmine</p>
+        <div class="barbg"><div class="bardata" style="width:100%;">&nbsp;</div></div>
+    </div>
+    <div>
+        <p><span class="count">345</span><br>Green</p>
+        <div class="barbg">
+        <div class="bardata" style="width:55.37720706260032%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">194</span><br>White English Breakfast</p>
+        <div class="barbg">
+        <div class="bardata" style="width:31.13964686998395%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">54</span><br>Camomile</p>
+        <div class="barbg">
+        <div class="bardata" style="width:8.667736757624397%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">53</span><br>Peppermint</p>
+        <div class="barbg">
+        <div class="bardata" style="width:8.507223113964688%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">20</span><br>Oolong</p>
+        <div class="barbg">
+        <div class="bardata" style="width:3.210272873194221%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">14</span><br>Earl Grey</p>
+        <div class="barbg">
+        <div class="bardata" style="width:2.247191011235955%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">2</span><br>Dark English Breakfast</p>
+        <div class="barbg">
+        <div class="bardata" style="width:0.32102728731942215%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">1</span><br>Rooibos</p>
+        <div class="barbg">
+        <div class="bardata" style="width:0.16051364365971107%;">&nbsp;</div>
+        </div>
+    </div>
+    <div>
+        <p><span class="count">1</span><br>Jiaogulan</p>
+        <div class="barbg">
+        <div class="bardata" style="width:0.16051364365971107%;">&nbsp;</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Tea drinking by day of the week -->
+<div class="wrapper">
+<div class="teamod-1">
+
+<div id="container-teadays" style="max-width: 900px; height: 400px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+$(function () {
+    $('#container-teadays').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Popular tea days'
+        },
+        subtitle: {
+            text: 'Apparently my tea drinking tails off as the week goes on'
+        },
+        xAxis: {
+            type: 'category',
+            labels: {
+                rotation: -45,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'Verdana, sans-serif'
+                }
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Total cups of tea'
+            }
+        },
+        plotOptions: {
+            series: {
+                states: {
+                    hover: {
+                        enabled: false
+                    }
+                }
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            enabled: false
+        },
+        credits: {
+            enabled:false
+        },
+        series: [{
+            name: '',
+            color: '#F36639',
+            data: [
+                ['Monday', 221],
+                ['Tuesday', 224],
+                ['Wednesday', 206],
+                ['Thursday', 179],
+                ['Friday', 179],
+                ['Saturday', 151],
+                ['Sunday', 147]
+            ],
+            
+            dataLabels: {
+                borderWidth: 0,
+                enabled: true,
+                rotation: -90,
+                color: '#FFFFFF',
+                align: 'right',
+                shadow: false,
+                y: 20,
+                useHTML: Boolean,
+                style: {
+                    fontSize: '11px',
+                    textShadow: "0",
+                    fontWeight: 'bold'
+                }
+            }
+        }]
+    });
+});
+  </script>
+</div>
+</div>
+
+
+<!-- Tea drinking by day of the week -->
+<div class="wrapper">
+<div class="teamod-1">
+
+<div id="container-times" style="height: 400px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+$(function () {
+    $('#container-times').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Popular tea times'
+        },
+        subtitle: {
+            text: 'Unsurprisingly 9am was the most popular hour for tea'
+        },
+        xAxis: {
+            type: 'category',
+            labels: {
+                rotation: -45,
+                style: {
+                    fontSize: '13px'
+                }
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Total cups of tea'
+            }
+        },
+        plotOptions: {
+            series: {
+                states: {
+                    hover: {
+                        enabled: false
+                    }
+                }
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            enabled: false
+        },
+        credits: {
+            enabled:false
+        },
+        series: [{
+            name: '',
+            color: '#F36639',
+            data: [
+                ['Midnight', 0],
+                ['1am', 0],
+                ['2am', 0],
+                ['3am', 2],
+                ['4am', 0],
+                ['5am', 0],
+                ['6am', 4],
+                ['7am', 14],
+                ['8am', 73],
+                ['9am', 214],
+                ['10am', 207],
+                ['11am', 178],
+                ['Noon', 78],
+                ['1pm', 89],
+                ['2pm', 100],
+                ['3pm', 86],
+                ['4pm', 77],
+                ['5pm', 34],
+                ['6pm', 24],
+                ['7pm', 16],
+                ['8pm', 22],
+                ['9pm', 51],
+                ['10pm', 38],
+                ['11pm', 7],
+            ],
+            
+            dataLabels: {
+                enabled: false
+            }
+        }]
+    });
+});
+  </script>
+</div>
+</div>
+
+<footer class="footer">
+    <p>Sally Jenkinson likes tea. sally@recordssoundthesame.com</p>
+    <p><a href="http://recordssoundthesame.com">recordssoundthesame.com</a></p>
+</footer> 
+    
+</body>
+    
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="highcharts-ng.js"></script>
+</html>
