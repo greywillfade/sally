@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="en-gb">
+<head>
+<title>Acronym Helping Hand (AHH)</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans%3A200%2C300%2C400%2C500%2C600%2C700%2C400italic&#038;subset=latin%2Ccyrillic-ext%2Cgreek-ext%2Ccyrillic&#038;ver=4.1.1' type='text/css' media='all' />
+
+<style type="text/css">
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #25b9d5;
+    }
+
+    .search-input {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 30em;
+        border: 3px solid #323945;
+        padding:1em;
+        height: 40px;
+        border-radius: 1em;
+        outline: none;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        background-color: white;
+        color: #25b9d5;
+    }
+
+    h1 {
+        font-weight: 100;
+        font-size: 2.3em;
+        color: white;
+    }
+
+    .ack {
+        font-size: 1.5em;
+        color: white;
+        font-weight: 100;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    ul {
+    	list-style-type: none;
+    	margin-left: -2em;
+    	font-size: 0.8em;
+    	color: #323945;
+    	line-height: 2.2em;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Acronym Helping Hand (AHH)</h1>
+
+    <form class="search">
+        <input class="search-input" placeholder="Filter..." />
+    </form>
+
+    <div id="count"></div>
+
+    <div id="results">
+	    <ul>
+	    	<li><span class="ack">AMI</span> - Advanced meter infrastructure (smart)</li>
+	    	<li><span class="ack">AMR</span> - Automated meter reading</li>
+	    	<li><span class="ack">BO</span> - Back office</li>
+	    	<li><span class="ack">BPO</span> - Business Process Outsourcing</li>
+        	<li><span class="ack">CAD</span> - Consumer Access Device (hub for home, with slots for home security etc)</li>
+	        <li><span class="ack">CAGR</span> - Compound annual growth rate</li>
+	        <li><span class="ack">CAS</span> - Customer account statement</li>
+	        <li><span class="ack">CC&amp;B</span> - (Oracle) Customer Care &amp; Billing (software)</li>
+	        <li><span class="ack">CHP</span> - Combined Heat and Power (type of meter)</li>
+	        <li><span class="ack">CM</span> - Campaign management</li>
+	        <li><span class="ack">CoO</span> - Change of Occupant (Oracle terminology)</li>
+	        <li><span class="ack">COS</span> - Change of service/supply</li>
+	        <li><span class="ack">COT</span> - Change of tenant</li>
+	    
+	        <li><span class="ack">CTA</span> - Cost to acquire</li>
+	        <li><span class="ack">DC</span> - Data collection</li>
+	        <li><span class="ack">DMP</span> - (Oracle) Data Management Platform - Blue Kai</li>
+	        <li><span class="ack">DPA</span> - Data protection act</li>
+	        <li><span class="ack">DSR</span> - Demand supply response</li>
+	        <li><span class="ack">Dunning rules</span> - The process of communicating with customers to ensure an action is taken, or money is collected.</li>
+	        <li><span class="ack">DXP</span> - Digital experience program</li>
+	        <li><span class="ack">E2E</span> - End to End</li>
+	        <li><span class="ack">EAC/AQ</span> - Estimation of annual consumption/annual quantity</li>
+	        <li><span class="ack">EBICO</span> - An energy supplier</li>
+	        <li><span class="ack">EBIT</span> - Earnings before interest and tax</li>
+	        <li><span class="ack">EDQ</span> - Data cleansing and verification component, additional to Siebel</li>
+	        <li><span class="ack">EE</span> - Energy Efficiency</li>
+	        <li><span class="ack">EPR</span> - Energy price rate</li>
+	        <li><span class="ack">ET</span> - Erroneous transfer</li>
+	        <li><span class="ack">EV</span> - Electric Vehicles</li>
+	        <li><span class="ack">FIT</span> - Feed in tariff - if someone is generating energy</li>
+	        <li><span class="ack">FO</span> - Front office</li>
+	        <li><span class="ack">FT</span> - Financial transaction</li>
+	        <li><span class="ack">FTE</span> - Full time employee</li>
+	        <li><span class="ack">GL</span> - General Ledger (procedures - interface into corporate finances)</li>
+	        <li><span class="ack">Grey IT</span> - Excel spreadsheets etc. Non-formalised processes and systems</li>
+	        <li><span class="ack">HLD</span> - High level design</li>
+	        <li><span class="ack">HPUM</span> - High performance utility model</li>
+	        <li><span class="ack">HSBC</span> - Home services boiler cover</li>
+	        <li><span class="ack">ICS</span> - Internet comparison site</li>
+	        <li><span class="ack">IHX</span> - In-Home Experience. App, subset of DXP.</li>
+	        <li><span class="ack">KCI</span> - Keep Customer Informed</li>
+	        <li><span class="ack">MDM</span> - Meter Data Management. Called by CC&amp;B, holds meter read info.</li>
+	        <li><span class="ack">MECE</span> - Mutually exclusive; collectively exhaustive (with regards to good requirements)</li>
+	        <li><span class="ack">MWM</span> - (Oracle) Mobile Workforce Management</li>
+	        <li><span class="ack">NHH</span> - Non Half Hourly (meter reads)</li>
+	        <li><span class="ack">OSG</span> - Offline Sales Generator (semi-grey IT)</li>
+	        <li><span class="ack">OUAF</span> - (Oracle Utility...) - the capabilities that are exposed, the frameworks</li>
+	        <li><span class="ack">OUBI</span> - Oracle Utilities Business Intelligence</li>
+	        <li><span class="ack">OUCSS</span> - Oracle Utilities Customer Self Service - front-end to log into systems, has webservices</li>
+	        <li><span class="ack">RE</span> - Routed Enquiry (internal email) - erroneous transfer process</li>
+	        <li><span class="ack">RERE</span> - Read Estimate Read Estimate (quarterly cycle of checking usage)</li>
+	        <li><span class="ack">RTD</span> - Real time decisioning</li>
+	        <li><span class="ack">SA</span> - Service Agreement (essentially a contract between an account and a service)</li>
+	        <li><span class="ack">SC</span> - Smart Cities</li>
+	        <li><span class="ack">SME</span> - Subject matter expert</li>
+	        <li><span class="ack">SMETS</span> - Smart meter equipment technical specification</li>
+	        <li><span class="ack">SP</span> - Service Point (a premise has multiple service points for services)</li>
+	        <li><span class="ack">SPC</span> - Service Plan Change</li>
+	        <li><span class="ack">SRM</span> - (Oracle) Social Relationship Management</li>
+	        <li><span class="ack">TCR</span> - Tariff comparison rate</li>
+	        <li><span class="ack">THTC</span> - Total Heat Total Control (type of meter)</li>
+	        <li><span class="ack">TOM</span> - Target Operating Model (business change thing)</li>
+	        <li><span class="ack">ToU</span> - Time of use</li>
+	        <li><span class="ack">URM</span> - (Oracle) Utility Reference Model</li>
+	        <li><span class="ack">USS</span> - Universal sales script</li>
+	        <li><span class="ack">VEE</span> - Validation, edit, estimation (rules/logic around billing measurements. Some available out of the box, some custom.)</li>
+	        <li><span class="ack">WIB</span> - What If? Billing</li>
+	        <li><span class="ack">TIL</span> - Tariff Information Label</li>
+	        <li><span class="ack">DD</span> - Direct Debit</li>
+	        <li><span class="ack">AHT</span> - Average Handling Time</li>
+	        <li><span class="ack">NBB</span> - Non-billed budget</li>
+	        <li><span class="ack">M2C</span> - Meter to cash</li>
+	        <li><span class="ack">UTRN</span> - Unique transaction reference number - pay as you go top up</li>
+	        <li><span class="ack">PayGo</span> - Pay as you go metering</li>
+	        <li><span class="ack">EFT</span> - Electronic funds transfer (direct debits)</li>
+	        <li><span class="ack">CIS</span> - (Oracle) Content Integration Suite</li>
+	        <li><span class="ack">UCPM</span> - Universal content and process management (API)</li>
+	        <li><span class="ack">BPEL</span> - Business process execution language</span></li>
+	        <li><span class="ack">EBS</span> - E-business suite (ledger etc)</li>
+	        <li><span class="ack">SC</span> - Standing charge</li>
+	        <li><span class="ack">ADA</span> - Average daily amount</li>
+	        <li><span class="ack">PSA</span> - Payment schedule amount</li>
+	        <li><span class="ack">SO</span> - Standing order</li>
+	        <li><span class="ack">CVS</span> - Card validation service</li>
+	        <li><span class="ack">EOYR</span> - End of year review</li>
+	        <li><span class="ack">HES</span> - Home essential services</li>
+	        <li><span class="ack">SLC</span> - Supply Licence Condition</li>
+	        <li><span class="ack">NBA</span> - Next best action</li>
+	        <li><span class="ack">LOA</span> - Leave of absence</li>
+	        <li><span class="ack">IVR</span> - Interactive voice recognition</li>
+	        <li><span class="ack">NBO</span> - Next best offer</li>
+	        <li><span class="ack">FCR</span> - First contact resolution (rate) - customer service</li>
+	        <li><span class="ack">CTM</span> - Cheapest tariff messaging</li>
+	        <li><span class="ack">PIN</span> - Price increase notification</li>
+	        <li><span class="ack">SVT</span> - Standard variable tariff</li>
+	        <li><span class="ack">LVT</span> - (Customer) Lifetime value</li>
+	        <li><span class="ack">RMR</span> - Retail market review - Ofgem policy</li>
+	        <li><span class="ack">CRICEFW</span> - Configuration, reports, interfaces, conversions, extensions, forms and workflow</li>
+	        <li><span class="ack">RTP</span> - Retail Transformation Programme</li>
+	        <li><span class="ack">ACN</span> - Accenture</li>
+	        <li><span class="ack">IHD</span> - In-home displays</li>
+	        <li><span class="ack">SMICoP</span> - Smart metering installation code of practice</li>
+	        <li><span class="ack">MTP</span> - Meter transformation program</li>
+	        <li><span class="ack">DCC</span> - Data Communications Company (shared infrastructure
+necessary for smart meters to operate consistently for all consumers, regardless of their energy
+supplier)</li>
+			<li><span class="ack">DCCI</span> - DCC integration</li>
+			<li><span class="ack">SMIP</span> - Smart Metering Implementation Programme</li>
+			<li><span class="ack">MOP</span> - Meter operator (also sometimes known as MO)</li>
+			<li><span class="ack">DFMS</span> - Data Flow Management System</li>
+			<li><span class="ack">B-Smart</span> - Initiate the gas flows</li>
+			<li><span class="ack">DTN</span> - Data transfer network (electricity)</li>
+			<li><span class="ack">UK-Link</span> - Gas flows</li>
+			<li><span class="ack">IE</span> - Instant energy (IE Head End)</li>
+			<li><span class="ack">SGG</span> - Smart Grid Gateway</li>
+			<li><span class="ack">PT</span> - Process cycle time (i.e. time to do a process step within installation)</li>
+			<li><span class="ack">RFT</span> - Right first time (metric of success for installation)</li>
+			<li><span class="ack">SEM</span> - Smart energy monitor (visual display)</li>
+			<li><span class="ack">PCE</span> - Process cycle efficiency</li>
+			<li><span class="ack">PPMID</span> - Prepayment interface device</li>
+			<li><span class="ack">HAN</span> - Home area network</li>
+			<li><span class="ack">CSP</span> - Communication service provider (e.g. the network that will faciliate smart communication)</li>
+			<li><span class="ack">CHTS</span> - Communications Hub Technical Specification</li>
+			<li><span class="ack">HHT</span> - Handheld terminals</li>
+			<li><span class="ack">PPM</span> - Pre-payment meter</li>
+			<li><span class="ack">DNO</span> - Distribution network operators - companies licensed to distribute electricity</li>
+			<li><span class="ack">MPAN</span> - Meter point administration number (electric)</li>
+	    	<li><span class="ack">MPRN</span> - Meter point reference number (gas equivalent of MPAN)</li>
+	    	<li><span class="ack">DCA</span> - Debt collection agency</li>
+	    	<li><span class="ack">MPxN</span> - Reference to cover both MPAN and MPRN</li>
+	    	<li><span class="ack">OBIEE</span> - Oracle Business Intelligence Enterprise Edition</li>
+	    	<li><span class="ack">DR</span> - Demand response</li>
+	    	<li><span class="ack">DRMS</span> - Demand response management system</li>
+	    </ul>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    
+    var search_input = "";
+    var rescount = 0;
+
+    function filterGlossary(searchval) {
+    	rescount = 0;
+
+    	//Hide everything
+    	$("li").css( "display", "none" );
+
+    	//Sort it all
+		$("ul").html(
+            $("li").sort(function (a, b) {
+                return $(a).text().toUpperCase().localeCompare(
+                $(b).text().toUpperCase());
+            })
+        );
+
+    	//Show things that match
+    	$("li").filter(function(index) {
+			var tmpcontent = $(this).find("span.ack").context.innerText;
+
+    		if(searchval.length == 0 || (searchval.length > 0 && tmpcontent.substring(0, searchval.length).toLowerCase() === searchval.toLowerCase())) {
+                rescount++;
+                return true;
+            }
+  		}).css( "display", "block" );
+
+    	//Update the totals
+    	if(rescount > 1) {
+            $("#count").html("<p>" + rescount + " acronyms found.</p>");
+        }
+        else if(rescount == 1) {
+            $("#count").html("<p>" + rescount + " acronym found.</p>");
+        }
+        else {
+            $("#count").html("<p>No matches. Make one up!</p>");
+        }
+    }
+
+    // Listen for searches
+    $(".search-input").keyup(function() {
+        search_input = $(this).val();
+        filterGlossary(search_input);
+    });
+
+    //Init
+    $(".search-input").focus();
+    filterGlossary('');
+
+});
+</script>
+</html>

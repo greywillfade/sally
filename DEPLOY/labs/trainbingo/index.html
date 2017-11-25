@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Train bingo!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Train bingo - a pointless amusement for the weary commuter, by Sally Jenkinson">
+<meta name="keywords" content="train, bingo, commuter, sally jenkinson" />
+    
+<link href='http://fonts.googleapis.com/css?family=Lilita+One|Londrina+Outline|Comfortaa:400,700' rel='stylesheet' type='text/css'>    
+<link rel='stylesheet' href='styles.css'>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
+
+<script>
+$(document).ready(function(){
+    //Const for number of tiles
+    var tileno = 12;
+    
+    //Load values back in from local storage
+    for (var i=0; i<tileno; i++)
+    { 
+        var tiletot = "tile" + i;
+        var sesstmp = localStorage.getItem(tiletot);
+        if(sesstmp != null) {
+            $("#" + tiletot).addClass(sesstmp);
+        }
+    }
+    
+    //Tile clicky
+    $(".grid li div a").click(function(e) {
+        e.preventDefault();
+        var prnt = $(this).parent();
+        $(prnt).toggleClass("active");
+        //Store the class (active|'') against ID in local storage
+        localStorage.setItem($(prnt).attr('id'), $(prnt).attr('class'));
+    });
+    
+    // Footer clicky
+    $(".pageinfo").click(function(e) {
+        e.preventDefault();
+        $(".pageinfomore").slideToggle();
+    });
+});
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2631465-3']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<section id="bingotitle" class="bingotitle">
+    <h1>Train bingo</h1>    
+</section>
+
+<section id="bingocard" class="bingocard">
+<ul class="grid">
+    <li>
+        <div id="tile0">
+            <a href="#">"We apologise for the late running of this service"</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile1">
+            <a href="#">Small child makes an annoying noise</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile2">
+            <a href="#">Invasion of your personal space</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile3">
+            <a href="#">Food smells travel through the carriage</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile4">
+            <a href="#">Train is delayed before departure</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile5">
+            <a href="#">A stranger strikes up conversation</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile6">
+            <a href="#">Audible, terrible music through headphones</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile7">
+            <a href="#">Person sits next to you, despite other seats being free</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile8">
+            <a href="#">Keypad tones on</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile9">
+            <a href="#">No seats available</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile10">
+            <a href="#">Replacement bus service</a>
+        </div>
+    </li>
+    <li>
+        <div id="tile11">
+            <a href="#">"I'm just about to go into a tunnel. Hello? Hello?"</a>
+        </div>
+    </li>
+</ul>
+</section>
+
+<footer>
+<p>A time-wasting project for my own amusement by <a href="http://www.sallyjenkinson.co.uk">Sally Jenkinson</a></p>
+<p><a href="#" class="pageinfo">[info]</a></p>
+<div class="pageinfomore">-<br />Uses HTML5 storage to preserve values.</div>
+</footer>
+
+</body>
+</html>

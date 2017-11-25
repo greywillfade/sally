@@ -1,0 +1,268 @@
+/* ==========================================================================
+   Main custom styles
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    background: url('../img/ticks.png') repeat;
+    margin:0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.wrapper {
+    width: 90%;
+    margin:0px auto;
+}
+
+.quote {
+    max-width:100%;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size:2.7em;
+    margin-top:0.45em;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size:2em;
+    font-weight:normal;
+}
+
+.postit {
+    margin-right:1em;
+    
+    background-color:#FCF0AD;
+    padding:2.5em 40px 2.5em 40px;
+    font-family: 'Neucha', cursive;
+    font-size:1.8em;
+    line-height:1.5em;
+    color:#4F4F4F;
+    display: table-cell; 
+    vertical-align: middle;
+    
+    box-shadow: 0px 4px 6px #333;
+    -moz-box-shadow: 0px 4px 6px #333;
+    -webkit-box-shadow: 0px 4px 6px #333;
+    
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+
+    border-bottom-right-radius: 80px 10px;
+}
+
+footer {
+    width:100%;
+    background-color:#000;
+    margin:0;
+    padding:0.2em 0 0.2em 0;
+    color:#fff;
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size:1.4em;
+}
+
+footer a {
+    color:#fff;
+}
+
+.swainhat {
+    width:235px;
+    margin:0px auto;
+    text-align:center;
+    padding-top:0.6em;
+    position:relative;
+    z-index:10!important;
+}
+
+.swainhat img {
+    width:70%;
+}
+
+.swainbanner {
+    max-width:95%;
+    margin:0px auto;
+    margin-top:-30px;
+    position:relative;
+    z-index:20;
+}
+
+.swainbanner img {
+    width:100%;
+    height:100px;
+    margin-top:-25px;
+}
+
+#swaintitle {
+    margin-top:-112px;
+    margin-bottom:1em;
+    text-align:center;
+    color:#fff;
+    position:relative;
+    z-index:30;
+}
+
+.swaintitle_s {
+    margin-left:0.5em;
+}
+
+.swaintitle_q {
+    margin-left:27%;
+}
+
+.swaintitle_h {
+    font-size:3em;
+    font-family: 'Amatic SC', cursive;
+    margin-top:0.6em;
+}
+
+header {
+    margin:0;
+    padding:0;
+    margin-bottom:1.5em;
+    background: url('../img/burst.png') no-repeat;
+    background-position:center top;
+}
+
+section:nth-child(n+1) {
+    margin:1em;   
+}
+
+.clear {
+    clear:both;
+}
+
+section p {
+    font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    font-size:1.2em;
+    color:#666;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+article {
+    text-align:center;
+}
+
+.swainbanner {
+    margin-top:-50px;
+}
+.swainbanner img {
+    width:100%;
+    height:120px;
+}
+    
+#swaintitle {
+    margin-top:-135px;
+    margin-bottom:1.5em;
+    font-size:1.2em;
+}
+
+.swaintitle_s {
+    margin-left:0.5em;
+}
+
+.swaintitle_h {
+    margin-top:0.75em;
+}
+    
+h1 {
+    font-size:2.7em;
+    margin-top:0.5em;
+}
+    
+
+} /*end 480  -----------------------------*/
+
+
+@media only screen and (min-width: 768px) {
+
+section:nth-child(n+1) {
+    margin:2.5%;   
+}
+    
+section {
+    float:left;
+    width:45%;
+}
+    
+section:nth-child(odd) {
+    clear:both;
+}
+     
+.quote {
+    max-width:100%;
+}
+    
+.swainbanner {
+    max-width:75%;
+    margin-top:-3.5em;
+}
+    
+.swainbanner img {
+    width:100%;
+    height:140px;
+}
+
+.swainhat img {
+    height:300px;
+    width:100%;
+}
+    
+#swaintitle {
+    margin-top:-157px;
+    margin-bottom:1em;
+    font-size:1.5em;
+}
+    
+.swaintitle_s {
+    margin-left:0.5em;
+}
+    
+h1 {
+    font-size:2.5em;
+    margin-top:0.55em;
+}
+    
+   
+} /* end 768 ------------------------------*/
+
+@media only screen and (min-width: 1140px) {
+
+/* Set for max width */
+.wrapper {
+    width: 1026px; /* 1140px - 10% for margins */
+    margin: 0 auto;
+}
+
+section:nth-child(n+1) {
+    margin:1.5%;   
+}
+    
+section {
+    float:left;
+    width:30%;
+}
+
+section:nth-child(odd) {
+    clear:none;
+}
+    
+section:nth-child(3n+4) {
+    clear:both;
+}
+    
+}
+

@@ -1,0 +1,84 @@
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 1.5em auto;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+header {
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    padding: 1em 0;
+}
+
+footer, .audio-holder {
+    width: 100%;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    padding: 2em 0;
+    font-size: 0.8em;
+}
+
+/* ---------------------------------------------------
+Main styles
+-----------------------------------------------------*/
+#audio {
+    display: none;
+}
+    
+#buttons {
+  text-align: center;
+}
+
+#buttons ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.facey {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: 100%;
+    margin: 1em;
+}
+
+#buttons a {
+    cursor: pointer;
+    color: #444;
+}
+
+.oli {
+    background: url('../images/oli.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.darren {
+    background: url('../images/darren.jpg') no-repeat;
+    background-size: 100%;
+}

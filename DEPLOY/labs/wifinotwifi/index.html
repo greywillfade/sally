@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wifi? Not wifi?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Checking whether Kevin Bacon is raping me for cash or not">
+    
+<style type="text/css">
+    h1 {
+        text-transform: uppercase;
+    }
+</style>
+</head>
+
+<body>
+<p>I am currently using:</p>
+<h1 id="connres">Checking...</h1>
+<p id="comment"></p>
+</body>
+    
+<script type="text/javascript"> 
+var connection, conntype, commentelement;
+
+connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+commentelement = document.querySelector('#comment');
+
+if (connection !== undefined) {
+    conntype = connection.type;
+    if (conntype === 'cellular') {conntype += ' data'; }
+} else {
+    conntype = "A browser that isn't hipster enough for this shit";
+    commentelement.textContent = 'Only Firefox supports the API. Wah wah wah.';
+}
+document.querySelector('#connres').textContent = conntype;
+
+//Additional mirth - cellular (added 'data'), bluetooth, ethernet, wifi, other, none
+switch (conntype) {
+case 'cellular data':
+    commentelement.textContent = "Data! Data! Data! Shut it down! [Photo of Kevin Bacon redacted because it'd cost too much to download]";
+    break;
+case 'ethernet':
+    commentelement.textContent = "You mean you have to use a plug? That's like a baby's toy!";
+    break;
+case 'wifi':
+    commentelement.textContent = "Fuck you, Bacon!";
+    break;
+}
+</script>
+</html>
