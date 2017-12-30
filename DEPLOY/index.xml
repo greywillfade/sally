@@ -9,10 +9,21 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Fri, 24 Nov 2017 16:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Dec 2017 14:30:00 +0000</lastBuildDate>
     
 	<atom:link href="http://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2017 into 2018</title>
+      <link>http://sallylait.com/blog/2017/12/30/2017-into-2018/</link>
+      <pubDate>Sat, 30 Dec 2017 14:30:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>http://sallylait.com/blog/2017/12/30/2017-into-2018/</guid>
+      <description>Another end of a year means another time to look back, but also to look forward. As they usually do, 2017 has had both extreme highs and lows, as well as plenty in the middle.
+Life Let’s start with the important bit - life.
+My 2016 summary post talked about a shifting mentality to take a bit more control, and doing things that were important to me in both work and my personal life.</description>
+    </item>
     
     <item>
       <title>Starting out with neural networks</title>

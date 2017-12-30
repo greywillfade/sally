@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sallylait.com/blog/2017/12/30/2017-into-2018/</loc>
+    <lastmod>2017-12-30T14:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://sallylait.com/blog/2017/11/24/starting-out-with-neural-networks/</loc>
     <lastmod>2017-11-24T16:41:00+00:00</lastmod>
   </url>
@@ -566,7 +571,7 @@
   
   <url>
     <loc>http://sallylait.com/blog/</loc>
-    <lastmod>2017-11-24T16:41:00+00:00</lastmod>
+    <lastmod>2017-12-30T14:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -588,7 +593,7 @@
   
   <url>
     <loc>http://sallylait.com/</loc>
-    <lastmod>2017-11-24T16:41:00+00:00</lastmod>
+    <lastmod>2017-12-30T14:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
