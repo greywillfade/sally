@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8">
+    <title>OpenActive - demo quick start guide</title>
+
+    <style>
+        body {
+            background-color: #FCF2F1;
+            font-family: sans-serif;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            width: 85%;
+            max-width: 800px;
+        }
+
+        .info {
+            background-color: white;
+            padding: 1em;
+            border-radius: 1em;
+            border: 1px solid #333;
+        }
+
+        hr {
+            margin: 2em auto;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Quick start guide</h1>
+        <h2>Using OpenActive data to list opportunities</h2>
+
+<h3>Introduction</h3>
+
+<p>The goal of this quick start guide is to rapidly introduce you to what it means to use OpenActive data, and to start to become familiar with some of the important principles. </p>
+
+<p>We’re going to access a single data feed, retrieve all paged opportunity data, and output this.</p>
+
+<p>The examples used are deliberately extremely simple, so don’t contain any robust error handling, or more advanced features - they’re just to get you up and running with the concept as quickly as possible.</p>
+
+<hr />
+
+<h3>Step 1 - Requesting a feed</h3>
+
+<p>In this step we’re going to be requesting a specific feed URL, which will return us JSON to parse and display. The feed we’ll use in this example is one that conforms to the OpenActive standards - Colchester Leisure World sessions.</p>
+
+<p>The feed URL is <a href="https://lw-colchester-openactive.herokuapp.com/">lw-colchester-openactive.herokuapp.com/</a> and you can find more information about the licence and documentation <a href="https://leisureworldcolchester.github.io/">here</a>.</p>
+
+
+
+<div class="info">
+    <p>Tips:</p>
+    <p>We recommend that you follow this guide using the above set of data initially, but if you’d like to use other data you can find all registered feeds at <a href="http://status.openactive.io">status.openactive.io</a>.</p>
+    <p>At present the feeds available don’t tend to allow cross-origin access. For the purpose of this quick JavaScript-based demo we’re going to use a workaround where the feed URL is appended to a proxy URL. If you’re making your request server-side you won’t need to do this.</p>
+</div>
+
+<p><b>Task:<br />Run the below, read through the JavaScript snippet, and use your browser's developer tools console to inspect the Result pane and view the output. The pane itself will be blank as we're not outputting any HTML yet.</b></p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="KZoBrR" data-default-tab="js,result" data-user="greywillfade" data-embed-version="2" data-pen-title="OA using data - 1" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/greywillfade/pen/KZoBrR/">OA using data - 1</a> by SJ (<a href="https://codepen.io/greywillfade">@greywillfade</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<hr />
+
+<h3>Step 2 - Data returned</h3>
+
+<p>If everything has gone correctly, your browser developer tools console should show something like this:</p>
+
+<img src="output.jpg" alt="Console" />
+
+<p>The data returned is JSON, and includes a set of <b>session items</b>. Each of these items will have a <b>state of updated, or deleted</b>, which we’ll discuss in more detail with regards to paging in the next section. In the following box we have a deleted session and an updated session.</p>
+
+<p><b>Task:<br />For now, familiarise yourself with the following and make sure that you understand how this matches the patterns that you're seeing in your logged data.</b></p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="EoEpqq" data-default-tab="js" data-user="greywillfade" data-embed-version="2" data-pen-title="OA using data - 2" class="codepen">See the Pen <a href="https://codepen.io/greywillfade/pen/EoEpqq/">OA using data - 2</a> by SJ (<a href="https://codepen.io/greywillfade">@greywillfade</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p class="info">For more information on the data model behind this, please see the <a href="https://www.w3.org/2017/08/modelling-opportunity-data/">Modelling Opportunity Data specification</a>.</p>
+
+<hr />
+
+<h3>Step 3 - Paging through the data</h3>
+
+<h4>Knowing whether to retrieve more data</h4>
+<p>We’ve just output the first page of data. Along with the items, you’ll also see that we’re returning a key named ‘next’. Where there is another page of results, this key will have a value, and that value will be different to the URL of the last request made.</p>
+
+
+<div class="info">
+    <figure>
+        <img src="paging1.jpg" alt="An example of where there is another page to follow" />
+        <figcaption>An example of where there is another page to follow</figcaption>
+    </figure>
+
+    <figure>
+        <img src="paging2.jpg" alt="An example of where there no more pages of data to follow" />
+        <figcaption>An example of where there no more pages of data to follow</figcaption>
+    </figure>
+</div>
+
+<h4>How data is ordered</h4>
+
+<p>At this point it’s really important to understand that OpenActive data conforms to the <a href="https://www.openactive.io/realtime-paged-data-exchange/">RPDE specification</a>.</p>
+<p>With this format, you get a continuous list of records that are sorted <b>in the order that they were updated</b>. Each record must only be represented once in the list at any given moment, with its position in the list depending on when it was updated.</p>
+
+<p>As such, the first page of data accessed from the root URL will contain the oldest records. Each subsequent page will contain amendments - new items, updated items (both covered with a state of updated), and deleted items. By paging through to the end and then polling there for future changes, we’re able to build up a full picture of the data set.</p>
+
+<p>To better illustrate, consider the following image. The items in this are ordered first by modified timestamp, and second by ID.</p>
+
+<img src="https://www.w3.org/2017/08/realtime-paged-data-exchange/images/image00.png" alt="Diagram of ordered items " />
+
+<p>If an item is modified (or deleted), its record will move to the end of the set. If the item in red (with ID 2) becomes updated, its timestamp would be modified and it would move to the end of the list. If we'd previously encountered it whilst doing our first pass of paging through the entire data set, we'd get the updated version at the end whilst polling for changes.</p>
+
+<p>Let’s build up our code snippet to add paging through to the end. Note that this basic example won’t wait and poll for data after we’ve reached the end of the items.</p>
+
+<p><b>Task:<br />Read through the below snippets and as before, inspect the Result pane using your browser's console. Alternatively amend your JavaScript and HTML, by pasting in the following code.</b></p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="NXMWVw" data-default-tab="js,result" data-user="greywillfade" data-embed-version="2" data-pen-title="OA using data - 3" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/greywillfade/pen/NXMWVw/">OA using data - 3</a> by SJ (<a href="https://codepen.io/greywillfade">@greywillfade</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<hr />
+
+<h3>Step 4 - Displaying the data</h3>
+
+<p>At this point you’ve retrieved all of the data that the URL returns. At this point you’re likely to want to store the data locally, or do some processing based on the item state, but for the sake of this guide we’re just going to output some basic details to the page as a starting point.</p>
+
+<p><b>Task:<br />Run the example below and understand the snippets. Alternatively amend your JavaScript and HTML, by pasting in the updated code.</b></p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="ypjgVo" data-default-tab="js,result" data-user="greywillfade" data-embed-version="2" data-pen-title="OA using data - 4" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/greywillfade/pen/ypjgVo/">OA using data - 4</a> by SJ (<a href="https://codepen.io/greywillfade">@greywillfade</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p class="info">In this example we’re just displaying the title of 'updated' sessions, and ignoring sessions with a deleted state. For more information about the model including all attributes available and the standards around these, please reference the <a href="https://www.w3.org/2017/08/modelling-opportunity-data/">Modelling Opportunity Data spec</a>.</p>
+
+<hr />
+
+<h3>Step 5 - Evolve your example</h3>
+
+<p>That’s it! You should now have a working demo containing open opportunity data.</p>
+
+<p>To start evolving this into something that meets your real-world needs, please see the following resources.</p>
+
+
+<ul>
+    <li>FAQ</li>
+    <li>Aggregating open opportunity data</li>
+    <li>Making your opportunities bookable</li>
+    <li>Documentation</li>
+    <li>etc</li>
+</ul>
+
+</div>
+
+</body>
+</html>
