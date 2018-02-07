@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="">
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    
+
 <style>
 body {
 	text-align: center;
@@ -54,8 +54,8 @@ body {
 <script type="text/javascript">
 
 
-	var SPECIALWEEKS = [1, 16, 18, 22, 35, 48];
-	var BROWNSPECIALWEEKS = [15]; //Note, full schedule not yet available
+	var SPECIALWEEKS = [1, 2, 13, 14, 19, 22, 35];
+	var BROWNSPECIALWEEKS = [13, 19, 35]; //Note, full schedule not yet available
 	var today = new Date();
 
     function getTodayDate() {
@@ -82,7 +82,6 @@ body {
 	function checkWeek() {
 		//Get the week of the year for today
 		var weeknum = today.getWeek();
-		console.log(weeknum);
 
 		//Is it a special week, changing the day collection?
 		if (SPECIALWEEKS.indexOf(weeknum) > -1 ) {
@@ -95,7 +94,7 @@ body {
 			else {
 				document.querySelector('#nextbins').textContent = "Done this week";
 			}
-			
+
 		}
 		else {
 			if(today.getDay() == 3) {
@@ -127,7 +126,7 @@ body {
 				}
 			}
 		}
-		
+
 
 		//If it's an even week, it's black (rubbish)
 		if (weeknum % 2 === 0) {
@@ -158,12 +157,12 @@ body {
 		<p>put garden waste out on</p>
 		<p id="gardenday">...</p>
 	</div>
- 
+
 	<div class="sallyinfo"><p>Waste and Recycling data from Babergh Council, updated for the 2017 schedule. Brown bin data will vary depending on location.</p>
 	<p>Site by <a href="http://sallyjenkinson.co.uk">Sally Jenkinson</a></p></div>
 </body>
-    
-<script type="text/javascript"> 
+
+<script type="text/javascript">
 	document.querySelector('#today').textContent = getTodayDate();
 	document.querySelector('#typeofbins').textContent = checkWeek();
 </script>
