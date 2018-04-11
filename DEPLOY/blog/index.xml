@@ -4,15 +4,12 @@
     <title>Blogs on Sally</title>
     <link>http://sallylait.com/blog/</link>
     <description>Recent content in Blogs on Sally</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
     <lastBuildDate>Fri, 09 Feb 2018 12:50:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://sallylait.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://sallylait.com/blog/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Japan, January &#39;18 (part two) - EVO</title>
