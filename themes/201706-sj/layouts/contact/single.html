@@ -1,0 +1,31 @@
+{{ partial "base" . }}
+
+<div class="wrapper wrapper-nogap">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+        <div class="promo">
+            <h1>{{ .Title }}</h1>
+            <p class="subtitle">Here's how to get in touch if you want to know more about my work, ask me to speak at your event, write about something, or just have a question.</p>
+        </div>
+
+        <div class="flexbox-container">
+        	<div>
+                {{ .Content }}
+            </div>
+            <div class="contentholder--bright2">
+                <h3>I’d like to talk about work or speaking. How can I reach you?</h3>
+                <p>The best way to get hold of me is either on the form here or my email, which is <b>sally at recordssoundthesame.com</b>. If it's something tiny, <a href="http://twitter.com/sallylait">Twitter</a> is a good alternative.</p>
+
+                <h3>Can I call/Hangout/Skype instead? I like talking in person.</h3>
+                <p>Sure! Email me and we can arrange a time and share details then.</p>
+
+                <h3>Where are you based? What happens if my project/my event isn’t near you?</h3>
+                <p>That’s not a problem. I travel a lot in the UK and overseas, with both my client work and speaking. I’m am happy to go wherever is necessary. I'm based in Suffolk, around 45 minutes from Colchester train station, an hour from Stansted Airport, and I have my own car.</p>
+            </div>
+        </div>
+
+    </article>
+</div>
+
+{{ partial "footer" . }}

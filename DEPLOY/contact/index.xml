@@ -13,5 +13,14 @@
 	<atom:link href="http://sallylait.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Thanks!</title>
+      <link>http://sallylait.com/contact/success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>http://sallylait.com/contact/success/</guid>
+      <description>Thanks for getting in touch I&amp;rsquo;ll make sure that I get back to you as soon as possible.</description>
+    </item>
+    
   </channel>
 </rss>
