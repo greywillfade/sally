@@ -44,23 +44,27 @@
 
 .contentholder--bgborder {
     padding: 1em;
-    background: $colour1;
+    /*background: $colour1;
     -moz-box-shadow: 7px 7px 0px darken($colour1, 15%);
     -webkit-box-shadow: 7px 7px 0px darken($colour1, 15%);
-    box-shadow: 7px 7px 0px darken($colour1, 15%);
+    box-shadow: 7px 7px 0px darken($colour1, 15%);*/
+
+    border-bottom: 5px dotted white;
+    color: #222;
 
     .textlist--subtitle {
         margin-top:1em;
-        color: white;
+        color: #222;
     }
 
     .textlist--date {
         font-weight: bold;
-        color: white;
+        color: #222;
     }
 
     a {
-        color: $colour2;
+        /*color: $colour2;*/
+        font-weight: normal;
 
         button {
             border-color: white;
@@ -70,9 +74,19 @@
     }
 }
 
+.contentholder--bgborder:last-of-type {
+    border-bottom: none;
+}
+
 .contentholder--bgborder--future {
-    background: darken($colour1, 15%);
+    /*background: darken($colour1, 15%);
     -moz-box-shadow: 7px 7px 0px darken($colour1, 25%);
     -webkit-box-shadow: 7px 7px 0px darken($colour1, 25%);
-    box-shadow: 7px 7px 0px darken($colour1, 25%);
+    box-shadow: 7px 7px 0px darken($colour1, 25%);*/
+
+    border-bottom: 5px dotted $colour6;
+}
+
+.contentholder--bgborder--future:first-of-type {
+    border-top: 5px dotted $colour6;
 }
