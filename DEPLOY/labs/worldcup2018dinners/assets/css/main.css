@@ -3817,12 +3817,6 @@
 	color: #444;
 }
 
-@media screen and (min-width: 800px) {
-	.grid-wrapper {
-		grid-template-columns: 1fr 1fr;
-	}
-}
-
 .grid-box img {
 	max-width: 100%;
 	border-radius: 5px;
@@ -3830,7 +3824,7 @@
 }
 
 .meal-images-single {
-	max-width: 600px!important;
+	max-width: 600px;
 	border-radius: 5px;
 	box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
 }
@@ -3838,4 +3832,12 @@
 .meal-images {
 	margin-top: 2em;
 	margin-bottom: 2em;
+	width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 800px) {
+	.grid-wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
 }
