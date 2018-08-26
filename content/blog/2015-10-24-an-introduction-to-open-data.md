@@ -31,7 +31,7 @@ I love data. It’s not always directly part of my job, but I find it fascinatin
 
 [![lastfm data][1]][1]
 
-I&#8217;m a fan of little side projects, and make stupid stuff with other people’s data, like using the <a href="http://developer.marvel.com/" target="_blank">Marvel API</a> and d3.js to find out which are the most popular Marvel characters by the number of times they&#8217;ve appeared in individual comics, how many series, stories, and events. I also make stupid stuff with _my_ data, with my <a href="http://sallyjenkinson.co.uk/labs/teatracker" target="_blank">Tea Tracker</a> page, which details my tea drinking habits since November 2013.
+I&#8217;m a fan of little side projects, and make stupid stuff with other people’s data, like using the <a href="http://developer.marvel.com/" target="_blank">Marvel API</a> and d3.js to find out which are the most popular Marvel characters by the number of times they&#8217;ve appeared in individual comics, how many series, stories, and events. I also make stupid stuff with _my_ data, with my <a href="https://sallylait.com/labs/teatracker" target="_blank">Tea Tracker</a> page, which details my tea drinking habits since November 2013.
 
 But I’m sure, like me, when you make stuff and you’re not working with your own data, you’ve probably found yourself being deliberately limited by some of the data providers out there, or bound by terms that don’t meet your needs. Many of the data-based services that we use have very strict terms and conditions around usage, and can be prohibitive in many different ways. They can end up locking off data, and restricting usage. The Twitter API is notorious for this, but the Marvel API for instance also states that you can only use the data for:
 

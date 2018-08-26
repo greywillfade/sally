@@ -79,5 +79,5 @@ Another theme of my talk is responsibility, and as such I will finish off this p
 </div>
 
  [1]: http://www.w3.org/TR/ambient-light/ "Ambient Light API"
- [2]: http://sallyjenkinson.co.uk/labs/fauxluminosity/
+ [2]: https://sallylait.com/labs/fauxluminosity/
  [3]: https://github.com/greywillfade/light-level

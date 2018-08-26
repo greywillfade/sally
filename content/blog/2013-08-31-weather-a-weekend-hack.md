@@ -21,7 +21,7 @@ I&#8217;m commuting into London at the moment, getting up at 6am, and religiousl
 
 ## The result
 
-You can see the final version here: <a title="Weather hack" href="http://sallyjenkinson.co.uk/labs/weather/" target="_blank">http://sallyjenkinson.co.uk/labs/weather/</a>
+You can see the final version here: <a title="Weather hack" href="https://sallylait.com/labs/weather/" target="_blank">https://sallylait.com/labs/weather/</a>
 
 The result was a responsive one-pager, with either 5 or 6 weather blocks (depending on the flow, layout-wise) showing the weather in Colchester and London at different times of the day. The 6th wasn&#8217;t actually needed, but I put it in at certain display widths as the gap being there didn&#8217;t look great, and I thought I might as well display something rather than putting in a blank square. Data comes from the <a title="forecast.io" href="http://forecast.io/" target="_blank">forecast.io API</a>, which allows 1000 free requests daily. As this is a small personal project that should be more than enough for me, but there is a paid version if you&#8217;re interested. All sorts of data is returned, which is one of the attractions of why I picked that particular API rather than others (other reasons being the sensible JSON it returns, the decent amount of free requests, and the documentation. It also has a nice dashboard to track API usage.), and the page could easily be extended to show more data. Except that wasn&#8217;t what it was about, and I deliberately wanted something simple.
 

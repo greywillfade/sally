@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact me on Sally</title>
-    <link>http://sallylait.com/contact/</link>
+    <link>https://sallylait.com/contact/</link>
     <description>Recent content in Contact me on Sally</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
@@ -10,15 +10,15 @@
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
     
-	<atom:link href="http://sallylait.com/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sallylait.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Thanks!</title>
-      <link>http://sallylait.com/contact/success/</link>
+      <link>https://sallylait.com/contact/success/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>sally@recordssoundthesame.com (Sally Lait)</author>
-      <guid>http://sallylait.com/contact/success/</guid>
+      <guid>https://sallylait.com/contact/success/</guid>
       <description>Thanks for getting in touch I&amp;rsquo;ll make sure that I get back to you as soon as possible.</description>
     </item>
     
