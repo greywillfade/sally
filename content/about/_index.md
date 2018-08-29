@@ -18,7 +18,9 @@ After many years and a change in geography in my personal life, in December 2012
 
 Websites are no longer the end stopping point, and are instead usually just the _starting_ point for my work; an indicator of wider opportunities or challenges. I find it important to dig under the public-facing surface - into improving older systems and processes, admin/back-office user experiences, and helping people to gain the skills and knowledge that they need in order to best support their teams. Technology and systems are an important piece of this puzzle, but my goal is to never talk about them in a way that’s scary or boring.
 
-I now operate through my company [Records Sound the Same](http://recordssoundthesame.com), which I founded in 2014, and bring in trusted collaborators when there’s a need to scale up. The company provides strategic technical consultancy services focused on helping with digital transformation, planning appropriate solutions, and teaching people new skills. We try to do some good, and work with nice people, including the **Manor Racing F1 team**, **RNLI**, and **Inghams**. Head over to have a look at the site for more extensive information on our capabilities and projects.
+I now operate through my company [Records Sound the Same](http://recordssoundthesame.com), which I founded in 2014, and bring in trusted collaborators when there’s a need to scale up. The company provides strategic technical consultancy services focused on helping with digital transformation, planning appropriate solutions, and teaching people new skills. We try to do some good, and work with nice people, including the **Manor Racing F1 team**, **RNLI**, and **Inghams**.
+
+Head over to look at the site for more extensive information on our capabilities and projects, or here you can find a [few examples](work/) of notable projects that I've worked on along with nice things people have said.
 
 ![Sally Jenkinson/Lait at The Lead Developer](/img/promo-sj3.jpg)
 

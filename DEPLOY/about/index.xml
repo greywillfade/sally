@@ -13,5 +13,15 @@
 	<atom:link href="https://sallylait.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>https://sallylait.com/about/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/about/work/</guid>
+      <description>I originally started out agency-side as a back-end developer, before I moved into the management of the development team in a technical/solutions architect role, ending up at Head of Technology level.
+ “Sally recognised very quickly (even in her early career) that a core role within Digital is the ability to communicate in a common language. Translating complex Technical elements into consumable pieces, which can then be communicated with internal stakeholders and clients alike.</description>
+    </item>
+    
   </channel>
 </rss>

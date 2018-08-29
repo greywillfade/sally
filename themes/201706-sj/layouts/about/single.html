@@ -1,0 +1,21 @@
+{{ partial "base" . }}
+
+<div class="wrapper">
+    {{ partial "sidebar" . }}
+    <article class="content">
+
+        <div class="promo" style="background: url('/img/headernmag.jpg') #6BBCB6 no-repeat center; background-size: cover;">
+        </div>
+        <div class="contentholder--bright2" style="padding:2em; margin:-2em 2em 2em 2em;">
+            <h1 class="test">Notable projects</h1>
+            <p class="subtitle" style="font-size: 2.441rem;">Whilst you can read a bit about my background on the <a href="../about">About</a> page, here are a few examples of some projects that I've worked on, along with nice things people have said.</p>
+        </div>
+
+        <div class="container">
+            {{ .Content }}
+        </div>
+
+    </article>
+</div>
+
+{{ partial "footer" . }}
