@@ -2,7 +2,7 @@
 title: Learning Japanese
 author: Sally
 type: post
-date: 2018-08-24T14:00:00+10:00
+date: 2018-08-24T14:00:00+00:00
 url: /blog/2018/08/24/learning-japanese/
 description: Since the beginning of this year I've been taking my Japanese learning a lot more seriously. Having been asked about it by quite a few people, this post is intended to summarise my journey so far.
 class: bi-1
@@ -64,7 +64,7 @@ Despite my ridiculous textbook procrastination for a year, I'd *really* strongly
 Here's my current collection of textbooks.
 
 <figure>
-<img src="/img/content/blog/20180822-books.jpg" alt="Assorted Japanese books on a white table" style="max-width:400px;" />
+<img src="/img/content/blog/20180822-books.jpg" alt="Assorted Japanese books on a white table" />
 <figcaption>An assortment of textbooks</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ Whilst you'll pick up vocab from textbooks and reading, I don't personally tend 
 Even at the lowest JLPT level you need to know a little bit of kanji, and generally you'll probably start picking up bits here and there naturally. For this, by far my favourite thing is [WaniKani](http://wanikani.com/), again by the wonderful Tofugu people. Working on a similar approach to their kana guides, this uses the idea of often joyfully silly mneumonics to help the kanji stick in your mind. I've found it incredibly effective, but more than that it's *fun*. Many people remark that they get too involved in WaniKani to the detriment of their other studies. I'm completely guilty of this, and paused it for a couple of months around my exam, but I've embraced the fact that I find kanji really interesting, even if it's not necessarily in line with my overall goal of speaking more. This will give you some vocab, but it's intended to reinforce the kanji rather than to be a tool on that front. Levels 1-3 are free, and I highly recommend you give it a go.
 
 <figure>
-<img src="/img/content/blog/20180824-wk.jpg" alt="A screenshot of the WaniKani lesson mode" style="max-width:600px;" />
+<img src="/img/content/blog/20180824-wk.jpg" alt="A screenshot of the WaniKani lesson mode" />
 <figcaption>A screenshot of the WaniKani lesson mode</figcaption>
 </figure>
 
@@ -157,7 +157,7 @@ Japanese is one of the most enjoyable parts of my days, and I'm excited to see h
 
 
 <figure>
-<img src="/img/content/blog/20180824-wk2.jpg" alt="Kanji progress to date" style="max-width:600px;" />
+<img src="/img/content/blog/20180824-wk2.jpg" alt="Kanji progress to date" />
 <figcaption>Kanji progress to date. As it stands I've learnt 285 radicals, 556 kanji, 1673 vocab words since 5th February</figcaption>
 </figure>
 

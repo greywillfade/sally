@@ -8,13 +8,24 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Fri, 24 Aug 2018 14:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Sep 2018 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thinking about permissions on the web</title>
+      <link>https://sallylait.com/blog/2018/09/27/thinking-about-permissions/</link>
+      <pubDate>Thu, 27 Sep 2018 14:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2018/09/27/thinking-about-permissions/</guid>
+      <description>The other day I saw a call on social media from the lovely Jo Franchetti, asking for people’s views on web permissions to take into a W3C workshop.
+This is a subject that I think is really important. It’s a wonderful melting pot of technical aspects meeting user experience; of developer experience and browser capabilities merging with website creators’ visions.
+The web gaining ever-more functionality and exciting possibilities is something that benefits both the people that make it, and the people that use it.</description>
+    </item>
     
     <item>
       <title>Learning Japanese</title>
       <link>https://sallylait.com/blog/2018/08/24/learning-japanese/</link>
-      <pubDate>Fri, 24 Aug 2018 14:00:00 +1000</pubDate>
+      <pubDate>Fri, 24 Aug 2018 14:00:00 +0000</pubDate>
       <author>sally@recordssoundthesame.com (Sally Lait)</author>
       <guid>https://sallylait.com/blog/2018/08/24/learning-japanese/</guid>
       <description>Since the beginning of this year I&#39;ve been taking my Japanese learning a lot more seriously. Having been asked about it by quite a few people, this post is intended to summarise my journey so far.

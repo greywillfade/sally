@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sallylait.com/blog/2018/09/27/thinking-about-permissions/</loc>
+    <lastmod>2018-09-27T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sallylait.com/blog/2018/08/24/learning-japanese/</loc>
-    <lastmod>2018-08-24T14:00:00+10:00</lastmod>
+    <lastmod>2018-08-24T14:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -591,7 +596,7 @@
   
   <url>
     <loc>https://sallylait.com/blog/</loc>
-    <lastmod>2018-08-24T14:00:00+10:00</lastmod>
+    <lastmod>2018-09-27T14:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -613,7 +618,7 @@
   
   <url>
     <loc>https://sallylait.com/</loc>
-    <lastmod>2018-08-24T14:00:00+10:00</lastmod>
+    <lastmod>2018-09-27T14:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
