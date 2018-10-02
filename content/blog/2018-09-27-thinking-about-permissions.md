@@ -25,7 +25,7 @@ But first, what exactly are we talking about?
 Here's a very quick demo where I've combined examples from the [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification) and [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation) examples over at MDN.
 
 <figure>
-<a href="ttps://codepen.io/greywillfade/pen/KGPqra/"><img src="/img/content/blog/20180927-pen.jpg" alt="Side by side views of Brad Frost's Death to Bullshit" /></a>
+<a href="https://codepen.io/greywillfade/pen/KGPqra/"><img src="/img/content/blog/20180927-pen.jpg" alt="Side by side views of Brad Frost's Death to Bullshit" /></a>
 <figcaption><a href="https://codepen.io/greywillfade/pen/KGPqra/">Permissions demo</a> on <a href="https://codepen.io">CodePen</a></figcaption>
 </figure>
 
