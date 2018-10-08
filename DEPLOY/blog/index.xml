@@ -8,8 +8,18 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Thu, 27 Sep 2018 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Oct 2018 11:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A foundation for technical investigations</title>
+      <link>https://sallylait.com/blog/2018/10/08/a-foundation-for-technical-investigations/</link>
+      <pubDate>Mon, 08 Oct 2018 11:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2018/10/08/a-foundation-for-technical-investigations/</guid>
+      <description>Most of the work that I do can be boiled down to trying to help people make better things with the web, in better ways. ‘Better’ is a nice vague term, isn’t it? In this case ‘better’ can mean things like faster, cheaper, or more effectively, but it can also mean cutting-edge, delightful, more ethical, or even simply happier. It’s a nice mix.
+I’ve spoken often about the importance of having a balanced view of change - of how simply swapping one technology for another won’t magically solve all of your problems - but this also goes hand in hand with another truth: in this day and age how you work with technology plays a huge part in the success of whatever you’re trying to do.</description>
+    </item>
     
     <item>
       <title>Thinking about permissions on the web</title>
