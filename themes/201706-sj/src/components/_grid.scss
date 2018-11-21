@@ -66,3 +66,42 @@
     margin: 0;
   }
 }
+
+
+
+
+/* cards */
+
+.card-wrapper {
+  display: grid;
+  grid-gap: 20px!important;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  margin-top: 1em;
+}
+
+.card-wrapper > * {
+  padding: 20px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper > *:hover {
+  text-decoration: underline;
+}
+
+.card-wrapper > *:nth-child(odd) {
+  background-color:$purp;
+  color: #fff;
+  border-radius: 42% 58% 64% 36% / 43% 28% 72% 57%;
+}
+
+.card-wrapper > *:nth-child(even) {
+  background-color: $yellow;
+  color: #fff;
+  border-radius: 53% 47% 46% 54% / 60% 35% 65% 40%;
+}

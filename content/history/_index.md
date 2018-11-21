@@ -4,7 +4,10 @@ description = "A summary of key roles and events in my career to date"
 menuflag    = "history"
 +++
 
-## Industry awards & certification
+## Awards & certification
+
+<p class="textlist--header">JLPT N5 - 2018</p>
+<p class="textlist--subtitle">Japanese Language Proficiency Test, internationally recognised certification of Japanese language proficiency for non-native speakers</p>
 
 <p class="textlist--header">Finalist - DevelopHER Awards 2016</p>
 <p class="textlist--subtitle">Finalist in the Entrepreneur category</p>

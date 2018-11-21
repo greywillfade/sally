@@ -8,8 +8,18 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Mon, 08 Oct 2018 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Nov 2018 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A new chapter</title>
+      <link>https://sallylait.com/blog/2018/11/21/a-new-chapter/</link>
+      <pubDate>Tue, 20 Nov 2018 10:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2018/11/21/a-new-chapter/</guid>
+      <description>I’m so excited to announce that I’m soon going to be starting the next chapter in my professional life. I’m going back to employment, and joining Monzo on their mission to “build a bank with everyone, for everyone”.
+My role will be in Engineering Management, and I’ll be supporting the growth, progression, performance, and wellbeing of everyone I’ll be managing, even as they move onto different features or projects. 🔜👩🏻‍💻</description>
+    </item>
     
     <item>
       <title>A foundation for technical investigations</title>

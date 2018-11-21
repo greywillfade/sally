@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sallylait.com/blog/2018/11/21/a-new-chapter/</loc>
+    <lastmod>2018-11-20T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sallylait.com/blog/2018/10/08/a-foundation-for-technical-investigations/</loc>
     <lastmod>2018-10-08T11:00:00+00:00</lastmod>
   </url>
@@ -601,7 +606,7 @@
   
   <url>
     <loc>https://sallylait.com/blog/</loc>
-    <lastmod>2018-10-08T11:00:00+00:00</lastmod>
+    <lastmod>2018-11-20T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -618,12 +623,16 @@
   </url>
   
   <url>
+    <loc>https://sallylait.com/labs/</loc>
+  </url>
+  
+  <url>
     <loc>https://sallylait.com/offline/</loc>
   </url>
   
   <url>
     <loc>https://sallylait.com/</loc>
-    <lastmod>2018-10-08T11:00:00+00:00</lastmod>
+    <lastmod>2018-11-20T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

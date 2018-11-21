@@ -83,7 +83,10 @@
                 <span class="menu__item-name">Blog</span>
                 <span class="menu__item-label">Read my latest posts</span>
             </a>
-            
+            <a class="menu__item" href="/labs/">
+                <span class="menu__item-name">Labs</span>
+                <span class="menu__item-label">Side projects and tools</span>
+            </a>
             <a class="menu__item" href="/contact/">
                 <span class="menu__item-name">Contact</span>
                 <span class="menu__item-label">Get in touch</span>
@@ -115,37 +118,57 @@
 
     <article class="content">
 
-        <div class="promo">
-            <h1>Hello!</h1>
-            <p class="subtitle">I'm Sally Lait, a digital transformation consultant based in the UK. This is my personal site and blog.</p>
+        <div id="promo-time-bg" class="promo">
+            <h1 id="greeting">Good morning</h1><br />
+            <p class="subtitle">I'm Sally Lait, a digital technologist, speaker, tea drinker, and engineering manager at Monzo.
+            </p>
         </div>
+
+        <script>
+                var now = new Date();
+                var hours = now.getHours();
+                var greettext = document.getElementById('greeting');
+                var bg = document.getElementById('promo-time-bg');
+    
+                var themessage;
+                var morning = ('Good morning! <span class="emoji">🌅</span>');
+                var afternoon = ('Good afternoon! <span class="emoji">☀️</span>');
+                var evening = ('Good evening! <span class="emoji">🌙</span>');
+    
+                if (hours >= 0 && hours < 12) {
+                    themessage = morning;
+    
+                } else if (hours >= 12 && hours < 17) {
+                    themessage = afternoon;
+    
+                } else if (hours >= 17 && hours < 24) {
+                    themessage = evening;
+                    bg.style.backgroundImage =  "url('/layout/dots2.png')";
+                }
+    
+                greettext.innerHTML = themessage;
+        </script>
 
         <div class="flexbox-container">
         	<div class="contentholder--bright1">
-                <h2>Overview</h2>
-                <p>I work through my small consultancy company, <a href="https://recordssoundthesame.com">Records Sound the Same</a>, where I investigate how digital technologies and the web can help people to do what they do, better.</p>
-                <p>I'm also a conference speaker, author, Associate at the Open Data Institute, and I take photos of hotel carpets.</p>
+
+                <p>👩🏻‍💻 I've spent my career working with the web - agency-side as a developer up to Head of Technology, running a digital transformation consultancy, and now with Monzo. My former work has included projects with the RNLI, Electronic Arts, Sport England, Hotelplan, Nokia, SSE, Fulham FC, and Manor Racing F1 team (amongst others).</p>
+
+                <p>🎤 I've spoken at a wealth of conferences and meetups around the globe - everywhere from the USA, to Europe, and the Far East.</p>
+                    
+                <p>🏡 At present I live in Suffolk in the UK, where I spend time gaming, gardening, learning 日本語, collecting terrible <a href="https://www.instagram.com/explore/tags/shithotelcarpets/">hotel carpets</a>, cooking, and <a href="https://natsukashii.art">illustrating</a> manhole covers and train stamps.</p>
+
+                <p>🌟 I occasionally take time off to be involved in on small things outside of my day job (for instance I run workshops, and I've helped to curate the Render conference series). If you'd like to speak to me about this or anything else, please <a href="/contact/">say hello</a>!</p>
             </div>
-        	<div class="contentholder--bright2">
-                <h2>What I do</h2>
-                <ul>
-                    <li>Digital transformation projects</li>
-                    <li>Discovery projects</li>
-                    <li>Solutions architecture</li>
-                    <li>Strategic consultancy</li>
-                    <li>Coaching and workshops</li>
-                    <li>Conference talks, keynotes, and MCing</li>
-                </ul>
-                <p>If you'd like to know more about these, please head over to the <a href="https://recordssoundthesame.com">Records Sound the Same</a> site or <a href="/contact/">get in touch</a>.</p>
-            </div>
+
         </div>
         <div class="flexbox-container">
             <div class="contentholder--bright3">
                 <h2>Latest blog post</h2>
                 
-    <p><a href="https://sallylait.com/blog/2018/10/08/a-foundation-for-technical-investigations/">A foundation for technical investigations</a></p>
-    <p>A high-level structure for asking people about their technology, with a view of looking at how things are and identifying how they might be.</p>
-    <p><b>8 October 2018</b></p>
+    <p><a href="https://sallylait.com/blog/2018/11/21/a-new-chapter/">A new chapter</a></p>
+    <p>I’m so excited to announce that I’m soon going to be starting the next chapter in my professional life. I’m going back to employment, and joining Monzo on their mission to “build a bank with everyone, for everyone”.</p>
+    <p><b>20 November 2018</b></p>
 
 
             </div>

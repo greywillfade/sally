@@ -4,9 +4,12 @@
     min-height: 300px;
     text-align: left;
     //color: $white1;
-    background-image: url('/layout/memphisbw.svg');
+    //background-image: url('/layout/memphisbw.svg');
+    background-image: url('/layout/dots1.png');
     background-size: 400px;
     background-repeat: repeat;
+
+    
 
 
     @media (min-width: $mainlayoutswitchbreakpoint) {
@@ -22,25 +25,41 @@
         color: white;
         display:inline-block;
         padding: 0.2em;
+        border-radius: 0.3em;
 
         @media (min-width: $mainlayoutswitchbreakpoint) {
-            font-size: 3.5em;
+            font-size: 3.2em;
+        }
 
+        .emoji {
+            font-size: 0.7em;
         }
     }
 
     .subtitle {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
-        color: $light1;
+        //color: $light1;
+        color: $dark2;
         background: $colour4;
-        display:inline-block;
-        padding: 0.2em;
+        border-radius: 0.3em;
+
+        color: #fff; 
+        display: inline;
+        padding: 0.45rem;
+        
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
 
         @media (min-width: $mainlayoutswitchbreakpoint) {
             font-size: 2em;
             //mix-blend-mode: difference; //difference, color dodge
         }
+    }
+
+    h1:after {
+        content: '';
+        display: block;
     }
 
     .subtitle--sub {
@@ -65,3 +84,11 @@
 
     }
 }
+
+
+.promo.promo--home {
+    background-image: url('/img/promo-sj2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover!important;
+}
+
