@@ -74,7 +74,7 @@ I'm interested in work that combines technology, people, and strategy, and the E
 * contributing to management best practices.
 * helping to build an engineering organisation that can make a success of rapid growth.
 
-And I’m also planning on sharing knowledge and encouraging good practice around other areas that I’m passionate about, as well as applying many of the things that I've learnt in the course of working for myself.
+I’m also planning on sharing knowledge and encouraging good practice around other areas that I’m passionate about, as well as applying many of the things that I've learnt in the course of working for myself.
 
 I start the first week in December, but initially I'm going to be working part time so that I can wrap up my existing client commitments nicely. Towards the end of January I'll then switch over fully.
 
