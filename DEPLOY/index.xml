@@ -9,10 +9,20 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Sun, 27 Jan 2019 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Feb 2019 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Semantic calendar emoji</title>
+      <link>https://sallylait.com/blog/2019/02/09/semantic-calendar-emoji/</link>
+      <pubDate>Sat, 09 Feb 2019 12:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2019/02/09/semantic-calendar-emoji/</guid>
+      <description>Since returning to employee status I&#39;ve been thrown back into having an absolutely stacked calendar. Over the last couple of weeks I&#39;ve been playing with an emoji-based system to help me work better.
+A lot of people have written a lot of things about ways to manage busy calendars, often using colour to help visually differentiate between types of tasks. Whilst I&amp;rsquo;ve found this useful, it helped me even more to have an additional visual classification system thrown into the mix: emoji.</description>
+    </item>
     
     <item>
       <title>Learning Japanese (part two) 🇯🇵</title>
