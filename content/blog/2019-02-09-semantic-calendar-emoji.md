@@ -4,7 +4,7 @@ author: Sally
 type: post
 date: 2019-02-09T12:00:00+00:00
 url: /blog/2019/02/09/semantic-calendar-emoji/
-description: 
+description: Since returning to employee status I've been thrown back into having an absolutely stacked calendar. Over the last couple of weeks I've been playing with an emoji-based system to help me work better.
 class: bi-1
 categories:
   - productivity
