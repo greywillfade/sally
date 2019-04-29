@@ -105,7 +105,7 @@ What's there to dislike about free lunches and [cute office dogs](https://www.in
 ### So what's the catch? 🤔
 In a lot of the interviews I've done I've been asked the old classic of _"what do you find the most challenging about working here?"_ (which is a great question to ask, by the way). Everyone's answer to this will be different, but for me it's a combination of the pace, the ambiguity, and the self-doubt that comes when you're surrounded by such smart people.
 
-Days are full-on and we work hard (but within sensible working hours and without glorifying burnout!); there's a definite sense of operating at pace. Because of the amount of poeple I manage and because I'm across a couple of areas of the business I spend a lot of time in meetings. Fridays are my only real 'doing' day.
+Days are full-on and we work hard (but within sensible working hours and without glorifying burnout!); there's a definite sense of operating at pace. Because of the amount of people I manage and because I'm across a couple of areas of the business I spend a lot of time in meetings. Fridays are my only real 'doing' day.
 
 Because you're trusted and given a lot of autonomy, you can also find yourself in situations where it's on you to work out what's needed and how to get there; things are rarely spoon-fed.
 
