@@ -102,7 +102,19 @@ I'd also add that one of the reasons that sold me on being employed was that Mon
 #### And on a lighter note 🐕
 What's there to dislike about free lunches and [cute office dogs](https://www.instagram.com/bingo_was_his_name_o_/)?!
 
+### So what's the catch? 🤔
+In a lot of the interviews I've done I've been asked the old classic of _"what do you find the most challenging about working here?"_ (which is a great question to ask, by the way). Everyone's answer to this will be different, but for me it's a combination of the pace, the ambiguity, and the self-doubt that comes when you're surrounded by such smart people.
+
+Days are full-on and we work hard (but within sensible working hours and without glorifying burnout!); there's a definite sense of operating at pace. Because of the amount of poeple I manage and because I'm across a couple of areas of the business I spend a lot of time in meetings. Fridays are my only real 'doing' day.
+
+Because you're trusted and given a lot of autonomy, you can also find yourself in situations where it's on you to work out what's needed and how to get there; things are rarely spoon-fed.
+
+And finally, there was a slide as part of our first day induction which has stuck with me. It talked about the imposter syndrome phase that everyone goes through once they realise how talented their colleagues are, and I'm still getting flashes of this on occasion! 
+
+But of course, these things were all points that brought me here in the first place. The chance to join a company like this was exciting, I came in with my eyes open, and I've already grown a lot because of it.
+
+
 ## I'm looking forward to what comes next!
 I haven't been writing as much because life stuff is taking up a lot of head space at the moment, but I'm keeping a record of achievements I'm proud of, as well as some general weeknotes for myself to reflect on. I'll be sure to check back in with another update of what I've been up to later in the year.
 
-🈂️リー 👋
+👋
