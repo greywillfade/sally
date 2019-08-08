@@ -22,7 +22,7 @@ I initially contracted with varied companies to build up a range of different ex
 ## Monzo! 🚀
 At the end of 2018, despite not looking for a job, I got lured in by the possibility of working for Monzo - a company I was already a customer of and hugely admired. I wrote a bit more about that decision in the blog post '[A new chapter](/blog/2018/11/21/a-new-chapter/)'.
 
-I'm currently working at Monzo as an Engineering Manager, focusing on the web as a discipline across the company, as well as our COps Collective (covering the internal customer support tools that we've built).
+I'm currently working at Monzo as a Senior Engineering Manager, focusing on the web as a discipline across the company, as well as our COps Collective (covering the internal customer support tools that we've built). I line manage engineers and engineering managers.
 
 ## Outside of the day job
 

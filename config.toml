@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Sally Lait"
-	description = "Personal site of Sally Lait, digital transformation consultant, speaker, coder, gamer, author, tea enthusiast."
+	description = "Personal site of Sally Lait, digital technologist, speaker, coder, gamer, author, tea enthusiast."
 
 	# Format dates with Go's time formatting
 	date_format = "02.01.2006"
