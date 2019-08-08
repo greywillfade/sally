@@ -1,23 +1,41 @@
-var gulp         = require("gulp"),
-    sass         = require("gulp-sass"),
-    autoprefixer = require("gulp-autoprefixer")
+// Initialize modules
+// Importing specific gulp API functions lets us write them below as series() instead of gulp.series()
+const { src, dest, watch, series, parallel } = require('gulp');
+// Importing all the Gulp-related packages we want to use
+const sourcemaps = require('gulp-sourcemaps');
+const sass = require('gulp-sass');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
 
-    // Compile SCSS files to CSS
-    gulp.task("scss", function () {
-        gulp.src("themes/201706-sj/src/**/*.scss")
-            .pipe(sass({
-                outputStyle : "compressed"
-            }))
-            .pipe(autoprefixer({
-                browsers: ['last 2 versions', 'ie >= 9', 'and_chr >= 2.3', 'ios >= 6']
-            }))
-            .pipe(gulp.dest("themes/201706-sj/static/css"))
-    })
 
-    // Watch asset folder for changes
-    gulp.task("watch", ["scss"], function () {
-        gulp.watch("themes/201706-sj/src/**/*", ["scss"])
-    })
+// File paths
+const files = { 
+    scssPath: 'themes/201706-sj/src/**/*.scss'
+}
 
-    // Set watch as default task
-    gulp.task("default", ["watch"])
+// Sass task: compiles the style.scss file into style.css
+function scssTask(){    
+    return src(files.scssPath)
+        .pipe(sourcemaps.init()) // initialize sourcemaps first
+        .pipe(sass()) // compile SCSS to CSS
+        .pipe(postcss([ autoprefixer(), cssnano() ])) // PostCSS plugins
+        .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory
+        .pipe(dest('themes/201706-sj/static/css')
+    );
+}
+
+
+// Watch task: watch SCSS and JS files for changes
+// If any change, run scss and js tasks simultaneously
+function watchTask(){
+    watch([files.scssPath], 
+        parallel(scssTask));    
+}
+
+// Export the default Gulp task so it can be run
+// Runs the scss (and js) tasks simultaneously, then watch
+exports.default = series(
+    parallel(scssTask), 
+    watchTask
+);
