@@ -9,9 +9,6 @@
     background-size: 400px;
     background-repeat: repeat;
 
-    
-
-
     @media (min-width: $mainlayoutswitchbreakpoint) {
         padding-top: 2em;
         min-height: 400px;
@@ -39,11 +36,9 @@
     .subtitle {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
-        //color: $light1;
-        color: $dark2;
         background: $colour4;
         border-radius: 0.3em;
-
+        //todo- fff with this bg is inaccessible
         color: #fff; 
         display: inline;
         padding: 0.45rem;
@@ -91,4 +86,3 @@
     background-repeat: no-repeat;
     background-size: cover!important;
 }
-

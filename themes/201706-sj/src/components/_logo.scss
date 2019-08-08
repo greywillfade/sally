@@ -7,6 +7,7 @@
 
     .logo--text {
         font-family: 'Satisfy', sans-serif;
+        font-display: auto;/*https://developers.google.com/web/updates/2016/02/font-display*/
         font-size: 7em;
         font-weight: 800;
         letter-spacing: -0.3rem;
