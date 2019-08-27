@@ -8,8 +8,17 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Sun, 28 Apr 2019 21:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 09:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Calendar defrags</title>
+      <link>https://sallylait.com/blog/2019/08/27/calendar-defrags/</link>
+      <pubDate>Tue, 27 Aug 2019 09:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2019/08/27/calendar-defrags/</guid>
+      <description>Life as a manager means that I go to a lot of meetings. Over time it&#39;s very easy for them to get a bit unruly, and for your calendar to start managing you rather than the other way round. Every now and again I&#39;ve found it&#39;s good to take stock, to tip everything out and start again, in the form of a calendar defrag. Here&#39;s how I approach it, and a tool you can use if you&#39;d like to join me.</description>
+    </item>
     
     <item>
       <title>Five months at Monzo</title>
