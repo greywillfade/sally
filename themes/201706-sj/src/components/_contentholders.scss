@@ -80,14 +80,15 @@
 }
 
 .contentholder--bgborder--future {
-    /*background: darken($colour1, 15%);
+    background: darken($colour1, 15%);
     -moz-box-shadow: 7px 7px 0px darken($colour1, 25%);
     -webkit-box-shadow: 7px 7px 0px darken($colour1, 25%);
-    box-shadow: 7px 7px 0px darken($colour1, 25%);*/
+    box-shadow: 7px 7px 0px darken($colour1, 25%);
 
-    border-bottom: 5px dotted $colour6;
+    border:none;
+    /*border-bottom: 5px dotted $colour6;*/
 }
 
-.contentholder--bgborder--future:first-of-type {
+/*.contentholder--bgborder--future:first-of-type {
     border-top: 5px dotted $colour6;
-}
+}*/
