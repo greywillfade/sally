@@ -62,7 +62,7 @@ ul.pagination {
 
 //Blog single post
 .large-article-header {
-    padding: 3em;
+    padding: 3em 1.5em;
     margin-bottom:2em;
 }
 
@@ -71,8 +71,20 @@ ul.pagination {
 }
 
 .large-article-header-content .article-title h1 {
-    line-height: 5rem;
+    line-height: 4rem;
     color: #fefefe;
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 750px) {
+    .large-article-header {
+        padding: 3em;
+    }
+
+    .large-article-header-content .article-title h1 {
+        font-size: 4rem;
+    }
+    
 }
 
 .large-article-header-content .article-details {
