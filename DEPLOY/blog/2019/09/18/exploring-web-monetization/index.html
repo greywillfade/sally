@@ -3,10 +3,10 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Calendar defrags | Sally Lait</title>
-    <meta name="description" content="Life as a manager means that I go to a lot of meetings. Over time it&#39;s very easy for them to get a bit unruly, and for your calendar to start managing you rather than the other way round. Every now and again I&#39;ve found it&#39;s good to take stock, to tip everything out and start again, in the form of a calendar defrag. Here&#39;s how I approach it, and a tool you can use if you&#39;d like to join me.">
+    <title>Exploring Web Monetization 💸 | Sally Lait</title>
+    <meta name="description" content="It&#39;s not often that I hear about an emerging web standard and I find my mind wandering back to it over the next few days, but Web Monetization has done just that. In this post I&#39;ll go through what it is, and why I think it&#39;s particularly interesting.">
     <meta name="author" content="Sally Lait">
-    <link rel="canonical" href="https://sallylait.com/blog/2019/08/27/calendar-defrags/">
+    <link rel="canonical" href="https://sallylait.com/blog/2019/09/18/exploring-web-monetization/">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta name="monetization" content="$pay.stronghold.co/1a15d21075ae7284e6a8c7ce8095561de62">
@@ -19,10 +19,10 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@sallylait" />
     <meta name="twitter:creator" content="@sallylait" />
-    <meta property="og:url" content="https://sallylait.com/blog/2019/08/27/calendar-defrags/" />
-    <meta property="og:title" content="Calendar defrags" />
-    <meta property="og:description" content="Life as a manager means that I go to a lot of meetings. Over time it&#39;s very easy for them to get a bit unruly, and for your calendar to start managing you rather than the other way round. Every now and again I&#39;ve found it&#39;s good to take stock, to tip everything out and start again, in the form of a calendar defrag. Here&#39;s how I approach it, and a tool you can use if you&#39;d like to join me." />
-    <meta property="og:image" content="https://sallylait.com/img/content/blog/20190827-hdr.jpg" />
+    <meta property="og:url" content="https://sallylait.com/blog/2019/09/18/exploring-web-monetization/" />
+    <meta property="og:title" content="Exploring Web Monetization 💸" />
+    <meta property="og:description" content="It&#39;s not often that I hear about an emerging web standard and I find my mind wandering back to it over the next few days, but Web Monetization has done just that. In this post I&#39;ll go through what it is, and why I think it&#39;s particularly interesting." />
+    <meta property="og:image" content="https://sallylait.com/img/content/blog/20190918-hdr.jpg" />
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png" />
@@ -112,15 +112,15 @@
 
     <article class="content">
 
-        <section style="background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('/img/content/blog/20190827-hdr.jpg') #589ec9 no-repeat center; background-size: cover;">
+        <section style="background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('/img/content/blog/20190918-hdr.jpg') #589ec9 no-repeat center; background-size: cover;">
             <div class="large-article-header" >
                 <div class="large-article-header-content">
                     <div class="row">
                         <div class="article-date">
-                            <p>Published on Tuesday, 27 Aug, 2019</p>
+                            <p>Published on Wednesday, 18 Sep, 2019</p>
                         </div>
                         <div class="article-title">
-                            <h1>Calendar defrags</h1>
+                            <h1>Exploring Web Monetization 💸</h1>
                         </div>
                         <div class="article-details">
                             <div class="article-author">
@@ -138,56 +138,60 @@
         <div class="blog__contentholder">
             
 
-<p class="lede">Life as a manager means that I go to a lot of meetings. Over time it's very easy for them to get a bit unruly, and for your calendar to start managing you rather than the other way round. Every now and again I've found it's good to take stock, to tip everything out and start again, in the form of a calendar defrag. Here's how I approach it, and a tool you can use if you'd like to join me.</p>
+<p class="lede">It's not often that I hear about an emerging web standard and I find my mind wandering back to it over the next few days, but Web Monetization has done just that. In this post I'll go through what it is, and why I think it's particularly interesting.</p>
 
-<p>Early on when I started at Monzo, my manager, Will, shared a spreadsheet with me. In his version there was a representation of two work weeks, with cells for individual time slots. The idea was to be able to lay out what you have going on (or could have), before rebooking your meetings to gain some headspace. Over the months I&rsquo;ve built on Will&rsquo;s initial template, and you can find my curent version here: <a href="https://docs.google.com/spreadsheets/d/1jLwhV083ZUBtbO2zxrbYiGjEFgRzFGcXYaB1R3grJ6M/edit?usp=sharing">Calendar defragger template</a></p>
+<p>Last weekend I was speaking at State of the Browser, where the always delightful (and impeccably dressed) <a href="https://www.brucelawson.co.uk/">Bruce Lawson</a> was on before me. As ever Bruce gave us a great talk, but it was the last section about his recent consultancy work that really got my brain ticking over. He&rsquo;d been doing some work with a company called <a href="https://coil.com">Coil</a>, who are backing the creation of a new web standard around a JavaScript API which allows the creation of a payment stream from the user agent to a website: <a href="https://webmonetization.org/">Web Monetization</a>.</p>
 
-<h2 id="start-by-seeing-what-you-need-to-work-with">Start by seeing what you need to work with</h2>
+<p>Years ago now, I worked on the redevelopment of the Fulham FC website. At the time, the UX team of the web agency I worked at proposed the pretty bold suggestion that the football club should remove any advertising from their site that wasn&rsquo;t required contractually. It was judged that the improved user experience would actually be overall more beneficial than the income from the third party ads, and it got implemented. At the time we got quite a bit of press for this.</p>
 
-<p>When approaching a defrag (as with sorting Lego), my first step is to chuck it all out in the open and see what you&rsquo;re working with.</p>
+<p>Not everyone has the luxury of being quite so brave, and many content creators around the web rely on advertising as a business model. Even modest returns can make a difference to someone (particularly considering how the relative value of currency can vary globally), and ads on sites have become extremely commonplace. Of course, they&rsquo;re not without issues. Performance, privacy abuses, unethical targetting, adblockers, and of course the fact that actual <em>content</em> is reduced to a tiny fraction of the page are topics that have been debated long and hard.</p>
 
-<p>My weeks are: a mix of things that <strong>I control</strong> (e.g. my 1:1s with reports), things that <strong>others control</strong> but which I can influence (e.g. a meeting with a couple of other people), and things that others control but <em>haha good luck getting that moved when there&rsquo;s 10 other people on the invite and this was the single permutation that could possibly work</em>. These are both one offs, and recurring meetings.</p>
+<p>Web Monetization comes from a place that believes there should be an open W3C standard, adopted by browser vendors, which facilitates content creators to get paid in other ways. This is a mission I can get on board with.</p>
 
-<p>I like to add these into my spreadsheet and then think about how I can group them. For me personally, it&rsquo;s particularly important to think about the type of work that I&rsquo;m doing and the energy that I&rsquo;m expending (Lara Hogan writes a <a href="https://larahogan.me/blog/manager-energy-drain">great post</a> about this).</p>
+<h2 id="what-is-web-monetization">What is Web Monetization?</h2>
 
-<figure>
-<img src="/img/content/blog/20190827-cats.jpg" alt="A screengrab of the categorisation step" />
-<figcaption>By putting your items into categories you can better visualise how much you have of different types</figcaption>
-</figure>
+<p>The idea is that I, as a content creator, can place a small snippet of code (in the form of a meta tag) onto my site. This contains a &ldquo;payment pointer&rdquo; which is a reference to an online wallet. I did that last night, and it looks like this:</p>
 
-<p>At a recent manager roundtable (where we ask advice and share experiences) a colleague also brought up a case where they were trying to help an engineer find the right balance of productive output and personal development. It&rsquo;s a slightly different use case, but using this approach may also help in those kind of situations. Rather than grouping different types of meetings, you may want to get more granular on visualising your IC work (pairing, head down time, code review etc) against learning, or anything else.</p>
+<p><img src="/img/content/blog/20190918-meta.jpg" alt="A screengrab of the meta tag, with name monetization" /></p>
 
-<h2 id="visualise-your-time">Visualise your time</h2>
+<p>Site visitors (hi!) come to read content. Because this standard is in its infancy you&rsquo;re most likely not using <a href="https://www.pumabrowser.com/">Puma</a>, or one of the <a href="https://help.coil.com/en/articles/2701494-supported-devices-browsers">browser extensions</a> that supports the proposed standard, but if you were, and if you&rsquo;d subscribed to a service like Coil (which gathers subscription money to share with the content creators), then I&rsquo;d be streamed money for the time that you spend reading this. So. Maybe. I&rsquo;ll. Add. Some. More. Words. 😉</p>
 
-<p>Once you&rsquo;ve done that, it&rsquo;s time to move into the last tab. Here,  you can copy the items you&rsquo;ve just grouped, and put them into time slots. Combine your cells to make for as large a period as needed. The template includes a few examples, but think about the information that&rsquo;s most useful to you. I put my lunch and commutes into my calendar, for instance, but you may not want to.</p>
+<p>The choice of subscribing to a wallet service would be your choice, but if you visited as a subscriber my site could reward you with some exclusive content or feature if it detected that monetization was active. Right now it doesn&rsquo;t, all you&rsquo;d get is a fuzzy feeling in your heart, but it <em>could</em>.</p>
 
-<p>As you&rsquo;ll see in the template, I also work on a 4 week pattern (my 1-1s are every fortnight, and I have other monthly meetings), but you may be able to work on a single repeating week or two week schedule.</p>
+<p>Whilst I&rsquo;ve mentioned specific companies above, the most exciting aspect of this is that everyone is working towards an open standard. That would mean that you&rsquo;d be able to use competing services for your sending and receiving wallets, and all manner of browsers.</p>
 
-<figure>
-<img src="/img/content/blog/20190827-cal.jpg" alt="A screengrab of the calendar step" />
-<figcaption>Now you can visualise what your week(s) or month looks like, including the type of activities</figcaption>
-</figure>
+<p>ℹ️ <em>If you want to know more about the proposed tech specs for the standard you can find an explainer <a href="https://github.com/adrianhopebailie/web-monetization/blob/master/explainer.md">here</a> or the spcification is at <a href="https://interledger.org/rfcs/0028-web-monetization/">Interledger RFC 28</a></em></p>
 
-<p>I&rsquo;ve found this particularly useful when I was first taking on my reports and needed to book in a lot of 1:1 slots, but it&rsquo;s also been great to help me review my work patterns now I&rsquo;ve settled in and have handed most of my direct line management over to another manager who reports in to me. Being able to visualise that shift in people-centric time to more strategic initiative/leadership time has helped me work towards the right balance of what I&rsquo;m doing and when.</p>
+<h2 id="i-think-this-is-super-interesting">I think this is super interesting</h2>
 
-<h2 id="put-everything-back-in">Put everything back in!</h2>
+<p>I love that this is a model that could give people income options that aren&rsquo;t advertising. I love that it&rsquo;s another example of the web competing with monetised platforms like native app stores. I love that it is designed with privacy in mind (my site wouldn&rsquo;t know anything about the visitors, short of whether they were paying or not). And I really, really love that it&rsquo;s got some great people on board already.</p>
 
-<p>And finally, the part where it all becomes real. Once you&rsquo;re happy, put everything into your <em>actual</em> calendar. At this point you may want to jump over and read about <a href="https://sallylait.com/blog/2019/02/09/semantic-calendar-emoji/">emoji in your calendar</a> for the finishing touch! 💅🏾</p>
+<p>Despite working in fintech now (😬) I&rsquo;ve never really had an interest in the &lsquo;fin&rsquo;, and it&rsquo;s always been more about the &lsquo;tech&rsquo;. Ordinarily, one company starting something new in the finance space wouldn&rsquo;t catch my eye too much, but what I found <em>really</em> interesting was that Coil have brought <strong>Mozilla</strong> and <strong>Creative Commons</strong> on board to help spread the word through <a href="https://foundation.mozilla.org/en/blog/100-million-investment-reshape-economics-web/">Grant For the Web</a>. These are two organisations that I hugely admire, and I&rsquo;m particularly interested to see how their involvement plays out.</p>
 
-<p>Hopefully this is useful to anyone who feels like they&rsquo;re not quite sure where all your time has gone every week, when you&rsquo;re trying to organise a lot of new meetings all at once, or if you just need a way to plan how you&rsquo;re spending your energy. Here&rsquo;s a link to the <a href="https://docs.google.com/spreadsheets/d/1jLwhV083ZUBtbO2zxrbYiGjEFgRzFGcXYaB1R3grJ6M/edit?usp=sharing">template</a> again.</p>
+<h2 id="it-s-still-early-days">It&rsquo;s still early days</h2>
 
-<p>(Header photo by <a href="https://unsplash.com/@omarg247">Omar Flores</a> on Unsplash. Thanks, Omar!)</p>
+<p>I found it particularly interesting how in some replies to tweets people were already poking holes in potential implementations. This is great! I&rsquo;m no stranger to working on standards hoping to change behaviour (<a href="https://openactive.io">OpenActive</a>), and one thing I&rsquo;ve learnt is that these conversations at early stages are incredibly valuable to helping shape the future. Discussing implementation details like loopholes and exploits, blacklisting and retracting payments will all be really important, as will getting more partners on board to help diversify the ecosystem.</p>
+
+<p>I&rsquo;m also interested in some of the more human aspects around this. Coil applies a flat monthly subscription fee no matter how much you browse, but it&rsquo;s not yet clear to me whether this model would be adopted by others. Page dwell time doesn&rsquo;t always equal the same amount of content consumption, and I&rsquo;d hope to see more discussion about considerations for people using assistive technologies, or to ensure that people who generally read more slowly won&rsquo;t be at a disadvantage and essentially have their wallets run down faster than others.</p>
+
+<p>So like I said, I&rsquo;ve added it to this blog. I&rsquo;m not expecting to make my millions; for me it&rsquo;s more about testing directly, learning more, and contributing in a small way to adoption. But I&rsquo;m very much looking forward to finding out more, and seeing how the standard grows into the future.</p>
+
+<p>On top of the links I&rsquo;ve included above, you may also want to read:</p>
+
+<ul>
+<li>CSS Tricks <a href="https://css-tricks.com/site-monetization-with-coil-and-removing-ads-for-supporters/">removing ads for supporters</a></li>
+<li>Coil post about their <a href="https://coil.com/p/coil/Coil-Mozilla-and-Creative-Commons-Launch-100-Million-Grant-for-the-Web-to-Advance-Web-Monetization-f/Bdp8Hgcf4">Mozilla/Creative Commons team-up</a></li>
+<li>Coil <a href="https://coil.com/docs/">Developr Docs</a></li>
+<li>NPM Package <a href="https://www.npmjs.com/package/react-web-monetization">react-web-monetization</a></li>
+</ul>
 
 
             <div class="blog__morelinks">
                 <h4>Read more from the blog</h4>
                 
                     <p>Back in time:<br />
-                    <a href="https://sallylait.com/blog/2019/04/28/five-months-at-monzo/">Five months at Monzo</a></p>
+                    <a href="https://sallylait.com/blog/2019/08/27/calendar-defrags/">Calendar defrags</a></p>
                 
-                
-                    <p>Forward in time:<br />
-                    <a href="https://sallylait.com/blog/2019/09/18/exploring-web-monetization/">Exploring Web Monetization 💸</a></p>
                 
             </div>
         </div>

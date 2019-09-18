@@ -3,7 +3,7 @@ title: Exploring Web Monetization 💸
 author: Sally
 type: post
 date: 2019-09-18T18:00:00+00:00
-url: /blog/2019/09/18/exploring-web-monitization/
+url: /blog/2019/09/18/exploring-web-monetization/
 description: "It's not often that I hear about an emerging web standard and I find my mind wandering back to it over the next few days, but Web Monetization has done just that. In this post I'll go through what it is, and why I think it's particularly interesting."
 class: bi-1
 categories:
