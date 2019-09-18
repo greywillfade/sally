@@ -13,7 +13,7 @@ headerimg: '/img/content/blog/20190918-hdr.jpg'
 
 <p class="lede">It's not often that I hear about an emerging web standard and I find my mind wandering back to it over the next few days, but Web Monetization has done just that. In this post I'll go through what it is, and why I think it's particularly interesting.</p>
 
-Last weekend I was speaking at State of the Browser, where the always delightful (and impeccably dressed) [Bruce Lawson](https://www.brucelawson.co.uk/) was on before me. As ever Bruce gave us a great talk, but it was the last section about his recent consultancy work that really got my brain ticking over. He'd been doing some work with a company called [Coil](https://coil.com), who are backing the creation of a new web standard around a JavaScript API which allows the creation of a payment stream from the user agent to a website: **Web Monetization**.
+Last weekend I was speaking at State of the Browser, where the always delightful (and impeccably dressed) [Bruce Lawson](https://www.brucelawson.co.uk/) was on before me. As ever Bruce gave us a great talk, but it was the last section about his recent consultancy work that really got my brain ticking over. He'd been doing some work with a company called [Coil](https://coil.com), who are backing the creation of a new web standard around a JavaScript API which allows the creation of a payment stream from the user agent to a website: [Web Monetization](https://webmonetization.org/).
 
 Years ago now, I worked on the redevelopment of the Fulham FC website. At the time, the UX team of the web agency I worked at proposed the pretty bold suggestion that the football club should remove any advertising from their site that wasn't required contractually. It was judged that the improved user experience would actually be overall more beneficial than the income from the third party ads, and it got implemented. At the time we got quite a bit of press for this. 
 
@@ -50,9 +50,8 @@ I'm also interested in some of the more human aspects around this. Coil applies 
 
 So like I said, I've added it to this blog. I'm not expecting to make my millions; for me it's more about testing directly, learning more, and contributing in a small way to adoption. But I'm very much looking forward to finding out more, and seeing how the standard grows into the future. 
 
-If you want to know more you may also want to read about:
+On top of the links I've included above, you may also want to read:
 
-* [Sign up at Coil's site](https://coil.com) to add it to your site
 * CSS Tricks [removing ads for supporters](https://css-tricks.com/site-monetization-with-coil-and-removing-ads-for-supporters/)
 * Coil post about their [Mozilla/Creative Commons team-up](https://coil.com/p/coil/Coil-Mozilla-and-Creative-Commons-Launch-100-Million-Grant-for-the-Web-to-Advance-Web-Monetization-f/Bdp8Hgcf4)
 * Coil [Developr Docs](https://coil.com/docs/)
