@@ -54,7 +54,7 @@ On top of the links I've included above, you may also want to read:
 
 * CSS Tricks [removing ads for supporters](https://css-tricks.com/site-monetization-with-coil-and-removing-ads-for-supporters/)
 * Coil post about their [Mozilla/Creative Commons team-up](https://coil.com/p/coil/Coil-Mozilla-and-Creative-Commons-Launch-100-Million-Grant-for-the-Web-to-Advance-Web-Monetization-f/Bdp8Hgcf4)
-* Coil [Developr Docs](https://coil.com/docs/)
+* Coil [Developer Docs](https://coil.com/docs/)
 * NPM Package [react-web-monetization](https://www.npmjs.com/package/react-web-monetization)
 
 
