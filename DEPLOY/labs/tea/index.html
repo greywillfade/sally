@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Sally Lait"/>
+<title>Quick tea reference</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Personal reminder of the kanji used for different teas">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+<style>
+body {
+    margin: 0;
+    background-color: #d6d9c5;
+    font-family: 'Fredoka One', sans-serif;
+    color: #1a2601;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    text-align: center;
+    margin: 0 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+footer {
+    background-color: #1a2601;
+    padding: 10px;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: #d6d9c5;
+    text-decoration-color: #c1d98f;
+    text-decoration-style: dashed;
+    text-decoration-skip: ink;
+}
+
+.grid-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit);
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper div {
+    background-color: #c1d98f;
+    font-size: 1.7em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.kanji {
+    font-size: 2em;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>🍵 Teas 🍵</h1>
+        
+        <div class="grid-wrapper">
+            <div><span lang="jp" class="kanji">煎茶</span><br />Sencha</div>
+            <div><span lang="jp" class="kanji">抹茶</span><br />Matcha</div>
+            <div><span lang="jp" class="kanji">烏龍茶</span><br />Oolong</div>
+            <div><span lang="jp" class="kanji">玄米茶</span><br />Genmaicha</div>
+            <div><span lang="jp" class="kanji">ほうじ茶</span><br />Houjicha</div>
+            <div><span lang="jp" class="kanji">紅茶</span><br />Koucha (black tea)</div>
+            <div><span lang="jp" class="kanji">麦茶</span><br />Mugicha (roasted barley grains)</div>
+        </div>
+
+    </div>
+    <footer>
+        <p>A personal reminder made for and by <a href="https://sallylait.com">Sally Lait</a></p>
+    </footer>
+</body>
+</html>
