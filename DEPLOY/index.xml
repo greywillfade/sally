@@ -9,10 +9,20 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Wed, 18 Sep 2019 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 into 2020</title>
+      <link>https://sallylait.com/blog/2020/01/01/2019-into-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 18:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2020/01/01/2019-into-2020/</guid>
+      <description>Happy new year! It’s that time again - the Christmas break is drawing to a close, and I’ve got some headspace to look back on what the year has held.
+This year I’ve decided to split my annual reflections into two posts: one looking back over the last 12 months, and another over the decade. This is the first, and it covers rare infections, work, and more. As always I&amp;rsquo;m writing to document everything for myself first and foremost, but if you&amp;rsquo;re interested grab a tea, it’s a long read.</description>
+    </item>
     
     <item>
       <title>Exploring Web Monetization 💸</title>
