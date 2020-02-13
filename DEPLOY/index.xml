@@ -9,10 +9,20 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The loneliness of management</title>
+      <link>https://sallylait.com/blog/2020/02/13/the-loneliness-of-management/</link>
+      <pubDate>Thu, 13 Feb 2020 20:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2020/02/13/the-loneliness-of-management/</guid>
+      <description>I’ve been reflecting on the last year and a bit of working back in engineering management, and have a few posts that I’d like to share. These are things that would have helped me to hear when I was starting out for the first time, so I’m writing particularly for people thinking about becoming a manager. The first one is about friendships and support as a manager.
+Returning to management was a change for me on a few fronts.</description>
+    </item>
     
     <item>
       <title>2019 into 2020</title>
