@@ -19,10 +19,19 @@ I initially contracted with varied companies to build up a range of different ex
 
 ![Sally Jenkinson/Lait at The Lead Developer](/img/promo-sj3.jpg)
 
-## Monzo! 🚀
+## Monzo 🚀
 At the end of 2018, despite not looking for a job, I got lured in by the possibility of working for Monzo - a company I was already a customer of and hugely admired. I wrote a bit more about that decision in the blog post '[A new chapter](/blog/2018/11/21/a-new-chapter/)'.
 
-I'm currently working at Monzo as a Senior Engineering Manager, focusing on the web as a discipline across the company, as well as our COps Collective (covering the internal customer support tools that we've built). I line manage engineers and engineering managers.
+I'm currently working at Monzo as a Senior Engineering Manager, where I'm responsible for the Web discipline, and sit on the Operations leadership council to represent engineering across our Collective (vertical segment of the company). I also line manage other managers and senior engineers.
+
+A few examples of differences I've made since being at Monzo:
+
+* set technical/people strategy and led initiatives within the Ops space
+* redeveloped our Engineering Progression framework (business-wide)
+* led the formation of the Web Platform and Web Consultancy teams
+* improved our web hiring process; scaled the web team
+* helped to introduce engineer-run Lightning Talks
+
 
 ## Outside of the day job
 
