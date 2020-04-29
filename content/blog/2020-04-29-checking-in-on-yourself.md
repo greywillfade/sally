@@ -4,7 +4,7 @@ author: Sally
 type: post
 date: 2020-04-29T19:00:00+00:00
 url: /blog/2020/04/29/checking-in-on-yourself/
-description: "We’re collectively living through a very strange time at the moment. Sometimes it’s hard to answer the question “<i>how are you?</i>” honestly, because you don't actually know."
+description: "We’re collectively living through a very strange time at the moment. Sometimes it’s hard to answer the question “how are you?” honestly, because you don't actually know."
 class: bi-1
 categories:
   - management
