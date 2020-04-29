@@ -136,48 +136,26 @@
         </section>
 
         <div class="blog__contentholder">
-            
-
-<p class="lede">It's not often that I hear about an emerging web standard and I find my mind wandering back to it over the next few days, but Web Monetization has done just that. In this post I'll go through what it is, and why I think it's particularly interesting.</p>
-
+            <!-- raw HTML omitted -->
 <p>Last weekend I was speaking at State of the Browser, where the always delightful (and impeccably dressed) <a href="https://www.brucelawson.co.uk/">Bruce Lawson</a> was on before me. As ever Bruce gave us a great talk, but it was the last section about his recent consultancy work that really got my brain ticking over. He&rsquo;d been doing some work with a company called <a href="https://coil.com">Coil</a>, who are backing the creation of a new web standard around a JavaScript API which allows the creation of a payment stream from the user agent to a website: <a href="https://webmonetization.org/">Web Monetization</a>.</p>
-
 <p>Years ago now, I worked on the redevelopment of the Fulham FC website. At the time, the UX team of the web agency I worked at proposed the pretty bold suggestion that the football club should remove any advertising from their site that wasn&rsquo;t required contractually. It was judged that the improved user experience would actually be overall more beneficial than the income from the third party ads, and it got implemented. At the time we got quite a bit of press for this.</p>
-
 <p>Not everyone has the luxury of being quite so brave, and many content creators around the web rely on advertising as a business model. Even modest returns can make a difference to someone (particularly considering how the relative value of currency can vary globally), and ads on sites have become extremely commonplace. Of course, they&rsquo;re not without issues. Performance, privacy abuses, unethical targetting, adblockers, and of course the fact that actual <em>content</em> is reduced to a tiny fraction of the page are topics that have been debated long and hard.</p>
-
 <p>Web Monetization comes from a place that believes there should be an open W3C standard, adopted by browser vendors, which facilitates content creators to get paid in other ways. This is a mission I can get on board with.</p>
-
 <h2 id="what-is-web-monetization">What is Web Monetization?</h2>
-
 <p>The idea is that I, as a content creator, can place a small snippet of code (in the form of a meta tag) onto my site. This contains a &ldquo;payment pointer&rdquo; which is a reference to an online wallet. I did that last night, and it looks like this:</p>
-
-<p><img src="/img/content/blog/20190918-meta.jpg" alt="A screengrab of the meta tag, with name monetization" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>Site visitors (hi!) come to read content. Because this standard is in its infancy you&rsquo;re most likely not using <a href="https://www.pumabrowser.com/">Puma</a>, or one of the <a href="https://help.coil.com/en/articles/2701494-supported-devices-browsers">browser extensions</a> that supports the proposed standard, but if you were, and if you&rsquo;d subscribed to a service like Coil (which gathers subscription money to share with the content creators), then I&rsquo;d be streamed money for the time that you spend reading this. So. Maybe. I&rsquo;ll. Add. Some. More. Words. 😉</p>
-
 <p>The choice of subscribing to a wallet service would be your choice, but if you visited as a subscriber my site could reward you with some exclusive content or feature if it detected that monetization was active. Right now it doesn&rsquo;t, all you&rsquo;d get is a fuzzy feeling in your heart, but it <em>could</em>.</p>
-
 <p>Whilst I&rsquo;ve mentioned specific companies above, the most exciting aspect of this is that everyone is working towards an open standard. That would mean that you&rsquo;d be able to use competing services for your sending and receiving wallets, and all manner of browsers.</p>
-
 <p>ℹ️ <em>If you want to know more about the proposed tech specs for the standard you can find an explainer <a href="https://github.com/adrianhopebailie/web-monetization/blob/master/explainer.md">here</a> or the spcification is at <a href="https://interledger.org/rfcs/0028-web-monetization/">Interledger RFC 28</a></em></p>
-
 <h2 id="i-think-this-is-super-interesting">I think this is super interesting</h2>
-
 <p>I love that this is a model that could give people income options that aren&rsquo;t advertising. I love that it&rsquo;s another example of the web competing with monetised platforms like native app stores. I love that it is designed with privacy in mind (my site wouldn&rsquo;t know anything about the visitors, short of whether they were paying or not). And I really, really love that it&rsquo;s got some great people on board already.</p>
-
 <p>Despite working in fintech now (😬) I&rsquo;ve never really had an interest in the &lsquo;fin&rsquo;, and it&rsquo;s always been more about the &lsquo;tech&rsquo;. Ordinarily, one company starting something new in the finance space wouldn&rsquo;t catch my eye too much, but what I found <em>really</em> interesting was that Coil have brought <strong>Mozilla</strong> and <strong>Creative Commons</strong> on board to help spread the word through <a href="https://foundation.mozilla.org/en/blog/100-million-investment-reshape-economics-web/">Grant For the Web</a>. These are two organisations that I hugely admire, and I&rsquo;m particularly interested to see how their involvement plays out.</p>
-
-<h2 id="it-s-still-early-days">It&rsquo;s still early days</h2>
-
+<h2 id="its-still-early-days">It&rsquo;s still early days</h2>
 <p>I found it particularly interesting how in some replies to tweets people were already poking holes in potential implementations. This is great! I&rsquo;m no stranger to working on standards hoping to change behaviour (<a href="https://openactive.io">OpenActive</a>), and one thing I&rsquo;ve learnt is that these conversations at early stages are incredibly valuable to helping shape the future. Discussing implementation details like loopholes and exploits, blacklisting and retracting payments will all be really important, as will getting more partners on board to help diversify the ecosystem.</p>
-
 <p>I&rsquo;m also interested in some of the more human aspects around this. Coil applies a flat monthly subscription fee no matter how much you browse, but it&rsquo;s not yet clear to me whether this model would be adopted by others. Page dwell time doesn&rsquo;t always equal the same amount of content consumption, and I&rsquo;d hope to see more discussion about considerations for people using assistive technologies, or to ensure that people who generally read more slowly won&rsquo;t be at a disadvantage and essentially have their wallets run down faster than others.</p>
-
 <p>So like I said, I&rsquo;ve added it to this blog. I&rsquo;m not expecting to make my millions; for me it&rsquo;s more about testing directly, learning more, and contributing in a small way to adoption. But I&rsquo;m very much looking forward to finding out more, and seeing how the standard grows into the future.</p>
-
 <p>On top of the links I&rsquo;ve included above, you may also want to read:</p>
-
 <ul>
 <li>CSS Tricks <a href="https://css-tricks.com/site-monetization-with-coil-and-removing-ads-for-supporters/">removing ads for supporters</a></li>
 <li>Coil post about their <a href="https://coil.com/p/coil/Coil-Mozilla-and-Creative-Commons-Launch-100-Million-Grant-for-the-Web-to-Advance-Web-Monetization-f/Bdp8Hgcf4">Mozilla/Creative Commons team-up</a></li>
