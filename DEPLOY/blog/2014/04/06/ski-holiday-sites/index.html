@@ -143,36 +143,58 @@
 <h2 id="so-what-needs-to-change">So what needs to change?</h2>
 <p>Ski holiday sites are focused on one thing – getting people to book holidays. As a holiday booker you need to find a thing you like, and pay for it. Therefore the search and booking functionality are critical, yet are often the areas with the biggest problems for users. They’re also areas that have huge technical implications, which is often the reason why things don’t get changed lightly.</p>
 <p>This is also why I’m particularly interested in sorting out some of these sites, because this kind of merging of technology with how to better serve users is right up my street. At a high level there are a few key areas that we can look at:</p>
-<!-- raw HTML omitted -->
+<ul class="bloglist">
+  <li>
+    Front-end changes to how the user is shown information, and how they are able to interact with it
+  </li>
+  <li>
+    Change to search logic (what can be searched for, how, how this may impact on API/database etc)
+  </li>
+  <li>
+    Change to booking logic
+  </li>
+  <li>
+    Change to, or addition of external data sources
+  </li>
+  <li>
+    Amendments to content management system in order to better support the new processes.
+  </li>
+</ul>
 <p>It’s hard to go into any detail without knowing any of the detail about anyone’s actual setup, which is why I’d love the opportunity to be brought in formally to investigate. I’ll talk about the realities of this all at the end of this post.</p>
 <p>This post is also going to be long enough as it is, so I’m going to focus here on the search, and potential third party data sources.</p>
 <h2 id="that-being-said8230">That being said…</h2>
 <p>I also need to state the obvious, in that a lot of the big players in this industry haven’t gone responsive yet.</p>
-<p><!-- raw HTML omitted -->  <!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-720" alt="Crystal on Nexus 5" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhome.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhome.jpg 270w, http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhome-250x444.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhome-120x213.jpg 120w" sizes="(max-width: 270px) 100vw, 270px" />  <img class="alignnone size-full wp-image-722" alt="Neilson homepage on mobile" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonhome.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonhome.jpg 270w, http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonhome-250x444.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonhome-120x213.jpg 120w" sizes="(max-width: 270px) 100vw, 270px" /></p>
 <p>(Yes, I like tabs)</p>
-<p>Inghams has, but it feels like a bit of a half-finished experience – see for example the footer, which hasn’t really been tailored for this size of display, just squished. Plus once you choose a holiday and head through to <!-- raw HTML omitted -->book.inghams.co.uk<!-- raw HTML omitted -->, the site jumps back to being a ‘full’ experience – right when you need to get to grips with fiddly radio buttons!</p>
-<p><!-- raw HTML omitted --></p>
+<p>Inghams has, but it feels like a bit of a half-finished experience – see for example the footer, which hasn’t really been tailored for this size of display, just squished. Plus once you choose a holiday and head through to <a href="http://book.inghams.co.uk" target="_blank">book.inghams.co.uk</a>, the site jumps back to being a ‘full’ experience – right when you need to get to grips with fiddly radio buttons!</p>
+<p><img class="alignnone size-full wp-image-721" alt="Inghams footer" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamsfooter.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamsfooter.jpg 270w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamsfooter-250x444.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamsfooter-120x213.jpg 120w" sizes="(max-width: 270px) 100vw, 270px" /></p>
 <p>Ecommerce sites are still seen as a challenge to do responsively for some reason, although this shouldn’t be the case at all. There are numerous examples of how embracing RWD principles can bring huge uplifts in conversion. As usual the <a href="http://twitter.com/rwd">@rwd</a> twitter account run by Ethan Marcotte is a great reference for case studies. Here’s one recent one:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<blockquote class="twitter-tweet" width="500">
+  <p lang="en" dir="ltr">
+    “Sixty days after we launched the new site…mobile revenue increased 107.65%.” <a href="https://twitter.com/electricpulp">@electricpulp</a> on responsive ecommerce: <a href="http://t.co/qZ3gstAnv4">http://t.co/qZ3gstAnv4</a>
+  </p>
+  <p>
+    &mdash; Responsive Design (@RWD) <a href="https://twitter.com/RWD/status/451819260441288704">April 3, 2014</a>
+  </p>
+</blockquote>
 <p>It would be great if some of these sites could adapt to a variety of screen sizes, but also if they could do more than this, and really embrace the wider principles of responsiveness, as well as progressive enhancement.</p>
 <h2 id="ok-lets-find-a-holiday">Ok, let’s find a holiday!</h2>
 <p>Now, I’m not going to start waffling on about how I feel these sites should be presented or what the key end to end processes could look like. What I am going to do, is aim to spark a bit of thought around how certain modules and bits of functionality could be improved. Let’s start with searching.</p>
 <p>I’m also not going to cover every ski holiday provider, but instead am focusing on a few of the big players. The current processes look like this:</p>
 <h3 id="thomson-ski">Thomson Ski</h3>
 <p>The homepage, and sidebar used as a booking method throughout the site requires the following. This is as it is presented on page load, and where there are pre-filled values these items are mandatory.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-727" alt="Thomson ski search" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/thomson-search.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/thomson-search.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/thomson-search-120x347.jpg 120w" sizes="(max-width: 250px) 100vw, 250px" /></p>
 <p>There are alternate routes to booking, through browsing resorts, deals, or holiday types, but eventually you end up entering a subset of the above.</p>
 <h3 id="crystal">Crystal</h3>
 <p>Crystal, being owned by the same group, has exactly the same search mechanism.</p>
 <p>What they have done fairly recently though, is to bring in homepage modules allowing you to search by the skill of your party members, and by certain criteria such as “<em>less than 2 hour transfer</em>”. This then suggests several resorts that you may like. There’s also a promo linking to their Snow Reports section, where you are able to check the current snow levels and forecasts, again by resort.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-728" alt="Crystal homepage search" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhomesearch.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhomesearch.jpg 676w, http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhomesearch-250x214.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalhomesearch-120x102.jpg 120w" sizes="(max-width: 676px) 100vw, 676px" /></p>
 <h3 id="neilson">Neilson</h3>
 <p>This site takes a slightly different approach. As they also provide beach holidays and sailing, there is a radio button to make the search ski specific, but otherwise it’s pretty much the same as above. I’ll spare you the image.</p>
 <p>Again it starts with when you’re going, Where To? (Anywhere is permitted), and How Long For? (Don’t mind, or 7). Where From (Any is included), how many rooms, and the number of adults/children make up the rest of the form, meaning that this is instantly a lot more open a search than the previous two. It is also possible to reach the booking stage through browsing other site content.</p>
 <h3 id="inghams">Inghams</h3>
 <p>Inghams has done something interesting. They’ve introduced some huge imagery, and an extremely simply initial search step, simply “<em>Where can we take you?</em>”, and “<em>When?</em>”. When using this last season, I particularly liked that the Where element also allowed variants (I believe I was able to search by a particular extended ski area – “Paradiski”, for example, covering Les Arcs and La Plagne) however now this only appears to allow the selection of a single hotel option, rather than an area. Typing “Obergurgl” – the resort I went to in March, will not allow me to proceed. I suspect this may have something to do with availability (we’re at the end of the season and they’re probably booked up), as deeper within the site, on choosing a country, you are presented with a list of resorts that includes the ability to search by wider areas.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-724" alt="Inghams homepage" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamshome.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamshome.jpg 1024w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamshome-250x135.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamshome-700x380.jpg 700w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamshome-120x65.jpg 120w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <h2 id="so-whats-the-problem">So what’s the problem?</h2>
 <p>The searches are all very, very linear. You usually enter a set of values, maybe modify them, but then get to a point where if you need something else, you have to input everything right from the start. There is a huge assumption being made that the person searching already knows some element of what they want – either where to go, or when, and from where. This places the burden of research on them right from the start, and tends to lead to them going off to read up on things, or to go through the booking process multiple times, trying different options.</p>
 <h3 id="me-me-me">Me, me, me</h3>
@@ -192,14 +214,78 @@
 <p>Thomson don’t appear to be allowed to share the Crystal data, and there is no obvious snow data section.</p>
 <p>Crystal are using data from the <a href="http://www.skiclub.co.uk/skiclub/snowreports/">Ski Club of Great Britain</a> and <a href="http://www.onthesnow.co.uk/skireport.html">On The Snow</a>, but sadly they don’t publicise information about their APIs either, so we can’t see how or what you can search. The former has some fantastic data on their site though, so it’s likely that we could grab most of, if not all of this:</p>
 <p><strong>Snow report by resort:</strong></p>
-<!-- raw HTML omitted -->
+<ul class="bloglist">
+  <li>
+    Last snowed (date)
+  </li>
+  <li>
+    Amount snowed in the last 7 days (in cm)
+  </li>
+  <li>
+    Current snow depth on upper piste (in cm)
+  </li>
+  <li>
+    Current snow depth on lower piste (in cm)
+  </li>
+</ul>
 <p>** Forecast by resort:**</p>
-<!-- raw HTML omitted -->
+<ul class="bloglist">
+  <li>
+    Current weather
+  </li>
+  <li>
+    Next 9 days
+  </li>
+  <li>
+    Current snow depth on upper piste (in cm)
+  </li>
+  <li>
+    Current snow depth on lower piste (in cm)
+  </li>
+</ul>
 <p>There is a <strong>comparison function for resorts</strong>, returning:</p>
-<!-- raw HTML omitted -->
+<ul class="bloglist">
+  <li>
+    Current snow depth on upper piste (in cm)
+  </li>
+  <li>
+    Current snow depth on lower piste (in cm)
+  </li>
+  <li>
+    Last snowed (date)
+  </li>
+  <li>
+    Amount of snow in the last 7 days (in cm)
+  </li>
+  <li>
+    ‘Historical’ upper piste level (in cm) &#8211; no definition provided for ‘historical’ here
+  </li>
+  <li>
+    ‘Historical’ lower piste level (in cm)
+  </li>
+  <li>
+    Current temperature
+  </li>
+  <li>
+    Current weather
+  </li>
+</ul>
 <p><strong>Historical data by resort:</strong></p>
 <p>Gives the ability to plot the following by resort graphically as well as in a table:</p>
-<!-- raw HTML omitted -->
+<ul class="bloglist">
+  <li>
+    Upper piste depth
+  </li>
+  <li>
+    Lower piste depth
+  </li>
+  <li>
+    Fresh snow (daily)
+  </li>
+  <li>
+    Maximum temperature
+  </li>
+</ul>
 <p>Data can be compared by resort, and filtered by season and the week.</p>
 <p>On the Snow provides similar data, but also has the ability to provide ‘powder dump alerts’ (although it’s again not clear if this is exposed through an API). If it was, this is something that could be integrated into automated mailshot alerts for the holiday company.</p>
 <p>The above is all fantastic information, and whilst some of the sites seem to expose it, nobody seems to be making the most of it. Why not, right at the start of the search process, allow people to choose “<em>I want to go somewhere with over 1m of snow on the upper slopes</em>“? This will be particularly useful at the end of the season for late deals, or as with me this season, booking somewhere with over a ‘safe’ amount on the upper slopes meant that even a ridiculous amount of melt over a couple of months would still leave us with enough to be good.</p>
@@ -226,23 +312,23 @@
 <p>Being able to associate additional features to site content will help it resonate more with users. This doesn’t have to be just around resorts or hotels however. As mentioned, introducing seasonal data such as weather trends, snowfall, or even half term dates could help people get to their holiday much more quickly.</p>
 <p>In technical terms, this could potentially be a challenge if the back-end responsible for the attributes of bookings available is inflexible, and does not allow for the addition of such meta data easily. It is usually possible to tie editorial content to such records, however consideration would need to be given to how searches then work – is information from both stores amalgamated, and our search actually looks at this data set rather than at the source of the booking information? Prices would be an obvious exception to this, as any kind of caching could introduce inaccuracies. The editorial challenge would also be a considerable undertaking – the more information is provided to users, the more has to be gathered and input.</p>
 <h3 id="improved-piste-maps">Improved piste maps</h3>
-<p>As well as snow levels, I will always study an area’s piste map before even considering any hotels. I don’t care how nice your chalet is – if you’ve just got two runs in your resort, and both require a 20 minute drag lift to get to the top, I’m probably not interested. Maps on ski holiday sites are generally poor. <!-- raw HTML omitted -->Here’s a good one<!-- raw HTML omitted -->, for base-level comparison with the below.</p>
+<p>As well as snow levels, I will always study an area’s piste map before even considering any hotels. I don’t care how nice your chalet is – if you’ve just got two runs in your resort, and both require a 20 minute drag lift to get to the top, I’m probably not interested. Maps on ski holiday sites are generally poor. <a title="Good Saalbach/Hinterglemm map" href="http://www.igluski.com/images/_i5383562.jpg" target="_blank">Here’s a good one</a>, for base-level comparison with the below.</p>
 <p>Neilson tends to hide theirs within a carousel, obviously cutting off most information.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-742" alt="Neilson piste map" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonpiste.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonpiste.jpg 518w, http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonpiste-250x149.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/neilsonpiste-120x71.jpg 120w" sizes="(max-width: 518px) 100vw, 518px" /></p>
 <p>Thomson and Crystal both provide the same cut off version (Crystal’s implementation being a bit buggy), with a link to download a full version or a click/tap action to open it in a new window. Sadly however this is one without any of the detail found on a ‘proper’ map as you may pick up on the mountain, but at least it gives you an idea.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-729" alt="Crystal piste map" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalpiste.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalpiste.jpg 551w, http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalpiste-250x211.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/crystalpiste-120x101.jpg 120w" sizes="(max-width: 551px) 100vw, 551px" /></p>
 <p>Inghams yet again use the joy of a carousel to convey some of the piste map.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-730" alt="Inghams piste map" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamspiste.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamspiste.jpg 646w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamspiste-250x157.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/inghamspiste-120x75.jpg 120w" sizes="(max-width: 646px) 100vw, 646px" /></p>
 <p>Maps are frequently out of date too. It’s an editorial challenge, but making sure that high quality piste maps are able to be uploaded at the start of each season should be a content management priority. Offering high quality, clear images that have the same information as in-resort maps should be an absolute priority. Having these easily accessible, especially when grading the quality of runs for different levels of skiers, will really help people get a feel for the resort they’re looking at.</p>
 <h3 id="make-the-data-sexy">Make the data sexy!</h3>
 <p>All of the sites tend to provide a dizzying array of statistics, but these are just put on the page in a very dry way. I’ve already talked about how I’d love to see more snow data surfaced in an attractive way (that’s why we’re all there after all), but other information could be made more useful too.</p>
 <p>Resort height, total km of piste, number of runs, number of lifts, longest run, number of restaurants – this is all great stuff. How about comparing it to the average for the country and displaying a comparison? How about providing more context – “<em>Longest run is Schattberg at 7km. This takes most people about 20 minutes</em>”.</p>
-<p>A lot of resorts are now introducing apps. I have previously written about the <a href="http://recordssoundthesame.com/blog/2013/03/17/skiline-data-love/" title="Skiline: Data love">Skiline</a> app, and this season used two new ones, the local <a href="http://www.obergurgl.com/urlaub/EN/GG/WI/urlaubsplanung/service/mobile_apps/iobergurgl/index.html" title="iObergurgl">iObergurgl app</a>, and <!-- raw HTML omitted -->MapToSnow<!-- raw HTML omitted --> which appears to mainly cover the Austrian/German/Swiss resorts. Partnering with such a provider and introducing user-generated data could provide some great data about most popular runs this month, how much time people spend a day on the slopes (compared to other resorts), and even things like top speeds achieved. It could also be a separate channel for engagement if these companies were to offer their customers exclusive offers by partnering with such providers.</p>
+<p>A lot of resorts are now introducing apps. I have previously written about the <a href="http://recordssoundthesame.com/blog/2013/03/17/skiline-data-love/" title="Skiline: Data love">Skiline</a> app, and this season used two new ones, the local <a href="http://www.obergurgl.com/urlaub/EN/GG/WI/urlaubsplanung/service/mobile_apps/iobergurgl/index.html" title="iObergurgl">iObergurgl app</a>, and <a title="MapToSnow" href="http://www.maptosnow.com" target="_blank">MapToSnow</a> which appears to mainly cover the Austrian/German/Swiss resorts. Partnering with such a provider and introducing user-generated data could provide some great data about most popular runs this month, how much time people spend a day on the slopes (compared to other resorts), and even things like top speeds achieved. It could also be a separate channel for engagement if these companies were to offer their customers exclusive offers by partnering with such providers.</p>
 <h3 id="wheres-my-hotel">Where’s my hotel?</h3>
 <p>Walking in ski boots isn’t fun. Ok, it’s a bit fun. (You can pretend you’re a giant mech warrior, or you can try to moonwalk). But when you’re carrying skis, and you’re ever so slightly hungover from the 8 mugs of gluhwein you thought it would be good to drink before bed, you’re going to want to get back out there as quickly as possible.</p>
 <p>Hotel descriptions are usually poor. Case in point “<em>Central location. 2 minutes walk to Reiterkogelbahn ski lift</em>” from the Thomson site. Having stayed at the hotel this description is from, I know that it’s 2 minutes, up a road that has a lot of traffic, which is up a pretty steep hill.</p>
 <p>Providing something like a Google map doesn’t give you all of that context, but it’s a start. A flat view gives you an idea where you are in relation to the main lifts. If Street View is available, even better, however Google Earth in this instance gives us a better idea of the fact that we’ll be walking up a hill.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><img class="alignnone size-full wp-image-744" alt="Google Earth view" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/googleearth.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/googleearth.jpg 646w, http://recordssoundthesame.com/wp-content/uploads/2014/04/googleearth-250x134.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/googleearth-120x64.jpg 120w" sizes="(max-width: 646px) 100vw, 646px" /><img class="alignnone size-full wp-image-745" alt="Google Maps view" src="http://recordssoundthesame.com/wp-content/uploads/2014/04/googlemaps.jpg" srcset="http://recordssoundthesame.com/wp-content/uploads/2014/04/googlemaps.jpg 718w, http://recordssoundthesame.com/wp-content/uploads/2014/04/googlemaps-250x104.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2014/04/googlemaps-700x292.jpg 700w, http://recordssoundthesame.com/wp-content/uploads/2014/04/googlemaps-120x50.jpg 120w" sizes="(max-width: 718px) 100vw, 718px" /></p>
 <p>The red dotted lines in the Google Maps image are lifts, and the blue lines are runs into the village.</p>
 <p>It’s possible to embed both Google Maps and Earth data via their respective APIs, although it’s worth considering that rate limits and usage restrictions both apply. There are several other data sources available, so often the decision is down to how you feel about Google’s services, how much traffic you have, what other strategic relationships are in place, etc.</p>
 <p>This information would help the user be better informed, but it’s also worth considering gathering feedback from users and displaying this. Many companies send out questionnaires about the holiday. Gathering information on the closest lifts, and location of the hotel in general could be done through this channel as well as by asking for it on the page. This could then lead to modules such as ‘Top 5 closest hotels to the lifts’, or ‘Top 5 quietest hotels’ (i.e. furthest away from that awful club…), again allowing information that already likely exists to be presented in useful ways.</p>

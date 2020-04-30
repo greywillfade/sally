@@ -136,18 +136,20 @@
         </section>
 
         <div class="blog__contentholder">
-            <!-- raw HTML omitted -->
+            <p class="lede">
+  In one of those &#8216;blog about it so I don&#8217;t forget later&#8217; moments, today I happened to discover something that shouldn&#8217;t have surprised me, but which could be pretty useful in the right circumstances &#8211; the ability to introduce live Google translations into a spreadsheet.
+</p>
 <p>I’m currently working on a project which involves stakeholders from France and Germany as well as the UK. This afternoon I was sent over a spreadsheet of feedback in xslx format, all in German, and considered the best way to make this understandable to my teammates. I have a small amount of (mainly skiing and food-related) German ability, but ecommerce and technical terms were another matter. I needed it translating.</p>
-<p>My first port of call was the <!-- raw HTML omitted -->Google Translate<!-- raw HTML omitted --> website, where I hoped to find some kind of upload feature. No such luck. I tried pasting in the whole spreadsheet, which unsurprisingly returned a huge mess of words.</p>
+<p>My first port of call was the <a href="https://translate.google.com/" target="_blank">Google Translate</a> website, where I hoped to find some kind of upload feature. No such luck. I tried pasting in the whole spreadsheet, which unsurprisingly returned a huge mess of words.</p>
 <p>Taking it a step back, I headed to Google Drive, where I imported my Excel file and turned it into a Google Sheet. At this point I was hoping for a magical translate button in one of the menus, but again no such luck.</p>
 <h2 id="the-solution">The solution</h2>
-<p>At this point I came across the reference for the aptly named <!-- raw HTML omitted -->GOOGLETRANSLATE<!-- raw HTML omitted --> function within Google Sheets, which did almost exactly what I needed. It’s been around for ages, but is new to me, and seems like it’s the kind of thing that you won’t know about unless you look specifically for it. The formula is as follows:</p>
-<!-- raw HTML omitted -->
-<p>Where <code>text</code> is either a string (e.g. <code>&quot;Spreadsheets are fun!&quot;</code>) or a (single) cell reference (e.g. <code>A1</code>), and source and target languages are the two character ISO <!-- raw HTML omitted -->language code<!-- raw HTML omitted -->. It is possible to use <code>auto</code> in place of the source language country code if you’d like to have the source auto-detected.</p>
+<p>At this point I came across the reference for the aptly named <a href="https://support.google.com/docs/answer/3093331?hl=en" target="_blank">GOOGLETRANSLATE</a> function within Google Sheets, which did almost exactly what I needed. It’s been around for ages, but is new to me, and seems like it’s the kind of thing that you won’t know about unless you look specifically for it. The formula is as follows:</p>
+<pre>GOOGLETRANSLATE(text, [source_language, target_language])</pre>
+<p>Where <code>text</code> is either a string (e.g. <code>&quot;Spreadsheets are fun!&quot;</code>) or a (single) cell reference (e.g. <code>A1</code>), and source and target languages are the two character ISO <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">language code</a>. It is possible to use <code>auto</code> in place of the source language country code if you’d like to have the source auto-detected.</p>
 <p>For example, if you’d like to translate cell A1 from French to English, paste the below into a new cell.</p>
-<!-- raw HTML omitted -->
-<p>The way that I used this was to add a new column next to the source columns, paste in the formula at the top, drag it down to cover all rows in the column, and then hide the original version. You’ll end up with something like this:<!-- raw HTML omitted --></p>
-<p><a href="http://recordssoundthesame.com/wp-content/uploads/2015/11/translate.png"><img src="http://recordssoundthesame.com/wp-content/uploads/2015/11/translate.png" alt="Google translate and spreadsheets"></a><!-- raw HTML omitted -->A snippet of the translated spreadsheet<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<pre>=GOOGLETRANSLATE(A1,"fr","en")</pre>
+<p>The way that I used this was to add a new column next to the source columns, paste in the formula at the top, drag it down to cover all rows in the column, and then hide the original version. You’ll end up with something like this:<figure></p>
+<p><a href="http://recordssoundthesame.com/wp-content/uploads/2015/11/translate.png"><img src="http://recordssoundthesame.com/wp-content/uploads/2015/11/translate.png" alt="Google translate and spreadsheets"></a><figcaption>A snippet of the translated spreadsheet</figcaption></figure></p>
 <p>It would be great if you were somehow able to apply it to the whole sheet, but until that happens this is a big improvement over translating each individual cell. Hopefully this will help someone else in a similar situation!</p>
 
 

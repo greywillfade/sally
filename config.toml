@@ -8,6 +8,11 @@ copyright = "All content is copyright Sally Lait"
 # Define how many posts should appear on a site
 paginate = 10
 
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.

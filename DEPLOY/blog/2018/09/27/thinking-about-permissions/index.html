@@ -143,12 +143,18 @@
 <p>But first, what exactly are we talking about?</p>
 <h2 id="what-do-we-mean-by-permissions">What do we mean by ‘permissions’?</h2>
 <p>Here&rsquo;s a very quick demo where I&rsquo;ve combined examples from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/notification">Notification</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation">Geolocation</a> examples over at MDN.</p>
-<!-- raw HTML omitted -->
+<figure>
+<a href="https://codepen.io/greywillfade/pen/KGPqra/"><img src="/img/content/blog/20180927-pen.jpg" alt="Side by side views of Brad Frost's Death to Bullshit" /></a>
+<figcaption><a href="https://codepen.io/greywillfade/pen/KGPqra/">Permissions demo</a> on <a href="https://codepen.io">CodePen</a></figcaption>
+</figure>
 <p>If you visit the demo and click on each of the buttons, unless you’ve previously given or revoked permission for the CodePen domain you should be shown a little dialogue asking for permission to do each action. How this looks will vary slightly depending on the browser that you’re using. If for any reason it doesn’t work well, we’ll come on to that a bit later.</p>
 <p>These permissions give you, the user, control over when and how a website can potentially do something a little bit more sensitive. They get invoked before actions like triggering geolocation and notifications (as we can see in the demo), through to a range of others including the ability for sites to access your camera, microphone, or even (in the right browser) the <a href="https://www.youtube.com/watch?v=YGG5E-69_2k">ambient light readings</a>.</p>
 <p>How important is this? Well, that’s down to you to decide, and this gives you the ability to do so. Perhaps you’re absolutely fine with giving access to everything without question. Alternatively may be the kind of person that doesn’t want <em>any</em> information that could be used to <a href="https://www.w3.org/TR/permissions/#privacy-considerations">personally identify you</a> collected, or more likely you’re somewhere in the middle. By making it clear what’s being requested and when, permissions give the <strong>user some control</strong>.</p>
 <p>In practice, this requires a collaboration between the browser and the website developer. The developer is able to call APIs, which if supported may trigger an interaction element within the browser. They may also be able to query what’s been granted or denied, and revoke access programatically. Browsers can also provide visual cues about the permissions that you’ve given, and allow you to manage those through settings menus. They may also invoke a permissions dialogue automatically because of certain situations, or criteria that are met.</p>
-<!-- raw HTML omitted -->
+<figure>
+<img src="/img/content/blog/20180927-ffperm.jpg" alt="Some of the Firefox permission controls" />
+<figcaption>Some of the Firefox permission controls</figcaption>
+</figure>
 <p>This topic can easily spiral off into individual discussions around things like privacy, individual web APIs, and lots of dark patterns, but for the rest of this post I’m just going to focus on the permission aspect, and some key questions around how we can make them work well for everyone. Whilst I’m going to use examples of what we can currently do and how these work, I also want to think about this through the lens of future functionality - the questions I pose are as much about how things could work in the future as they are about the realities of today.</p>
 <h2 id="the-whats-and-hows-of-permissions">The ‘what’s and ‘how’s of permissions</h2>
 <p>In order to do permissions well, I think there are two key areas to think about - <em>what’s</em> actually being requested, and <em>how</em> it’s being requested.</p>
@@ -160,7 +166,10 @@
 <h4 id="lets-talk-about-notifications">Let’s talk about notifications</h4>
 <p>I think that notifications are particularly crucial to the permission discussion, because to an extent they’re fundamental to it: permissions <em>are</em> often currently notifications. I personally know there’s a big difference between browser-based notification (e.g. requesting access to camera) and site notifications (“you’ve got a message! would you like to subscribe to new news forever?!”). I think that this is true for most people within the web creator bubble, but again I wonder whether there’s general <em>pop-up fatigue</em> in play for the masses, and whether this impacts on modal-based interactions around permissions (as opposed to them being baked more into the browser chrome itself, etc).</p>
 <p>As so many others have pointed out, we’re living in a golden age of all kinds of popup bullshit, stolen screen real-estate, but also notification fatigue more generally. I’ve certainly been guilty of just getting rid of anything that’s popped up, and have actually dismissed things that are useful - from permissions requests through to phone notifications (there’s a reason I have the Android Notification Log as a shortcut on my home screen!). Add to Home Screen I think will be another important discussion here as that becomes more accepted and understood.</p>
-<!-- raw HTML omitted -->
+<figure>
+<img src="/img/content/blog/20180927-brad.jpg" alt="Side by side views of Brad Frost's Death to Bullshit" />
+<figcaption>Side by side views of Brad Frost's <a href="http://deathtobullshit.com">Death to Bullshit</a> site</figcaption>
+</figure>
 <h4 id="thinking-about-implementation">Thinking about implementation</h4>
 <p>Implementation-wise, I have quite a lot of questions. It would be interesting to further explore areas including:</p>
 <p>1 - The <strong>relationship between more passive user activities</strong> (e.g. loading a page), <strong>more active ones</strong> (e.g. explicit button presses), <strong>the resulting permissions</strong>, and <strong>responsibilities</strong>. At the time of writing, many API requests can be triggered by whatever we like, so long as the functionality is supported by the browser. Other things, like Add to Home Screen can be fired by the browser itself when a set of (differing) criteria are met. Where we can check for browser <em>support</em>, should there also be checks built in for the <em>appropriateness</em> of being able to make calls, or is this adding too much control and complexity around something which really needs better implementation guidelines? Is it more hassle and going to cause more problems than it’s actually worth?</p>
