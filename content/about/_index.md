@@ -22,10 +22,11 @@ I initially contracted with varied companies to build up a range of different ex
 ## Monzo 🚀
 At the end of 2018, despite not looking for a job, I got lured in by the possibility of working for Monzo - a company I was already a customer of and hugely admired. I wrote a bit more about that decision in the blog post '[A new chapter](/blog/2018/11/21/a-new-chapter/)'.
 
-I'm currently working at Monzo as a Senior Engineering Manager, where I'm responsible for the Web discipline, and sit on the Operations leadership council to represent engineering across our Collective (vertical segment of the company). I also line manage other managers and senior engineers.
+I'm currently working in leadership at Monzo as a Senior Engineering Manager, where I'm responsible for engineering within for the Operations Collective (a vertical slice of the company, covering our customer support, financial crime, and more), and am discipline lead for web across the company.
 
 A few examples of differences I've made since being at Monzo:
 
+* grown the Operations engineering and management team - my line now includes 4 other engineering managers (some also manage managers), and around 40 engineers, split across multidisciplinary squads.
 * set technical/people strategy and led initiatives within the Ops space
 * redeveloped our Engineering Progression framework (business-wide)
 * led the formation of the Web Platform and Web Consultancy teams
