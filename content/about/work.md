@@ -1,100 +1,74 @@
 +++
-description = "A few examples of some projects that I've worked on, along with nice things people have said"
+title       = "Open to new roles!"
+description = "Things I've done, and what I'm looking for next"
 menuflag    = "about"
 +++
 
-I originally started out agency-side as a back-end developer, before I moved into the management of the development team in a technical/solutions architect role, ending up at Head of Technology level. 
+Monzo is going through a collective redundancy consultation process at the moment, and as part of that I've been notified that my role is at risk. I've loved everything I've done here so far, and I'm confident in my performance and chances of staying on, but given the current situation I've decided I'd like to understand all of my options. I'd therefore like to hear from anyone that may want to work together now or in the future 👋🏻
+
+
+## My current role
+Since last year I've been working in the role of an **Engineering Director** at Monzo. I'm responsible for **engineering within for the Operations Collective** (one of 5 vertical slices of the company), and am **discipline lead for web** across the business. My work includes things like:
+
+👥 Sitting on the leadership team for Ops Collective to represent engineering, alongside the COO, VP Ops etc.
+
+👩🏻‍💻 My line of management in Operations includes 4 other engineering managers (some also manage managers), and around 40 engineers, split across 6 multidisciplinary squads.
+
+📈 Setting strategy, KRIs, making decisions around technology, or situations that affect our engineers.
+
+👭 Partnering with technical leads, senior engineers, and product managers to help drive technical initiatives, strategic work, and scaling improvements.
+
+🔢 Headcount planning, team structure.
+
+💼 Contributing to management best practices and initiatives.
+
+🕸 Setting strategy for the web at Monzo.
+
+🙌🏽 Leading hiring for the web, including aiming to attract and hire high potential team members from diverse backgrounds.
+
+😬 Risk and compliance responsibilities.
+
+Some of the things that I'm most proud of include proposing and starting up new teams (Web Platform and Web Consultancy), leading the successful delivery of redeveloping Monzo’s engineering progression framework, and helping to scale our engineering function to support the company reaching over 4.2 million customers.
+
+
+
+## Performance and feedback
+
+In my last performance review I gained a rating of "exceeding expectations", the highest rating.  Here's the kind of feedback that I get:
 
 <blockquote>
-<p>“Sally recognised very quickly (even in her early career) that a core role within Digital is the ability to communicate in a common language. Translating complex Technical elements into consumable pieces, which can then be communicated with internal stakeholders and clients alike. She also demonstrated on many occasions a talent for being able to translate back across, from client to developers, knowing when to add in her own concepts and fill in gaps that may not have been considered.</p>
- 
-<p>Being able to bridge these skill sets (often demographics) is a rare ability, and meant that Sally excelled during her time in the Agency, progressing to a senior, and trusted, position extremely quickly.</p>
- 
-<p>Sally’s aptitude was leveraged wherever possible, especially for projects that required extensive cross team comms. This extended further into a Head of Technology role, which was fundamental to our business. Sally created and developed senior client/stakeholder relationships, whilst always being able to retain her extensive Technical knowledge. This enabled her to remain trusted and respected by the Development teams.”</p>
- 
-<b><i>James Sarre, Head of Production at Lightmaker</i></b>
+<p>
+You can look at something, like the web discipline, and figure out what the problems are and how you might solve them. I’ve seen you do this to great effect in the web discipline, turning those plans into action. Every time I read one of your docs it makes me think “yes, Sally has got this”.
+</p>
 </blockquote>
-
-
-On starting my self-employed journey I originally worked in technical discovery-centric roles as contracts (agencies, and one project for SSE alongside Accenture), but then worked to gain a roster of my own clients. Some that I'm proud of (and able to talk about!) have included:
-
-
-## RNLI
-
-* Originally getting involved to help define their digital technical standards and when to select different technology approaches, this evolved into advising on pattern libraries, which ultimately led to the launch of the [Creative Toolkit](rnli.org/creative-toolkit).
-* Being a champion for concepts such as accessibility, performance, and proactively educating on new technology capabilities including Progressive Web Apps.
-* Involvement in internal systems upgrades (including intranet).
-* Advice around ongoing working process changes (greater agility, collaboration, introducing DevOps thinking etc).
-* Review of 200+ lifeboat station websites/social media (created by volunteers) to help identify technology, classify areas including security, and create written guidelines to help people who were thinking about creating or re-doing a website.
-* Advising on recruiting an in-house development team.
-* Supporting through a new agency selection process, including internal requirements gathering.
-* Supporting across rnli.org and numerous campaign sites including carrying out reviews and providing consultancy.
-* Coaching team members across various topics.
-* Running strategic workshops with senior management to set strategy and vision around digital.
 
 <blockquote>
-<p>“At the RNLI, we have been working with Sally since 2016 and she has proved an invaluable asset to our Digital team.  She provides us with unbiased technical consultancy, ranging from reviews of solution designs, code and supplier proposals, to advice on how to evolve our team, covering both the skills and the toolset to build to make us fit for the future. I’m always impressed by her ability to come into a chaotic situation, gather some bare bones of needs and challenges from me and then deliver back tremendous value. Furthermore, Sally is a joy to work with.  She has great stakeholder management skills and builds relationships quickly, which has really helped her to add value at the RNLI.”</p>
- 
-<b><i>Melanie Vasseur, Head of Digital at the RNLI</i></b>
+<p>You are a very supportive manager who has built excellent relationships with high trust and safety, I wish I had this superpower. Across the people I manage, you are still getting the best feedback from your reports on trust and safety.</p>
 </blockquote>
-
-
-## Manor Racing F1
-One of my favourite projects, this focused on the Operations side of the business, being tasked with being the “digital gap finder” to identify new opportunities for getting parts on the race car faster and cheaper. I also looked at other opportunities, including the potential benefits of the team gaining better insight from data (off the track).
-
-* Full process blueprinting
-* Review of systems, data, and paper-based materials.
-* Interviews with factory and head office staff.
-* Compilation of opportunity and pain points.
-* Review with senior management and decision over ideas to take forward.
-* Creation of two prototypes (which I built).
-* Feedback on these from the team members.
-* Involvement in solutions architecture and vendor selection.
 
 <blockquote>
-<p>“I had the privilege to bring Sally onto a core project within Manor Racing, where time was of the essence and people's availability was very restricted. Sally not only managed to rally up the troops and get access to all the resources she needed, she produced an astoundingly detailed overview of where our Operations team were vs. where they should be, with a step by step guide on how to get there and even working prototypes of some of the areas we should target first.</p>
-
-<p>Sally is incredibly engaging, friendly and deeply technical, whilst remaining approachable to the non-tech savvy people so that she gets the best out of them in order to help businesses embrace digital transformation.</p>
-
-<p>Not only would I love to work with Sally again, but I am already planning a couple of projects where she will be more than welcome to join should she be available!”</p>
-
-<b><i>Alfonso Ferrandez, Manor Racing F1 CTO</i></b>
+<p>She is very thoughtful about the strategy of ops & how we can get it to a place where squads have momentum, impact & individuals are happy and motivated at work. She balances this with pragmatism about the changes we can/should make now and the ones we need to be patient about & focus on a
+longer lasting change in culture. Example - making people changes within ops and balancing company needs with engineers personal development.</p>
 </blockquote>
 
-## OpenActive
-
-* Ongoing involvement with the Open Data Institute core team stewarding the OpenActive initiative.
-* Writing how-tos and tutorials around data publication and consumption, focusing on topics including how to harvest data, understanding the data model, and a status dashboard.
-* Research into existing transfer mechanisms, attributes, and standards around event data, both within the physical activity sector and more broadly.
-* Contributed to the W3C community group compilation of standards around publishing opportunity data, and booking.
-* Advised and documented API best practices for community members.
-* Involved in running discovery for the OpenActive website, technology selection, championing of pattern library and design system, agency procurement, and testing.
-* Developer experience (DX) research.
-
-<blockquote>
-<p>“I worked with Sally at the Open Data Institute as part of the OpenActive team, where I was leading the standards and tools work-stream. Sally played a key role in helping us to research and understand the needs of our community of data publishers and innovators, capturing business and technical requirements, understanding the design of existing databases and APIs, and in using those to guide and inform our technical work. Sally quickly understood the goals of the programme and, working under her own initiative, was able to produce exactly the insights we needed to achieve some early successes.</p>
-
-<p>Sally also took the team through a service design process to help us re-launch our website in a way that represented the needs of the whole programme and the diverse community with which we are working.</p>
-
-<p>Sally is one of the few people I've worked with who can seamlessly move between a business and technical context. She's able to clearly articulate business needs to developers so that they can create useful solutions, while also presenting technical options to a wider audience in accessible ways. She's easily able to move between providing strategic advice, doing user research and writing code to explore a technical solution. She delighted the team with some quirky and fun explorations of the data published as part of the programme.</p>
-
-<p>I'm looking forward to working with Sally again, and would recommend her for any role requiring someone with an excellent mix of strategic, business and technical skills.”</p>
-
-<b><i>Leigh Dodds, Data Infrastructure Programme Lead, Open Data Institute</i></b>
-</blockquote>
-
-## Leading UK/European holiday rentals company
-
-A company who span over 20 brands, this project included work in both the UK and Denmark, across:
-
-* Operating as part of a multidisciplinary collective, my focus was the technology strategy, and how that crosses over with the ways of working.
-* Looking for opportunities in digital strategy across the businesses, and to advise on change. 
-* Conducted interviews (on-site and remote).
-* Review of technologies and high-level architectural approach.
-* Website audits.
-* Use of a technology canvas to identify opportunities across digital/technology vision, future thinking and change, technology selection, governance, digital ecosystem, deployment, challenges, opportunities, teams, how projects run, key programmes, views on themes.
+Check out my [LinkedIn](https://www.linkedin.com/in/sallylait/) if you want to read more nice words.
 
 
+## What I'm interested in
+
+Should I end up moving on from Monzo I'd be interested in Engineering Director-level roles at organisations which have a mission and values that I believe in.
+
+I enjoy working at places where the people are smart and kind, where I can learn and experience new things, where the culture is inclusive and challenges itself to be better.
+
+Speaking and writing are things I really enjoy, and I'd like to be able to share the things that we work on.
+
+Others are faster and better than me at hands-on professional coding work nowadays, but I'd like to stay close to technology at a senior level, and ideally work with the web in some form.
+
+I'm based in Suffolk in the UK and don't plan to relocate at this point. I'd be most interested in roles where I can work remotely at least some of the time. That said, some degree of travel is fine, especially if it involves places that I care about (bonus points if you have an office in Japan!).
+
+I'm not in any rush, and it's more important for me to find the right fit, at the right time for both of us.
+
+If you think that you may have something that'd be of interest, please [get in touch](/contact)! I look forward to hearing from you 😊
 
 
-
+Header credit to <a href="https://unsplash.com/photos/WHUDOzd5IYU">Adam Solomon on Unsplash</a>
