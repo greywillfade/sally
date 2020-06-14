@@ -68,7 +68,7 @@ At this point I was also **running initiatives** for the engineering management 
 
 My people were initially mostly web folk, and they were spread across the business. The company’s approach to management was originally that the manager be paired with the person wherever they worked around the company…. but that didn’t scale. At all. After we introduced new vertical segments of the company I very rapidly found myself across three incredibly different areas of the business. This in itself was a good learning curve; learning to be able to say what I needed to do to be successful in my role (although it’s important to note that it’s often much, much harder for non-men and people who are under-represented to do this, and it very much depends on your company culture).
 
-Since I went through this level of management we’ve evolved the expectation that we have of engineering managers, and now align people with teams father than being “purely” focused on people. Our experiences resonated strongly with this article by Jeremiah Lee about [“Spotify’s failed squad goals”](https://www.jeremiahlee.com/posts/failed-squad-goals/).
+Since I went through this level of management we’ve evolved the expectation that we have of engineering managers, and now align people with teams rather than being “purely” focused on people. Our experiences resonated strongly with this article by Jeremiah Lee about [“Spotify’s failed squad goals”](https://www.jeremiahlee.com/posts/failed-squad-goals/).
 
 
 ### Widening responsibilities

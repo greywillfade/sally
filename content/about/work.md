@@ -8,7 +8,7 @@ Monzo is going through a collective redundancy consultation process at the momen
 
 
 ## My current role
-Since last year I've been working in the role of an **Engineering Director** at Monzo. I'm responsible for **engineering within for the Operations Collective** (one of 5 vertical slices of the company), and am **discipline lead for web** across the business. My work includes things like:
+I joined Monzo in 2018 as a Senior Engineering Manager, after which we went through a phase of hyper-growth. Since last year I've been working in the role of an **Engineering Director** at Monzo. I'm responsible for **engineering within for the Operations Collective** (one of the vertical slices of the company), and am **discipline lead for web** across the business. My work includes things like:
 
 👥 Sitting on the leadership team for Ops Collective to represent engineering, alongside the COO, VP Ops etc.
 
