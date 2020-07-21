@@ -4,17 +4,17 @@ description = "Things I've done, and what I'm looking for next"
 menuflag    = "about"
 +++
 
-Monzo is going through a collective redundancy consultation process at the moment, and as part of that I've been notified that my role is at risk. I've loved everything I've done here so far, and I'm confident in my performance and chances of staying on, but given the current situation I've decided I'd like to understand all of my options. I'd therefore like to hear from anyone that may want to work together now or in the future 👋🏻
+Monzo has been going through a collective redundancy consultation process, and as part of that I decided to take voluntary redundancy. My plans are to interview over the next few weeks, so I'd like to hear from anyone that may want to work together now or in the future 👋🏻
 
 
-## My current role
-I joined Monzo in 2018 as a Senior Engineering Manager, after which we went through a phase of hyper-growth. Since last year I've been working in the role of an **Engineering Director** at Monzo. I'm responsible for **engineering within for the Operations Collective** (one of the vertical slices of the company), and am **discipline lead for web** across the business. My work includes things like:
+## My most recent role
+I joined Monzo in 2018 as a Senior Engineering Manager, after which we went through a phase of hyper-growth and set up Collectives (vertical slices of the company). Since then I worked in the role of **Engineering Director**, responsible for **engineering within for the Operations Collective** (spanning all aspects of customer support, and fighting financial crime). I was also **discipline lead for web** across the business. My work included things like:
 
 👥 Sitting on the leadership team for Ops Collective to represent engineering, alongside the COO, VP Ops etc.
 
-👩🏻‍💻 My line of management in Operations includes 4 other engineering managers (some also manage managers), and around 40 engineers, split across 6 multidisciplinary squads.
+👩🏻‍💻 My line of management in Operations included 4 other engineering managers (some also managed managers), and around 40 engineers, split across 6 multidisciplinary squads.
 
-📈 Setting strategy, KRIs, making decisions around technology, or situations that affect our engineers.
+📈 Setting strategy, KRIs, making decisions around technology, or situations that affected our engineers.
 
 👭 Partnering with technical leads, senior engineers, and product managers to help drive technical initiatives, strategic work, and scaling improvements.
 
@@ -34,7 +34,7 @@ Some of the things that I'm most proud of include proposing and starting up new 
 
 ## Performance and feedback
 
-In my last performance review I gained a rating of "exceeding expectations", the highest rating.  Here's the kind of feedback that I get:
+In my last performance review I gained a rating of "exceeding expectations", the highest rating. Here's the kind of feedback that I get:
 
 <blockquote>
 <p>
@@ -56,7 +56,7 @@ Check out my [LinkedIn](https://www.linkedin.com/in/sallylait/) if you want to r
 
 ## What I'm interested in
 
-Should I end up moving on from Monzo I'd be interested in Engineering Director-level roles at organisations which have a mission and values that I believe in.
+I'm interested in Engineering Director-level roles at organisations which have a mission and values that I believe in.
 
 I enjoy working at places where the people are smart and kind, where I can learn and experience new things, where the culture is inclusive and challenges itself to be better.
 
@@ -69,6 +69,5 @@ I'm based in Suffolk in the UK and don't plan to relocate at this point. I'd be 
 I'm not in any rush, and it's more important for me to find the right fit, at the right time for both of us.
 
 If you think that you may have something that'd be of interest, please [get in touch](/contact)! I look forward to hearing from you 😊
-
 
 Header credit to <a href="https://unsplash.com/photos/WHUDOzd5IYU">Adam Solomon on Unsplash</a>
