@@ -21,9 +21,9 @@ This post isn’t a viewpoint on PIPs in that sense, so if you’re here to find
 
 ## Setting out a plan can help you take control of unhappiness
 
-ℹ️ _Before I get into any more detail, I want to pause and say that all credit for this approach should go to my former colleague and all-round wise owl, [Robin Murphy](https://twitter.com/robinjmurphy). He may have got the idea from someone else (and if so please let me know so I can credit them too!), but the first I heard of this was from him._
+ℹ️ _Before I get into any more detail, I want to pause and say that all credit for this approach should go to my former colleague and all-round wise owl, [Robin Murphy](https://twitter.com/robinjmurphy). He's given his kind permission for me to write up a resource in case it was useful to others._
 
-At the end of last year, Robin and I went on a walking 1:1 so that I could get some advice. During that, he raised the concept of putting your company on a PIP. We talked through a few different ways to do this, but the following is roughly how I've used it, and what I've subsequently recommended to others.
+At the end of last year, Robin and I went on a walking 1:1 so that I could get some advice. During that, he raised the concept of putting your company on a PIP. We talked through a few different angles, but the following is roughly how I've used it, and what I've subsequently recommended to others.
 
 Rather than wallowing in abstract “I’m not happy” feelings which can go on for an indefinite amount of time, putting together a PIP can help you to understand what kind of improvement _would_ make you happy, and whether that’s truly achievable. If it is, then it helps you to set out a path, gain a bit of control over a situation, and ultimately move past unhappiness. If the level of ‘performance’ needed isn’t achieveable, then it may be time for you to be doing the dismissal, and move on to another role.
 
