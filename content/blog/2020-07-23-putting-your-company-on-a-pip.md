@@ -66,3 +66,5 @@ Please use your judgement here, and only do what makes the most sense for your s
 Hopefully thinking about practical steps to move forward in this way can help you regain a sense of control over a situation, and move past unhappiness. It’s also useful to remind ourselves what we can influence to help get to where we want, or understand aspects that are completely out of our hands.
 
 If you decide to try this out, good luck, and I hope that it helps!
+
+Header photo by <a href="https://unsplash.com/@estudiobloom">Estúdio Bloom</a>
