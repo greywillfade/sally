@@ -7,8 +7,18 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Mon, 24 Aug 2020 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 09:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>September coaching sessions</title>
+      <link>https://sallylait.com/blog/2020/08/30/september-coaching-sessions/</link>
+      <pubDate>Sun, 30 Aug 2020 09:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2020/08/30/september-coaching-sessions/</guid>
+      <description>Throughout September I’m going to be holding some free coaching sessions aimed at supporting folks from groups that are under-represented in the tech industry. Here’s a bit more about what that looks like and how it’ll work.
+Over the next few weeks I’m going to have a bit of spare time before I start my new job (more on that soon!). I’m trying to spend a lot of time detaching (as much as anyone can within the current world!</description>
+    </item>
     
     <item>
       <title>Scaling yourself as an engineering manager</title>
