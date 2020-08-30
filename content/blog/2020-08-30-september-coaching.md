@@ -13,6 +13,8 @@ headerimg: '/img/content/blog/20200830.jpg'
 
 <p class="lede">Throughout September I’m going to be holding some free coaching sessions aimed at supporting folks from groups that are under-represented in the tech industry. Here’s a bit more about what that looks like and how it’ll work.</p>
 
+<span style="background-color: #fab9c1;">📣 Update: I've closed the form for now as I've had quite a bit of interest and want to get these folks booked in first. If possible I'll re-open afterwards for a few more. Thanks for your patience!</span>
+
 Over the next few weeks I’m going to have a bit of spare time before I start my new job (more on that soon!). I’m trying to spend a lot of time detaching (as much as anyone can within the current world!), but I’m also enjoying having some freedom to spend time on things that matter. As part of this, I want to offer up some of my time in the form of **1:1s and free coaching sessions for folk who’re from groups under-represented in the tech industry**. 
 
 If you’ve come across this and don’t know anything about me, first off, hello! I’m Sally, I was most recently working at Monzo where I led engineering across Operations, and the web as a discipline. I managed a team of managers, led hiring for my areas, was involved in setting team structure, strategy, creating progression frameworks, and more. Before that I worked for myself doing contracting and then consultancy for a long time, but originally started out as a developer>architect>manager agency-side. I’ve worked with a huge range of people, I’m non-judgemental, and I’ve probably helped someone with your situation before 🙂
@@ -48,13 +50,12 @@ I guess if anything the main limitations are 1. that I can only speak to so many
 * We’ll use Hangouts or Zoom, but you don’t have to be on video unless you’re ok with that.
 * I promise to keep anything you share confidential (with the usual caveats of reserving that right if you tell me something illegal or if I think you’re in any danger, etc).
 
-I have no idea how in demand this may be! If you’d like to apply, I’ve [set up a form](https://docs.google.com/forms/d/e/1FAIpQLSd4UYwWzHum3L-UqPbSrMPa2pCnHyu55QkAmAtXHqkW_KFlew/viewform?usp=sf_link) to capture some details including what you’d like to talk about. If I think I can help with that, I’ll send you a link to book a time slot. If I don’t think I’m quite right to help (there are somr topics I just won't know about), or if I get too booked up (it’ll be first come, first served!) I’ll also let you know. If this proves more popular than I’m expecting I’ll also close the form.
+I have no idea how in demand this may be! If you’d like to apply, I’ve set up a form (**now closed!**) to capture some details including what you’d like to talk about. If I think I can help with that, I’ll send you a link to book a time slot. If I don’t think I’m quite right to help (there are somr topics I just won't know about), or if I get too booked up (it’ll be first come, first served!) I’ll also let you know. If this proves more popular than I’m expecting I’ll also close the form.
 
 I'm not asking for you to include why you’re ‘deserving’ of help, or what kind of underrepresented groups you see yourself in. This often leads to people from certain groups not putting themselves forward when they absolutely should. If you’re a straight white cis man with tons of privilege and opportunities please leave this time for others, but I’ll ultimately leave it up to you.
 
 If you have any questions, you’re also welcome to send me a message. Contact details are on my [contact page](/contact).
 
-✨ [Here's the form again](https://docs.google.com/forms/d/e/1FAIpQLSd4UYwWzHum3L-UqPbSrMPa2pCnHyu55QkAmAtXHqkW_KFlew/viewform?usp=sf_link) ✨
 
 Looking forward to speaking to some of you soon!
 
