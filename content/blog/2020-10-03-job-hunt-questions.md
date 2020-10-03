@@ -4,7 +4,7 @@ author: Sally
 type: post
 date: 2020-10-03T09:00:00+00:00
 url: /blog/2020/10/03/job-hunt-questions/
-description: ""
+description: "During my search for a new role, I kept a list of questions to use during the process. In case they're useful to me in the future (or anyone else for that matter!), I wanted to write a post with the key ones."
 class: bi-1
 categories:
   - jobs
