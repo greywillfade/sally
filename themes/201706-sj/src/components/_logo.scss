@@ -1,17 +1,36 @@
 .logo__link {
-        text-decoration: none;
+    text-decoration: none;
 }
 
-.logo--gradient {
+.logo__holder {
+    max-width: 150px;
+    margin:0 auto;
+
+    @media screen and (min-width: $mainlayoutswitchbreakpoint) {
+        max-width: 250px;
+    }
+}
+
+@keyframes colourChange {
+    0%{fill:#ffffff}
+    50%{fill:#4BA399}
+    100%{fill: #ffffff}
+}
+.sally_svg:hover {
+    animation: colourChange 1.3s alternate;
+}
+
+
+/*.logo--gradient {
     text-align: center;
 
     .logo--text {
         font-family: 'Satisfy', sans-serif;
-        font-display: auto;/*https://developers.google.com/web/updates/2016/02/font-display*/
+        font-display: auto;https://developers.google.com/web/updates/2016/02/font-display
         font-size: 7em;
         font-weight: 800;
         letter-spacing: -0.3rem;
         color: white;
         display: inline-block;
     }
-}
+}*/
