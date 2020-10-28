@@ -8,10 +8,6 @@
     <language>en-gb</language>
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
-    <copyright>All content is copyright Sally Lait</copyright>
-    
-	<atom:link href="https://sallylait.com/cookies/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>All content is copyright Sally Lait</copyright><atom:link href="https://sallylait.com/cookies/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
