@@ -8,7 +8,7 @@ description: "Starting a new management relationship can be a turbulent time on 
 class: bi-1
 categories:
   - management
-headerimg: '/img/content/blog/20201003-hdr.jpg'
+headerimg: '/img/content/blog/20201029.jpg'
 ---
 
 <p class="lede">Starting a new management relationship can be a turbulent time on both sides, and we want to do our best to minimise disruption as much as possible. In this post I'll talk through some steps to help smooth over the process.</p>
@@ -123,3 +123,5 @@ After you've established the basics, it's time to move onto building the relatio
 * Reflecting on the past year, or the person’s career so far, and what they can learn from it
 
 These are all big topics in their own right, so perhaps more to come on those in time! For now, I hope that this is useful to others... or just to future me!
+
+<span>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/pattern?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
