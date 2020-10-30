@@ -17,7 +17,7 @@ Whether through someone joining a company and meeting their manager for the firs
 
 Having just started a new role myself, I'm taking on new managees and decided to share a document with my colleagues that brings together some of the most effective discussion points that I've used in the past. In case it's useful either to future-me or others, here's my approach to starting new relationships.
 
-Please note that the following is basically a compilation of the great work from Lara Hogan ([here](https://larahogan.me/blog/first-one-on-one-questions/) and [here](https://larahogan.me/blog/manager-handoffs/)), and my former colleagues [Sam Jones](https://adventuresinengineeringmanagement.wordpress.com/2020/04/28/starting-a-new-working-relationship-on-the-right-footing/), [James Bedford](https://www.jame.es/), Oswaldo Hernandez, and Alan Wright, who've all shared their brilliant approaches and questions over the years. I've added in some of my own points, but the main credit goes to them!
+Please note that the following is basically a compilation of the great work from Lara Hogan ([here](https://larahogan.me/blog/first-one-on-one-questions/) and [here](https://larahogan.me/blog/manager-handoffs/)), and my former colleagues [Sam Jones](https://adventuresinengineeringmanagement.wordpress.com/2020/04/28/starting-a-new-working-relationship-on-the-right-footing/), [James Bedford](https://www.jame.es/), Matt Burrows, Oswaldo Hernandez, and Alan Wright, who've all shared their brilliant approaches and questions over the years, or worked with me extensively on handovers. I've added in some of my own points, but the main credit goes to them!
 
 ## My process
 When starting a new relationship, I like to follow a process of:
