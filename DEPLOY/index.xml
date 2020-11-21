@@ -9,7 +9,17 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 09:00:00 +0000</lastBuildDate><atom:link href="https://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 09:00:00 +0000</lastBuildDate><atom:link href="https://sallylait.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Areas to think about when introducing a progression framework</title>
+      <link>https://sallylait.com/blog/2020/11/21/introducing-a-progression-framework/</link>
+      <pubDate>Sat, 21 Nov 2020 09:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2020/11/21/introducing-a-progression-framework/</guid>
+      <description>I’ve been involved in a couple of progression frameworks. In my last role I led a group where we redeveloped the Engineering framework, and now in my new role I’m building on some already great work done to help get our first Engineering version done, before I kick off our Enginering Manager framework in December.
+From both processes I’ve learnt a lot about dos and don’ts. In the rest of this post you’ll find some key lessons I’ve learnt to date, along with a set of questions to ask when you next think about creating or updating a framework.</description>
+    </item>
+    
     <item>
       <title>Starting a new manager relationship</title>
       <link>https://sallylait.com/blog/2020/10/28/starting-a-new-manager-relationship/</link>
