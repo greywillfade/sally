@@ -62,6 +62,6 @@ The things that we do in "normal" times to make us feel happy, relaxed, or calm 
 
 
 ### Credits
-*this question stolen from my colleagues Stephanie Richardson-Dreyer via Michael Hefferen!
+*this question stolen from my colleagues Stephanie Richardson-Dreyer via Michael Hefferan!
 
 Photo by <a href="https://unsplash.com/photos/m0l5J8Lqnzo">David Mao on Unsplash</a>
