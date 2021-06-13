@@ -3240,8 +3240,6 @@
 	flex-direction: column;
 }
 
-
-
 .rules-item {
 	font-size: 1.2em;
 	text-align: left;
@@ -3254,4 +3252,9 @@
 		width: 60%;
 		  
 	}
+}
+
+.link-icon {
+	font-size: 0.5em;
+	cursor: pointer;
 }
