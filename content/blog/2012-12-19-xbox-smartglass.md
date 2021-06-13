@@ -52,6 +52,6 @@ In summary, the following things could be improved with the SmartGlass sign in p
 
 I would have been happy to provide the above to Microsoft in a constructive fashion, but there was no way to do so. Having better feedback mechanisms in the app itself could ensure that these frustrations get passed back more effectively and accordingly help provide a better overall experience. This obviously requires resources to monitor any communications, but I imagine these processes are already in place (don&#8217;t tell me all of my &#8216;This program has encountered an error and needed to close&#8217; reports have gone into a black hole!) at Microsoft. Surfacing the processes to users better could provide Microsoft with valuable information.
 
- [1]: http://recordssoundthesame.com/images/smartglass1.jpg
- [2]: http://recordssoundthesame.com/images/smartglass2.jpg
- [3]: http://recordssoundthesame.com/images/smartglass3.jpg
+ [1]: /img/content/blog/migrated/smartglass1.jpg
+ [2]: /img/content/blog/migrated/smartglass2.jpg
+ [3]: /img/content/blog/migrated/smartglass3.jpg

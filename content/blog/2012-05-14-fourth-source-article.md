@@ -19,4 +19,4 @@ Working with clients to identify the options available to them, and discussing w
 
 I&#8217;m looking to do more writing on industry topics, so if you&#8217;d like to discuss requirements for upcoming articles please [get in touch][1].
 
- [1]: http://recordssoundthesame.com/contact
+ [1]: https://sallylait.com/contact

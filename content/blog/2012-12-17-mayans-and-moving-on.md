@@ -28,4 +28,4 @@ Here&#8217;s to a great 2013!
 
 Header image courtesy of <a href="http://www.flickr.com/photos/rufo_83/313822473/" target="_blank">http://www.flickr.com/photos/rufo_83/313822473/</a>
 
- [1]: http://recordssoundthesame.com/contact/
+ [1]: https://sallylait.com/contact/

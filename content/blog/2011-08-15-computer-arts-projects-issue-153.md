@@ -13,8 +13,6 @@ tags:
 ---
 Computer Arts Projects issue 153 has been released, and features a nice full page spread on some of the recent work that Lightmaker have been doing. Alongside some shots of the work you will find quotes from me speaking about our work for The Open, whilst our US Managing Director also talks about our work with Maria Sharapova.
 
-<img alt="Computer Arts Projects full page" src="http://recordssoundthesame.com/blog/images/computerartsfull.jpg" width="488" height="816" />
+<img alt="Computer Arts Projects full page" src="/img/content/blog/migrated/computerartsfull.jpg" width="488" height="816" />
 
-<img alt="Computer Arts Projects text" src="http://recordssoundthesame.com/blog/images/computerartstext.jpg" width="488" height="816" />
-
-&nbsp;
+<img alt="Computer Arts Projects text" src="/img/content/blog/migrated/computerartstext.jpg" width="488" height="816" />

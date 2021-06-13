@@ -31,7 +31,7 @@ Skiline has clear intentions for the service to be an ongoing, community-focusse
 From the website: &#8220;It&#8217;s been shown that Skiline skiiers have a lot of fun with the exchange of Skiline profile information with their friends&#8221;. The core of the offering is a graph of your day, complete with the amount of kilometres skied downhill, the number of lifts, and more. This can be accessed through any of the sites/apps, as well as through kiosks in-resort where graphs can be printed (if you can find one with a working printer!).
 
 <div id="attachment_206" style="width: 570px" class="wp-caption aligncenter">
-  <img class=" wp-image-206" alt="Skiline kiosk" src="http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1727-700x1241.jpg" width="560" height="993" srcset="http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1727-700x1241.jpg 700w, http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1727-250x443.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1727-120x212.jpg 120w" sizes="(max-width: 560px) 100vw, 560px" />
+  <img class=" wp-image-206" alt="Skiline kiosk" src="/img/content/blog/migrated/IMAG1727-700x1241.jpg" width="560" height="993" srcset="/img/content/blog/migrated/IMAG1727-700x1241.jpg 700w, /img/content/blog/migrated/IMAG1727-250x443.jpg 250w, /img/content/blog/migrated/IMAG1727-120x212.jpg 120w" sizes="(max-width: 560px) 100vw, 560px" />
   
   <p class="wp-caption-text">
     Skiline kiosk, located at the entrance to a lift, asking the user to tap their lift pass against the sensor.
@@ -39,7 +39,7 @@ From the website: &#8220;It&#8217;s been shown that Skiline skiiers have a lot o
 </div>
 
 <div id="attachment_207" style="width: 570px" class="wp-caption aligncenter">
-  <img class=" wp-image-207" alt="Skiline kiosk with graph" src="http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1728-700x1241.jpg" width="560" height="993" srcset="http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1728-700x1241.jpg 700w, http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1728-250x443.jpg 250w, http://recordssoundthesame.com/wp-content/uploads/2013/03/IMAG1728-120x212.jpg 120w" sizes="(max-width: 560px) 100vw, 560px" />
+  <img class=" wp-image-207" alt="Skiline kiosk with graph" src="/img/content/blog/migrated/IMAG1728-700x1241.jpg" width="560" height="993" srcset="/img/content/blog/migrated/IMAG1728-700x1241.jpg 700w, /img/content/blog/migrated/IMAG1728-250x443.jpg 250w, /img/content/blog/migrated/IMAG1728-120x212.jpg 120w" sizes="(max-width: 560px) 100vw, 560px" />
   
   <p class="wp-caption-text">
     Logged into the kiosk, displaying the day&#8217;s data

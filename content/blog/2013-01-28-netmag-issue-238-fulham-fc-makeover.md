@@ -35,7 +35,7 @@ The article itself was written by my good friend Paul Swain, who was part of the
 
 Of course, as Paul has pointed out in his <a title="blog post" href="http://www.iwearglasses.net/lightmaker-team-featured-net/" target="_blank">blog post</a>, this wasn&#8217;t a purely strategic engagement and the project was worked on by a number of people, some of whom are featured in the article&#8217;s The Team image:
 
-<img style="max-width:100%;" alt="FFC Lightmaker team photo" src="http://recordssoundthesame.com/wp-content/uploads/2013/01/ffclmteam_photo.jpg" />
+<img style="max-width:100%;" alt="FFC Lightmaker team photo" src="/img/content/blog/migrated/ffclmteam_photo.jpg" />
 
 The individuals above span account and project management, front-end development, design, back-end development, analytics and data analysis, native app development, user experience and project strategy, and technical planning. A couple more people, namely Marney Booth and Paul Hudson are not featured in the lineup above.
 

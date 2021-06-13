@@ -27,6 +27,4 @@ My slides were built on the Google HTML5 deck, which is available from <a href=
 
 Adobe have released a short video as a snapshot of everything that happened on the day, which you can view below.
 
-
-
-If you have any questions over the content of the presentation, want to discuss any of the points raised, or would like to discuss future speaking opportunities please feel free to <a href="http://recordssoundthesame.com/contact" target="_blank">contact me</a>.
+If you have any questions over the content of the presentation, want to discuss any of the points raised, or would like to discuss future speaking opportunities please feel free to <a href="https://sallylait.com/contact" target="_blank">contact me</a>.

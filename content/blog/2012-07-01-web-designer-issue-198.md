@@ -16,4 +16,4 @@ Nestled deep within the latest issue of Web Designer Magazine (issue 198) I&#821
 
 Like many, I&#8217;m a sucker for a good API so it was a pleasure to be asked to lend my views and a tiny version of my face to the article. As usual I&#8217;m always on the lookout for more writing opportunities, so if you&#8217;d like to discuss anything please [get in touch][1].
 
- [1]: http://recordssoundthesame.com/contact
+ [1]: https://sallylait.com/contact
