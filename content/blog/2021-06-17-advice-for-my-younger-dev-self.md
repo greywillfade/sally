@@ -4,14 +4,14 @@ author: Sally
 type: post
 date: 2021-06-17T10:00:00+00:00
 url: /blog/2021/06/17/advice-for-my-younger-dev-self/
-description: Earlier today I saw a tweet from Jo Frank, asking what advice you'd give your junior developer self. It's a classic question and one that's ripe for a blog post, so here's my take.
+description: Earlier today I saw a tweet from Jo Franchetti, asking what advice you'd give your junior developer self. It's a classic question and one that's ripe for a blog post, so here's my take.
 class: bi-1
 categories:
   - advice
 headerimg: '/img/content/blog/20210617-hdr.jpg'
 ---
 
-<p class="lede">Earlier today I saw a <a href="https://twitter.com/ThisIsJoFrank/status/1405460860013891588">tweet from Jo Frank</a>, asking what advice you'd give your junior developer self. It's a classic question and one that's ripe for a blog post, so here's my take.</p>
+<p class="lede">Earlier today I saw a <a href="https://twitter.com/ThisIsJoFrank/status/1405460860013891588">tweet from Jo Franchetti</a>, asking what advice you'd give your junior developer self. It's a classic question and one that's ripe for a blog post, so here's my take.</p>
 
 Hey Sally,
 
