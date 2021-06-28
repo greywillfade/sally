@@ -3202,6 +3202,7 @@
     height: auto;
 }
 
+
 @media screen and (min-width: 800px) {
 	.grid-wrapper {
 		grid-template-columns: 1fr 1fr;
@@ -3257,4 +3258,8 @@
 .link-icon {
 	font-size: 0.5em;
 	cursor: pointer;
+}
+
+.no-match {
+	width:100%;
 }
