@@ -54,7 +54,7 @@ As technologists we should be suggesting the crazy ideas as much as the safe one
 
 &nbsp;
 
-If you agree with any of the above (and I hope that you do) and would like to have a chat about working together, I will be available for new contracts from the end of March/April. I would love to help any new clients discuss potential web developments, or to work alongside agencies or individuals who want to ensure that technical thinking gets factored into projects from an early stage. You can contact me at sally.jenkinson@gmail.com.
+If you agree with any of the above (and I hope that you do) and would like to have a chat about working together, I will be available for new contracts from the end of March/April. I would love to help any new clients discuss potential web developments, or to work alongside agencies or individuals who want to ensure that technical thinking gets factored into projects from an early stage.
 
 &nbsp;
 

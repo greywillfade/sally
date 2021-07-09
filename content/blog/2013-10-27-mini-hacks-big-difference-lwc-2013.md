@@ -18,4 +18,4 @@ I had the great pleasure of speaking at LWC 2013 in Shoreditch, London yesterday
 
 I&#8217;ve uploaded my slides in case anyone wanted to grab anything that they missed on the day, but I understand that a video of the talk will be made available shortly for anyone who wants to give it a watch. I&#8217;ll update this post and link to it from the slides once it gets put up.
 
-Slides are available to view or download at <a title="Mini hacks, big difference - on Slideshare" href="http://www.slideshare.net/sallyjenkinson/mini-hacks-big-difference" target="_blank">Slideshare</a>. If anyone has any questions, or if you think this talk would be a good fit for your event, please email me using sally.jenkinson@gmail.com.
+Slides are available to view or download at <a title="Mini hacks, big difference - on Slideshare" href="http://www.slideshare.net/sallyjenkinson/mini-hacks-big-difference" target="_blank">Slideshare</a>. If anyone has any questions, or if you think this talk would be a good fit for your event, please email me!

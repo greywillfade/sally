@@ -45,7 +45,7 @@ The mind map resource, or &#8220;galaxy diagram&#8221; as I&#8217;ve had a few p
 
 <a title="Sally Jenkinson - technical starting points diagram" href="http://recordssoundthesame.com/startingpoints/" target="_blank">http://recordssoundthesame.com/startingpoints/</a>
 
-Despite a few slightly sleepless nights in advance, I really enjoyed giving the session and I hope it was useful for everyone that came along. I really appreciated such a full room too, and that people seemed to be paying attention, so a big thank you to everyone who attended. If you have thought of any questions since the talk, or want to get in touch for any reason, please feel free to give me a shout using sally.jenkinson@gmail.com.
+Despite a few slightly sleepless nights in advance, I really enjoyed giving the session and I hope it was useful for everyone that came along. I really appreciated such a full room too, and that people seemed to be paying attention, so a big thank you to everyone who attended. If you have thought of any questions since the talk, or want to get in touch for any reason, please feel free to give me a shout
 
 ## The announcements
 
