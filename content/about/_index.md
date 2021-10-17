@@ -1,6 +1,6 @@
 +++
 title       = "About"
-description = "I’m currently working in a Head of Engineering role. This is a bit about my career, and how I got here."
+description = "I’m currently working in a VP of Engineering role. This is a bit about my career, and how I got here."
 menuflag    = "about"
 +++
 
@@ -32,7 +32,7 @@ A few examples of differences I made at Monzo:
 * improved our web hiring process; scaled the web team
 * helped to introduce engineer-run Lightning Talks
 
-In 2020 I decided to leave, and after a very restorative long break I joined [Farewill](https://farewill.com) as Head of Engineering. I sit on the company-wide leadership team, and am responsible for all of our engineers and engineering managers.
+In 2020 I decided to leave, and after a very restorative break I joined [Farewill](https://farewill.com) initially as Head of Engineering. I'm now our VP of Engineering, sit on the Exec team, and am accountable for Engineering, Data, and IT.
 
 
 ## Outside of the day job
