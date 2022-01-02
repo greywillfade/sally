@@ -7,8 +7,19 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Thu, 17 Jun 2021 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2021 into 2022</title>
+      <link>https://sallylait.com/blog/2022/01/02/2021-into-2022/</link>
+      <pubDate>Sun, 02 Jan 2022 12:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2022/01/02/2021-into-2022/</guid>
+      <description>Another pandemic-tactic yearly round-up!
+As a reminder, I like to look back at the end of the year, write myself a reflection on how I’d found it, and curate some memories for future me. This is the 2021 edition.
+But before I start, a little aside is that I realised earlier I’ve been writing these for ten years now! Here’s the 2011 into 2012 post if you’re interested, which seems to be the first one I captured online.</description>
+    </item>
     
     <item>
       <title>Advice for my younger developer self</title>
