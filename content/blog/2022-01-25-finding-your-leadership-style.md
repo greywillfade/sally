@@ -142,3 +142,6 @@ I’ll leave you with some final nudges to think about:
 * What are the gaps between where you’d like to get to and where you’re at now? Which bits are you still working on, or don’t feel fully comfortable with yet, and how can you find opportunities to practice?
 * Who can you learn from, and how can you experience even more leadership styles and situations?
 * Based on some of the gaps you’ve found from above, or situations you’ve found yourself in, how might you need to change up your style at different points? What might you need to work on this, particularly if the situations call for something that doesn’t come naturally to you? (You may want to think about training, opportunities, habits to form, or other support to ask for)
+
+(Header photo by <a href="https://unsplash.com/@jamietempleton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Templeton</a> on Unsplash. Thanks, Jamie!)
+  
