@@ -7,8 +7,18 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Tue, 25 Jan 2022 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Feb 2022 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Developer satisfaction surveys</title>
+      <link>https://sallylait.com/blog/2022/02/20/developer-satisfaction-surveys/</link>
+      <pubDate>Sun, 20 Feb 2022 12:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2022/02/20/developer-satisfaction-surveys/</guid>
+      <description>A recent tweet by Will Larson around developer productivity surveys caught my eye, as this is an area I find really interesting.
+Despite my interest, it hadn’t really clicked for me that this was a topic people don’t seem to write about too much. I thought I’d share out some of what my current engineering org at Farewill has been doing over the last year, in the hope that it may spark some thoughts for others.</description>
+    </item>
     
     <item>
       <title>Finding your leadership style</title>

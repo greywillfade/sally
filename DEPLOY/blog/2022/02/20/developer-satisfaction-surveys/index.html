@@ -3,10 +3,10 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Blogs | Sally Lait</title>
-    <meta name="description" content="">
+    <title>Developer satisfaction surveys | Sally Lait</title>
+    <meta name="description" content="In response to a nudge that it&#39;d be good to have more written about this, I&#39;m sharing some thoughts on developer productivity surveys, and what we&#39;ve been doing at Farewill.">
     <meta name="author" content="Sally Lait">
-    <link rel="canonical" href="https://sallylait.com/blog/">
+    <link rel="canonical" href="https://sallylait.com/blog/2022/02/20/developer-satisfaction-surveys/">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta name="monetization" content="$pay.stronghold.co/1a15d21075ae7284e6a8c7ce8095561de62">
@@ -18,10 +18,10 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@sallylait" />
     <meta name="twitter:creator" content="@sallylait" />
-    <meta property="og:url" content="https://sallylait.com/blog/" />
-    <meta property="og:title" content="Blogs" />
-    <meta property="og:description" content="Personal site of Sally Lait" />
-    <meta property="og:image" content="https://sallylait.com/img/favicons/favicon-196x196.png" />
+    <meta property="og:url" content="https://sallylait.com/blog/2022/02/20/developer-satisfaction-surveys/" />
+    <meta property="og:title" content="Developer satisfaction surveys" />
+    <meta property="og:description" content="In response to a nudge that it&#39;d be good to have more written about this, I&#39;m sharing some thoughts on developer productivity surveys, and what we&#39;ve been doing at Farewill." />
+    <meta property="og:image" content="https://sallylait.com/img/content/blog/20220220-hdr.jpg" />
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png" />
@@ -118,162 +118,126 @@
 
     <article class="content">
 
-        <div class="promo" style="margin-bottom: 2em;">
-            <h1 class="test">Blog</h1><br />
-            <p class="subtitle">Posts about life, engineering management, the web industry, and things that I've been up to</p>
+        <section style="background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('/img/content/blog/20220220-hdr.jpg') #589ec9 no-repeat center; background-size: cover;">
+            <div class="large-article-header" >
+                <div class="large-article-header-content">
+                    <div class="row">
+                        <div class="article-date">
+                            <p>Published on Sunday, 20 Feb, 2022</p>
+                        </div>
+                        <div class="article-title">
+                            <h1>Developer satisfaction surveys</h1>
+                        </div>
+                        <div class="article-details">
+                            <div class="article-author">
+                                <img src="/img/sallyjenkinson.jpg" alt="Sally Lait" />
+                                Sally Lait
+                            </div>
+                            <div class="article-comments" style="color:white">
+                                Reading time: 10 mins
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="blog__contentholder">
+            <p class="lede">A recent <a href="https://twitter.com/Lethain/status/1493829234569072642">tweet</a> by Will Larson around developer productivity surveys caught my eye, as this is an area I find really interesting.</p>
+<p>Despite my interest, it hadn’t really clicked for me that this was a topic people don’t seem to write about too much. I thought I’d share out some of what my current engineering org at Farewill has been doing over the last year, in the hope that it may spark some thoughts for others.</p>
+<p>As a little side note before I jump in, since I’ve been in my current role we’ve always called them “developer satisfaction surveys”. Semantics, I know, but the surveys we’ve created go a little bit broader into developer experience than purely productivity, plus they’re also a really joyous excuse for people to celebrate each other. I’m a big believer that <em>productivity</em> (as businesses tend to see it) can be influenced by a ton of social dynamics, team, and other ‘non-technical’ factors, and that it’s worth getting folks’ views on these as well as things like CI/CD, tooling, and output.</p>
+<h2 id="it-all-started-with-a-component-library">It all started with a component library…</h2>
+<p>I believe we wrapped up the first iteration of the satisfaction surveys back in September 2019, for which I can take absolutely no credit for as I hadn’t even joined the company yet! At the time the company was using the <a href="https://www.product-frameworks.com/DIBB.html">DIBBs</a> approach to prioritise what would be worked on, and <a href="https://charlottedann.com/">Charlotte Dann</a>, one of our most experienced engineers at the time, wanted to gather some data and insights to help her make the case for investing further in the component library. Given that she’d be sending it out to the team, she also took the opportunity to include some more general developer-centric questions, as she thought it would be interesting to track these quarter on quarter, to guide areas Engineering should focus on as a guild. In her words:</p>
+<blockquote>
+<p>“I was keen on getting some quantitative data specifically on refactoring and learning (whether it felt like we spent enough time on them) so I could push initiatives in those areas”.</p>
+</blockquote>
+<p>When I started (at that point as Head of Engineering) around a year later, I quickly wanted to get a gut feel check on how the engineers and engineering managers felt about some other topics, based on gaps I’d started to identify. I sent out a quick but wide-reaching survey, spanning clarity around roles and responsibilities, attitudes to glue work, decision making, technical standards, security, testing, systems ownership, and much more. I was also similarly interested in having some metrics to track over time, both to share with leadership, but also for the guild (and me!) to feel like we were making progress. I initially did this separately, but was thrilled when Charlotte talked me through what she’d already been up to.</p>
+<p>We combined forces, and a little bit later another one of our Senior engineers, <a href="https://helenathompson.dev/">Helena Thompson</a> then took over the survey&rsquo;s ownership. We’d started a fledgling what-would-become-Platform Engineering team, and as part of their work Helena was thinking about how mitigate challenges around supporting an increasing number of products and teams. She’d written a great document around defining maintainability, and was again keen to get some wider input from everyone to understand the role that Platform Eng could play, so there was a natural evolution when we decided to incorporate some of these themes into the survey.</p>
+<h2 id="how-we-approach-satisfaction-surveys">How we approach satisfaction surveys</h2>
+<p>I definitely don’t think we’ve cracked <em>the best</em> way of doing this yet, and we’ve had challenges like lower participation and competing priorities at points where things have been particularly busy. However, in general we’ve found them really useful, and have gained some great insights through running the surveys. In case it’s useful to others, here’s an overview of how we’ve been approaching them to date.</p>
+<h3 id="-survey-logistics-are-pretty-simple">🛠 Survey logistics are pretty simple</h3>
+<p>We’ve been running quarterly, anonymous health checks using Typeform surveys. They run separately to wider company surveys around culture etc, and are intended for Engineers and Engineering Managers. The main aims are:</p>
+<ul>
+<li>Spotting problem areas in engineering (and understanding what we could do differently)</li>
+<li>Uncovering opportunities for new technologies, ways of working, incremental improvements</li>
+<li>Checking to see whether teams have similar sentiments, or if particular areas feel very differently to one another</li>
+<li>Tracking whether people are generally feeling ok about the state of engineering</li>
+<li>Giving us a way of measuring over time</li>
+</ul>
+<p>I typically don’t tend to participate, as I’m much more interested in what others have to say, and don’t want to skew the data if my thoughts are way out of line with everyone else’s!</p>
+<p>Survey participation is entirely optional but very much encouraged, and we find that people are usually generous with their thoughts as they feel it’ll be to their benefit.</p>
+<p>At the moment the surveys have a single owner (Helena). Whilst it wasn’t a conscious decision for these to be Engineer-led (as opposed to Eng Managers), I’ve realised I don’t actually feel strongly about it either way. EMs often have time and capacity, but I also think it’s pretty great when Engineers are involved in this type of initiative. A pairing could be really nice, including to minimise pressure on one person being a bottleneck.</p>
+<p>We communicate a lot through Slack, so typically the surveys are shared out and chased up there, with other nudges or discussions happening as needed.</p>
+<h3 id="-questions-we-ask">❓ Questions we ask</h3>
+<p>The questions we’ve asked are a mix of quantitative, scored questions on a numerical scale, and qualitative to get additional context or ask more open-ended questions. So far we’ve stuck with this because it minimises the burden on both responders and the organiser (as opposed to everything being free text).</p>
+<h4 id="identifying-participants">Identifying participants</h4>
+<p>We don’t tend to ask much of people here; we just tend to ask for the team they’ve been in that quarter, and how long they’ve been an engineer at the company. This helps us to see if responses skew too heavily towards certain patterns, which could influence our analysis. Something we could ask (but haven’t to date) is what level of seniority people are, or what tech specialism they work with (although we have a lot of generalists).</p>
+<h4 id="general-questions">General questions</h4>
+<p>These help us take a bit of a general temperature check, and cover things like:</p>
+<ul>
+<li>If people get helpful feedback on the code they write</li>
+<li>Whether they feel they have a good say in technical decisions involved in their work</li>
+<li>If they feel comfortable asking for help with any issues they may face doing their work</li>
+<li>Whether their skills and abilities match well to the demands of the tasks they’re working on</li>
+<li>If they think we spend adequate time on tech debt, refactoring, and engineering improvement projects</li>
+<li>If they believe change will be made in response to this survey</li>
+<li>What they feel is stopping them from working on things that they see could be improved? (I initially added this as a nudge for individual accountability for change, as well as understanding wider blockers that I may be able to dismantle)</li>
+<li>If there any technologies they think we should consider using which we don’t currently</li>
+<li>What type of hires they’d like us to make in the team this year</li>
+<li>What initiatives they think we should be prioritising</li>
+<li>What topics they’d like to learn more about in our regular Engineering Talks</li>
+<li>Any other suggestions people have for the survey in future</li>
+</ul>
+<h4 id="codebase-specific-questions">Codebase-specific questions</h4>
+<p>We then run through major parts of our tech ecosystem, for each one asking people things like:</p>
+<ul>
+<li>Whether they’ve worked with this particular codebase over the last quarter</li>
+<li>If they’re clear on its ownership</li>
+<li>How confident they feel in their understanding of the inner workings</li>
+<li>How confident they feel in identifying issues and fixing bugs</li>
+<li>Whether building features is a painless process</li>
+<li>Their level of confidence merging PRs into main</li>
+<li>Whether there’s been comprehensive and accessible documentation available when they’ve needed to find out more</li>
+<li>Whether they’re happy with the range and quality of tests, leaving them with confidence in the changes they make</li>
+<li>How they feel about code readability and consistency</li>
+<li>Whether they feel there’s good monitoring and alerting, and if they know how to navigate tooling for this</li>
+<li>Whether they feel their development workflow is straightforward, from local environment config through to deployment</li>
+</ul>
+<h4 id="celebration">Celebration!</h4>
+<ul>
+<li>What people feel particularly proud of working on over the last quarter (especially if it’s less ‘visible’).</li>
+<li>Which member(s) of the guild they’d like to celebrate for doing an amazing job</li>
+</ul>
+<p>On these, we have more formal feedback gathering and review processes, but especially to include in the sharing back this part is always SO lovely. We get such a range of people being submitted, and for such a variety of reasons. I really like how it encourages people to think about how the folks around them can make a difference to their satisfaction and productivity, and in turn can encourage them to reflect on what they themselves can do for others.</p>
+<h3 id="-analysis-and-presenting-back">👩🏻‍🏫 Analysis and presenting back</h3>
+<p>Like all of our documentation, we keep information about the surveys in a dedicated page of the company-wide accessible Notion.</p>
+<p>Each quarter has a little editorialised summary, along with links to the Typeform report, any slides from presenting it back, when the results were shared, and the number of respondents. In the summary we’ll cover things like:</p>
+<ul>
+<li>Things to celebrate</li>
+<li>Areas where we have concerns</li>
+<li>What we’d like to happen next</li>
+<li>Diving into individual insights and trends, along with suggested actions for each</li>
+</ul>
+<p>Having results stretching back to 2019 means that we can see whether feedback is trending in the right direction, and all of the results get added into a centralised spreadsheet where anyone can look at the entire dataset. We’ve had a decent amount of consistency through keeping many of the same questions, but have been thinking even more about standardisation to help with this – for example with the codebase questions, following Helena’s recommendations we settled on documentation, ownership, testing, code quality, observability, workflow, as factors making up an overall “maintainability” score.</p>
+<p>We present back the survey results at the fortnightly Guild meeting, and have also had follow-up discussions on specific topics that warranted more discussion as a group around what we’d like to do. As part of the Guild session I typically try to share back any wider business context/visibility that may be useful, and aim be as honest as possible – for example <em>“I’m personally planning on focusing on this next month, which should help with X”</em>, or <em>“I really agree and want us to improve on Y, but being realistic we’re not going to be able to prioritise it unless someone wants to take this on?”</em>.</p>
+<p>Similar to my point above about ownership of the survey, it’s important to me that we’re discussing the themes openly, and where possible people are teaming up to think about what we can do to move things forward. I’m keen to avoid surveys being a vessel for Engineers to vent, and for the results to be taken away by me/management who go away and ‘fix things’ (or not!) opaquely behind the scenes, only returning to check in  the next quarter. Some improvements will always be a bit more &lsquo;managery&rsquo;, but by framing it a bit more collaboratively, it can become a great opportunity to find development opportunities for people across a range of areas.</p>
+<p>And finally, I also share the results back with Leadership and the Exec so that they’re aware of how people are feeling and what’s important to them. This is usually in conjunction with reflection over the past quarter more generally/looking forward to the next, but again rather than focusing purely on business-centric wins and losses I also particularly make an effort to call out some of the celebrations, so they have visibility of the little things that people in the team do that can mean a lot to the folks around them.</p>
+<h2 id="id-love-to-hear-what-you-do">I’d love to hear what you do!</h2>
+<p>Hopefully this is useful, but as I mentioned back at the beginning this is a topic that I find really interesting and would love to learn more about. If you’ve written up any thoughts on how your teams approach this please feel free to send them my way.</p>
+<p>Photo by <a href="https://unsplash.com/@jcoudriet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Coudriet</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+
+            <div class="blog__morelinks">
+                <h4>Read more from the blog</h4>
+                
+                    <p>Back in time:<br />
+                    <a href="https://sallylait.com/blog/2022/01/25/finding-your-leadership-style/">Finding your leadership style</a></p>
+                
+                
+            </div>
         </div>
 
-        <div class="blog__contentholder--left">
-        
-        
 
-            
-            
-                <h2>2019</h2>
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2019/08/27/calendar-defrags/">Calendar defrags</a></p>
-            <p class="blogitem__date">27 August 2019</p>
-            <p>Life as a manager means that I go to a lot of meetings. Over time it&#39;s very easy for them to get a bit unruly, and for your calendar to start managing you rather than the other way round. Every now and again I&#39;ve found it&#39;s good to take stock, to tip everything out and start again, in the form of a calendar defrag. Here&#39;s how I approach it, and a tool you can use if you&#39;d like to join me.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2019/04/28/five-months-at-monzo/">Five months at Monzo</a></p>
-            <p class="blogitem__date">28 April 2019</p>
-            <p>Since joining Monzo as an engineering manager at the start of December I&#39;ve experienced a huge amount. In this post I wanted to capture some of what I&#39;ve been up to, and what I&#39;m looking forward to next.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2019/02/09/semantic-calendar-emoji/">Semantic calendar emoji</a></p>
-            <p class="blogitem__date">9 February 2019</p>
-            <p>Since returning to employee status I&#39;ve been thrown back into having an absolutely stacked calendar. Over the last couple of weeks I&#39;ve been playing with an emoji-based system to help me work better.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2019/01/27/learning-japanese-pt2/">Learning Japanese (part two) 🇯🇵</a></p>
-            <p class="blogitem__date">27 January 2019</p>
-            <p>This week I received the very happy news that I&#39;d passed my second Japanese exam - the JLPT (日本語能力試験) at level N4. In this post I&#39;ll outline my exam experiences and go through the resources I used.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2019/01/03/2018-into-2019/">2018 into 2019</a></p>
-            <p class="blogitem__date">3 January 2019</p>
-            <p>I really enjoy this time of year. Christmas is always a bit of a whirlwind due to numerous individual family gatherings and birthdays, but New Year is always a nice lull. As always I’m using a blog post as a prompt to look both back and ahead.</p>
-
-            </div>
-
-            
-
-            
-            
-                <h2>2018</h2>
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2018/11/21/a-new-chapter/">A new chapter</a></p>
-            <p class="blogitem__date">20 November 2018</p>
-            <p>I’m so excited to announce that I’m soon going to be starting the next chapter in my professional life. I’m going back to employment, and joining Monzo on their mission to “build a bank with everyone, for everyone”.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2018/10/08/a-foundation-for-technical-investigations/">A foundation for technical investigations</a></p>
-            <p class="blogitem__date">8 October 2018</p>
-            <p>A high-level structure for asking people about their technology, with a view of looking at how things are and identifying how they might be.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2018/09/27/thinking-about-permissions/">Thinking about permissions on the web</a></p>
-            <p class="blogitem__date">27 September 2018</p>
-            <p>A collection of musings on the topic of web permissions, and the kind of questions that we should be asking for the future.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2018/08/24/learning-japanese/">Learning Japanese</a></p>
-            <p class="blogitem__date">24 August 2018</p>
-            <p>Since the beginning of this year I&#39;ve been taking my Japanese learning a lot more seriously. Having been asked about it by quite a few people, this post is intended to summarise my journey so far.</p>
-
-            </div>
-
-            
-
-            
-            
-
-            
-            <div class="blog__blogitem">
-            <p><a href="https://sallylait.com/blog/2018/02/09/evo-japan-2018/">Japan, January &#39;18 (part two) - EVO</a></p>
-            <p class="blogitem__date">9 February 2018</p>
-            <p>This is the second post in a two-part series, capturing my latest trip over to Japan. In this post I&#39;ll be talking about the main reason for our visit - EVO.</p>
-
-            </div>
-
-            
-
-        
-    <ul class="pagination" role="navigation" aria-label="Pagination">
-    
-        <li class="pagination__previous"><a href="/blog/page/2/" rel="prev" class="prev">Newer</a></li>
-    
-
-    
-        <li class="pagination__next"><a href="/blog/page/4/" rel="next" class="next">Older</a></li>
-    
-    </ul>
-
-
-        </div>
 
     </article>
 </div>
