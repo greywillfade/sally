@@ -71,11 +71,11 @@ What’s the price of you having an easier development life, or making more mone
 
 The game&#8217;s over-reliance on connectivity is something that perfectly illustrates the lack of an accessible baseline for technical reasons rather than situation, yet the two are often inter-linked. Maybe your user is in Suffolk. Maybe a local mast is down. Maybe they&#8217;re abroad, on totally different networks to you. Or maybe they have limited data and won&#8217;t have any more for a while. This is something that we see again and again, and to me, often can be a red flag for wider issues with the project, huge assumptions, and a lack of user understanding.
 
-{{< tweet 775928731382616064 >}}
+{{< tweet user="patrickhamann" id="775928731382616064" >}}
 
 Perhaps with Pokémon Go there could have been a very basic set of offline capabilities, allowing those without internet access (due to choice or situation) to continue to open and engage with the app in some form, even if more complex actions do require data and callbacks to a server.
 
-{{< tweet 776015862914514944 >}}
+{{< tweet user="jaffathecake" id="776015862914514944" >}}
 
 ### Listen to users, be aware of differences, beware assumptions
 

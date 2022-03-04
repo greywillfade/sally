@@ -30,7 +30,7 @@ When you’re feeling isolated, it can be particularly rubbish looking around yo
 This feeling of isolation is a common trap that it’s easy to fall into, and I’m not the only one. (Marcy Sutton’s recent tweet and the subsequent replies prompted me to finish this post, which had been sat in draft form for months.)
 
 <div style="max-width:300px!important; margin-bottom:2em;">
-{{< tweet 1227104380404424704 >}}
+{{< tweet user="marcysutton" id="1227104380404424704" >}}
 </div>
 
 
@@ -41,7 +41,7 @@ As a manager, you’ll likely spend a great deal of your time with the people yo
 Jessalyn Rose [tweeted](https://twitter.com/jesslynnrose/status/1192499702735859712) a thread about this a while back, and her perspective is one that I echo: whilst I think you can be all levels of _friendly_ in a manager/managee relationship, I don’t believe you should be full on _friends_. Jessica’s thread gives some excellent reasons including power dynamics, potential for bias and discrimination, being able to give truly effective feedback, and dysfunctional teams/impact on others around you if it starts to go wrong.
 
 <div style="max-width:300px!important;">
-{{< tweet 1192501270029852672 >}}
+{{< tweet user="jesslynnrose" id="1192501270029852672" >}}
 </div>
 
 There are lots of nuances here, of course. There are real differences in situation between managing existing friends and becoming closer with someone you manage, for example. Ultimately it’s down to you as to where you want to draw the line, but wherever this is I’d recommend being honest about it with your reports should it come up - explain what you’re thinking and why. Other people may feel differently about this topic, and may be confused or hurt about why you’re approaching the relationship outside of what _they_ think is acceptable.
