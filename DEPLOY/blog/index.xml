@@ -7,8 +7,17 @@
     <managingEditor>sally@recordssoundthesame.com (Sally Lait)</managingEditor>
     <webMaster>sally@recordssoundthesame.com (Sally Lait)</webMaster>
     <copyright>All content is copyright Sally Lait</copyright>
-    <lastBuildDate>Thu, 25 Aug 2022 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2022 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://sallylait.com/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>dConstruct: The final chapter!</title>
+      <link>https://sallylait.com/blog/2022/09/16/dconstruct/</link>
+      <pubDate>Fri, 16 Sep 2022 12:00:00 +0000</pubDate>
+      <author>sally@recordssoundthesame.com (Sally Lait)</author>
+      <guid>https://sallylait.com/blog/2022/09/16/dconstruct/</guid>
+      <description>According to the dConstruct archive, the previous iteration of the conference was in 2015. 2015! My digital footprint tells me that I wasn&#39;t able to make it as I was speaking at a small web event in some Kentish woods, and so my last attendance was in 2014, a year that I remember vividly for the content being exceedingly post-apocalyptic and even more brain-melting than usual. Poor, sweet, naive 2014 Sally had no idea what would eventually be coming down the line in the real world.</description>
+    </item>
     
     <item>
       <title>Digital shadow inheritance</title>
