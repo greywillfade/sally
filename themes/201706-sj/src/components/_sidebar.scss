@@ -74,9 +74,9 @@ ul.sidebar__social {
 }
 
 $colourmap: (
-    icon-1: $colour4,
-    icon-2: lighten($colour4, 10%),
-    icon-3: lighten($colour4, 20%),
+    icon-2: $colour4,
+    icon-1: darken($colour4, 10%),
+    icon-3: darken($purp, 20%),
     icon-4: $colour5,
     icon-5: lighten($colour5, 10%),
     icon-6: $colour6,
