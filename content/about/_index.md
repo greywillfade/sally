@@ -23,16 +23,25 @@ At the end of 2018, despite not looking for a job, I got lured in by the possibi
 
 The company went through hypergrowth, and I ended up in an Engineering Director role where I was responsible for engineering within the Operations Collective (a vertical slice of the company, covering customer support, financial crime, and more), and was discipline lead for web across the company.
 
-A few examples of differences I made at Monzo:
+### A few examples of differences I made at Monzo:
 
-* grew the Operations engineering and management team - my line included 4 other engineering managers (some also managed managers), and around 40 engineers, split across 6 multidisciplinary squads.
-* set technical/people strategy and led initiatives within the Ops space
-* led the redevelopment of our Engineering Progression framework (business-wide)
-* led the formation of the Web Platform and Web Consultancy teams
-* improved our web hiring process; scaled the web team
-* helped to introduce engineer-run Lightning Talks
+* Grew the Operations engineering and management team - my line included 4 other engineering managers (some also managed managers), and around 40-50 engineers, split across 6 multidisciplinary squads.
+* Set technical/people strategy and led initiatives within the Ops space
+* Led the redevelopment of our Engineering Progression framework (business-wide)
+* Led the formation of the Web Platform and Web Consultancy teams
+* Improved our web hiring process; scaled the web team
+* Helped to introduce engineer-run Lightning Talks
 
-In 2020 I decided to leave, and after a very restorative break I joined [Farewill](https://farewill.com) initially as Head of Engineering. I'm now our VP of Engineering, sit on the Exec team, and am accountable for Engineering, Data, and IT.
+After deciding to leave, I then joined [Farewill](https://farewill.com) initially as Head of Engineering, but was then promoted to VP of Engineering. In this role I was the most senior technology representative, accountable for Engineering, Data, and IT, and sat on the Executive team to make company-level decisions.
+
+### Some impact I'm particularly proud of at Farewill:
+* Leading technology due diligence for a successful partnership with TSB bank.
+* Creating a [Platform](https://farewill.com/blog/creating-a-platform-function) function to complement Product teams, focusing on infrastructure, developer experience, and shared foundational technologies.
+* Created and publicly shared IC and manager Progression Frameworks, gave internal pay band transparency. ([EM blog post](https://farewill.com/blog/engineering-management-at-farewill))
+* Improvements to technical quality and efficiencies, including incident tooling, security testing, automation, reporting and visibility of technical metrics.
+* Modernisation of our tech stack, shipping fundamental changes to our architecture and customer accounts, and the team pulling off a really smooth data migration.
+* Building an extremely strong team, culture, and rituals, reflected in consistently high Satisfaction Survey scores.
+* High representation of women, especially in senior technology roles.
 
 
 ## Outside of the day job
@@ -41,6 +50,6 @@ Throughout my career I've spoken, keynoted, and been MC at global industry confe
 
 When I'm not doing things online, I'm usually learning Japanese, reading, cooking up all sorts of meals, gardening, or playing Xbox One games. I hold slightly elitist views on tea, take photographs of hotel carpets, and have spent most of my adult life fighting my body's reluctance to be a redhead.
 
-I hold a First Class BSc (Hons) degree from the Open University, and I'm currently studying towards the N3 level of the [Japanese Language Proficiency Test](https://www.jlpt.jp/e/)).
+I hold a First Class BSc (Hons) degree from the Open University, and I'm currently studying towards the N2 level of the [Japanese Language Proficiency Test](https://www.jlpt.jp/e/) after passing N5-N3 (just for fun).
 
-You can find more recommendations and endorsements on my [LinkedIn](https://www.linkedin.com/in/sallylait/) page, or if you'd like to discuss my full CV please get in touch. I tweet as [@sallylait](https://twitter.com/sallylait) if you'd like to say hello about anything else.
+You can find more recommendations and endorsements on my [LinkedIn](https://www.linkedin.com/in/sallylait/) page, or if you'd like to discuss my full CV please get in touch. I'm not on Twitter much any more, but you can find me on [Mastodon](https://mastodon.social/@sally) if you'd like to say hello about anything else.

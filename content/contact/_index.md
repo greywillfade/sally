@@ -5,11 +5,7 @@ menuflag    = "contact"
 +++
 
 ### I'd like to talk about work or speaking. How can I reach you?
-
-The best way to get hold of me is either on the form here or my email, which is <b>sally at recordssoundthesame.com</b>. If it's something tiny, <a href="http://twitter.com/sallylait">Twitter</a> is a good alternative.
-
-### Can I call/Hangout/Skype instead? I like talking in person.
-Sure! Email me and we can arrange a time and share details then.
+The best way to get hold of me is either on the form here or my email, which is <b>sally at recordssoundthesame.com</b>. If it's something tiny, <a href="https://mastodon.social/@sally">Mastodon</a> is a good alternative.
 
 ### Where are you based? What happens if my [thing] isn't near you?
-That’s not a problem; I love to travel. I'm based in Suffolk, around 45 minutes from Colchester train station, an hour from Stansted Airport, and I have my own car.
+I'm based in Suffolk in the east of the UK, around 45 minutes from Colchester train station, an hour from Stansted Airport, and I have my own car. I love to travel and am definitely open to hearing from you, but with a young family I do need to think carefully about the practicalities, so may not be able to do everything.
