@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sallylait.com/blog/2023/01/15/2022-into-2023/</loc>
-    <lastmod>2023-01-15T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sallylait.com/blog/</loc>
-    <lastmod>2023-01-15T12:00:00+00:00</lastmod>
+    <lastmod>2023-02-22T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sallylait.com/</loc>
+    <lastmod>2023-02-22T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sallylait.com/blog/2023/02/22/tell-me-about-a-time-docs/</loc>
+    <lastmod>2023-02-22T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sallylait.com/blog/2023/01/15/2022-into-2023/</loc>
     <lastmod>2023-01-15T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sallylait.com/blog/2022/11/29/how-tech-can-influence-business/</loc>
