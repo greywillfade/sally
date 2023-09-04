@@ -34,7 +34,7 @@ The company went through hypergrowth, and I ended up in an Engineering Director 
 
 After deciding to leave, I then joined [Farewill](https://farewill.com) initially as Head of Engineering, but was then promoted to VP of Engineering. In this role I was the most senior technology representative, accountable for Engineering, Data, and IT, and sat on the Executive team to make company-level decisions.
 
-### Some impact I'm particularly proud of at Farewill:
+### Some impact I was particularly proud of at Farewill:
 * Leading technology due diligence for a successful partnership with TSB bank.
 * Creating a [Platform](https://farewill.com/blog/creating-a-platform-function) function to complement Product teams, focusing on infrastructure, developer experience, and shared foundational technologies.
 * Created and publicly shared IC and manager Progression Frameworks, gave internal pay band transparency. ([EM blog post](https://farewill.com/blog/engineering-management-at-farewill))
@@ -42,6 +42,12 @@ After deciding to leave, I then joined [Farewill](https://farewill.com) initiall
 * Modernisation of our tech stack, shipping fundamental changes to our architecture and customer accounts, and the team pulling off a really smooth data migration.
 * Building an extremely strong team, culture, and rituals, reflected in consistently high Satisfaction Survey scores.
 * High representation of women, especially in senior technology roles.
+
+## A baby, a new role, and a move into Trust & Safety
+After having my first child and stepping away from work to be the primary carer, I revisited what I was optimising for in my career. I'd always been very drawn to mission-driven companies and roles, and when the chance came up to lead engineering and data science/machine learning in the Trust and Safety space for Bumble Inc it was an easy choice to make. 
+
+As of summer 2023 I'm currently settling in, learning how to juggle and embrace being a working mum and the primary earner whilst also managing CFS/ME and the rest of life!
+
 
 
 ## Outside of the day job
