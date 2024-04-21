@@ -74,7 +74,9 @@ Once we had a set of features, we then moved into refining the ideas. One of the
 
 I started off, as all good teachers do, with a trick question &#8211; &#8220;_how long would it take to build a checkout process?_&#8220;. Answers ranged from minutes to months, and a few astute students said they couldn&#8217;t give an answer and needed more information. We discussed that there are usually different ways to do things, different factors that impacted on timings, and that estimating is hard!
 
-{{< tweet user="TWC_Projects" id="697384738848382976" >}}
+<figure>
+<img src="/img/content/blog/20160329-tweetshot.jpg" alt="Tweet by @TWC_Projects that says 'Great ideas being feedback with @sjenkinson for the #TechTalk Project with @WestThames @HeathrowAirport @GwkSouth" />
+</figure>
 
 In order to get them thinking deeper about their product plans, we did a relative sizing exercise where the feature cards were placed in a line in order of the perception of complexity and grouped into t-shirt sizes. Many cards were high level, so it prompted some further discussions about breaking them down and further definition that was needed. We then did a quick dot voting exercise, considering the features, their importance, and their complexity, again to reiterate that you can&#8217;t always have everything you want, all at once!
 
