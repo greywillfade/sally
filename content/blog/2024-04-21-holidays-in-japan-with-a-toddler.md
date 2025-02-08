@@ -70,7 +70,7 @@ Our splurge hotel was [Gen](https://www.gen-hakone.com/eng/cn2/index.html) in Ha
 
 ## Meals and eating out
 <figure>
-<img src="/img/content/blog/20240421-sushi.jpg" alt="Three pairs of slippers in a row. One for me, a larger one for my husband, and in between a tiny pair for the kid" />
+<img src="/img/content/blog/20240421-sushi.jpg" alt="A child's meal, showing 5 pieces of assorted nigiri, ebi katsu, a sausage shaped like an octopus, and a jelly" />
 </figure>
 
 I came into the holiday a bit worried about eating out, purely because on our 'normal' (RIP) trips we mainly ate in little places that felt frankly very inaccessible or like we'd be a horrible customer bringing in a patience-short kid. In bigger cities like Tokyo it's extremely common for restaurants to be small rooms, often up or down stairs, with limited counter seats and bars, fast turnover, or squishing past people trying not to be _that_ gaijin. I actually did some research before we left as I didn't want to get stuck, jetlagged and struggling (which was how I found Jo's blog above), but relaxed a _lot_ as time went on. We definitely compromised here, and ate at lots more chains and touristy spots than usual, plus left other knowingly less practical places to when we'd split into sub groups (I went off with my mum a couple of times). I think my Japanese also got us quite far and gained us some goodwill several times, but I was also pleasantly surprised by generally how accommodating and prepared for small kids places were.
