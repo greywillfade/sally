@@ -211,9 +211,9 @@ What will changes or pauses for an indefinite time period do to staff morale, re
 🤔 Again, I’m a big fan here of using data to understand impact, consulting as widely as is appropriate, aiming to think about different consequences, and communicating appropriately. Sometimes hard choices need to be made, but there are better or worse ways to bring people on that journey. Thinking about these kind of questions can help you lean towards the former.
 
 
-## 🔜 New frameworks coming soon!
+## 🙏🏻 Final thoughts
 I'll never claim to be able to create a flawless and entirely perfect progression framework, but I like to think that considering the topics I’ve outlined here can help to set you up better than if you don’t.
 
-Our [Farewill](https://farewill.com) engineering framework is going through final amends and we still need to decide how best to share it, but my goal is for it to be made public (along with related info like updating our job adverts to have visibility over salary ranges) soon. Whilst I can’t take full credit (the majority was already in place before I started, and I’ve mostly contributed by asking the kinds of questions in this post), I’m proud of where we’ve got to, and I’m excited to start using it. Up next will be our Engineering Management framework, which I’ve set us an ambitious target for and will hope to also be sharing soon!
+My main takeaways for anyone reading this is that progression frameworks are an emotive topic that need to be handled sensitively. They can have a huge impact on your overall culture, and can either be a tool for inclusion or exclusion. Copying another company's wholesale likely won't match up to your specific needs, so be careful not to just copy and paste, and also don't be scared to evolve if needed. Good luck!
 
 Thanks to  <a href="https://unsplash.com/@cgreiter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chad Greiter</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a> for the header photo
