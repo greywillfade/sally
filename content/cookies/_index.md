@@ -1,21 +1,39 @@
 +++
-title       = "Cookie policy"
+title       = "The Cookie Policy"
 description = "Very important official cookie policy"
 +++
 
-## Policy details
+## Legally Binding, Probably
 
-Extremely important to state, as I'm sure we're all aware. My official cookie policy is as follows:
+WHEREAS cookies are a matter of great consequence;<br />
+AND WHEREAS biscuits masquerading as cookies shall not be tolerated;<br />
+IT IS HEREBY DECREED as follows:
 
-* Optimally, cookies should be around 6 inches in diameter.
-* It is mandatory for cookies to be doughy, even under-done.
-* White chocolate is preferable to milk chocolate in reference to chips.
-* Citrus flavours (lemon and lime) are not preferable, though cherry/berries are to be encouraged.
-* Although contentious, I can confirm that raisin and oatmeal is a more than acceptable combination.
+**1. Article I: Dimensional Requirements**<br />
+Cookies shall measure no less than six (6) inches in diameter. Any item failing to meet this threshold shall be reclassified as a “biscuit” and summarily dismissed.
+
+**2. Article II: State of Dough**<br />
+All cookies must be maintained in a doughy, borderline under-done condition. Over-baking constitutes a breach of contract.
+
+**3. Article III: Matcha Clause**<br />
+The inclusion of matcha shall be considered evidence of supreme cookie quality. Absence of matcha is permissible but discouraged.
+
+**4. Article IV: Chocolate Chip Precedent**<br />
+White chocolate chips are to be held superior to milk or dark chocolate chips in all circumstances. 
+
+**5. Article V: Fruit Admissibility**<br />
+Citrus flavourings (including but not limited to lemon and lime) may appear only by special petition. Conversely, cherries and berries shall be welcomed with enthusiasm.
+
+**6. Article VI: Oatmeal & Raisin Ruling**<br />
+Notwithstanding public controversy, the oatmeal-raisin combination is affirmed to be a wholly acceptable cookie form.
+
+Failure to comply with this Cookie Policy may result in (a) confiscation of one’s current and future cookie supplies, (b) replacement with stale digestives, or (c) both.
+
+Witnesseth: this policy is binding until the last cookie has been consumed.
 
 
 ## The best cookie recipe
-The best recipe I've found to date, and one which has come out perfectly every time, is the following. All credit to my namesake Sally (not my baking alter ego) who's responsible for for the recipe. For full details please see her [Chewy Chocolate Chunk Cookies recipe](http://sallysbakingaddiction.com/2013/05/13/chewy-chocolate-chunk-cookies/). I can highly recommend trying coconut, cherry, and fudge. I've copied the recipe in below in case the original ever disappears.
+Now that the formalities are out of the way, the best recipe I've found to date, and one which has come out perfectly every time, is the following. All credit to my namesake Sally (not my baking alter ego) who's responsible for for the recipe. For full details please see her [Chewy Chocolate Chunk Cookies recipe](http://sallysbakingaddiction.com/2013/05/13/chewy-chocolate-chunk-cookies/). I can highly recommend trying coconut, cherry, and fudge. I've copied the recipe in below in case the original ever disappears.
 
 ### Ingredients
 * 2 and 1/4 cups (280 grams) plain flour

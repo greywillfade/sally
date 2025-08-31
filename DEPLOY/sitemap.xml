@@ -482,8 +482,6 @@
   </url><url>
     <loc>https://sallylait.com/contact/</loc>
   </url><url>
-    <loc>https://sallylait.com/cookies/</loc>
-  </url><url>
     <loc>https://sallylait.com/history/</loc>
   </url><url>
     <loc>https://sallylait.com/labs/</loc>
@@ -493,5 +491,7 @@
     <loc>https://sallylait.com/speaking/</loc>
   </url><url>
     <loc>https://sallylait.com/contact/success/</loc>
+  </url><url>
+    <loc>https://sallylait.com/cookies/</loc>
   </url>
 </urlset>
