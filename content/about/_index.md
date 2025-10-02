@@ -58,4 +58,4 @@ When I'm not doing things online, I'm usually learning Japanese, reading, cookin
 
 I hold a First Class BSc (Hons) degree from the Open University, and I'm currently studying towards the N2 level of the [Japanese Language Proficiency Test](https://www.jlpt.jp/e/) after passing N5-N3 (just for fun).
 
-You can find more recommendations and endorsements on my [LinkedIn](https://www.linkedin.com/in/sallylait/) page, or if you'd like to discuss my full CV please get in touch. I'm not on Twitter much any more, but you can find me on [Mastodon](https://mastodon.social/@sally) if you'd like to say hello about anything else.
+You can find more recommendations and endorsements on my [LinkedIn](https://www.linkedin.com/in/sallylait/) page, or if you'd like to discuss my full CV please get in touch. I'm not on Twitter any more, but you can find me on [Mastodon](https://mastodon.social/@sally) if you'd like to say hello about anything else.
