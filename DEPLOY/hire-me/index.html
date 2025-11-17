@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sally Lait - Fractional Technology Leadership</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.7;
+            color: #2d3748;
+            background: #fdfbf7;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+         
+        .bg-shape {
+            position: fixed;
+            border-radius: 50%;
+            opacity: 0.06;
+            z-index: 0;
+            pointer-events: none;
+        }
+        
+        .bg-shape.circle-1 {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+            top: -200px;
+            right: -200px;
+        }
+        
+        .bg-shape.circle-2 {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, #8b5cf6 0%, transparent 70%);
+            bottom: 10%;
+            left: -100px;
+        }
+        
+        .bg-shape.circle-3 {
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, #06b6d4 0%, transparent 70%);
+            top: 40%;
+            right: 10%;
+        }
+        
+         
+        .geometric-accent {
+            position: fixed;
+            z-index: 0;
+            opacity: 0.12;
+            pointer-events: none;
+        }
+        
+        .geometric-accent.square {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            transform: rotate(45deg);
+            top: 200px;
+            left: 5%;
+        }
+        
+        .geometric-accent.triangle {
+            width: 0;
+            height: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 100px solid #06b6d4;
+            top: 60%;
+            right: 8%;
+        }
+        
+        .geometric-accent.hexagon {
+            width: 70px;
+            height: 40px;
+            background: #8b5cf6;
+            position: fixed;
+            top: 85%;
+            left: 15%;
+        }
+        
+        .geometric-accent.hexagon::before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 35px solid transparent;
+            border-right: 35px solid transparent;
+            border-bottom: 20px solid #8b5cf6;
+        }
+        
+        .geometric-accent.hexagon::after {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-left: 35px solid transparent;
+            border-right: 35px solid transparent;
+            border-top: 20px solid #8b5cf6;
+        }
+        
+        .geometric-accent.circle-small {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #3b82f6;
+            border-radius: 50%;
+            top: 30%;
+            left: 85%;
+        }
+        
+        .geometric-accent.dots {
+            width: 100px;
+            height: 100px;
+            background-image: radial-gradient(circle, #06b6d4 2px, transparent 2px);
+            background-size: 20px 20px;
+            top: 50%;
+            left: 3%;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 80px 40px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        header {
+            margin-bottom: 100px;
+            position: relative;
+        }
+        
+        .greeting {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #4a5568;
+            font-weight: 500;
+        }
+        
+        h1 {
+            font-size: 4.5rem;
+            font-weight: 900;
+            color: #1a202c;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #3b82f6 0%, #8b5cf6 100%);
+            padding: 0 16px;
+            border-radius: 8px;
+            display: inline-block;
+            position: relative;
+            color: #ffffff;
+        }
+        
+        .highlight::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(120deg, #3b82f6 0%, #8b5cf6 100%);
+            border-radius: 8px;
+            opacity: 0.2;
+            filter: blur(15px);
+            z-index: -1;
+        }
+        
+        .pitch {
+            font-size: 1.4rem;
+            color: #4a5568;
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+        
+        .experience {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 2.5rem;
+            border-radius: 20px;
+            margin-bottom: 3rem;
+            border: 2px solid rgba(59, 130, 246, 0.2);
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .experience::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6, #06b6d4);
+        }
+        
+        .experience p {
+            margin-bottom: 1rem;
+            color: #2d3748;
+            font-size: 1.05rem;
+        }
+        
+        .experience p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .section-wrapper {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px);
+            padding: 4rem 3rem;
+            border-radius: 24px;
+            margin-bottom: 4rem;
+            border: 2px solid rgba(139, 92, 246, 0.2);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.08);
+        }
+        
+        .section-wrapper::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+            border-radius: 24px;
+            opacity: 0.08;
+            z-index: -1;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1a202c;
+            margin-bottom: 3rem;
+            position: relative;
+            letter-spacing: -0.02em;
+            padding-left: 2.5rem;
+        }
+        
+        h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 6px;
+            height: 40px;
+            background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+            border-radius: 3px;
+        }
+        
+        .offering {
+            margin-bottom: 3.5rem;
+            position: relative;
+        }
+        
+        .offering:last-child {
+            margin-bottom: 0;
+        }
+        
+        .offering h3 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #1a202c;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            letter-spacing: -0.01em;
+        }
+        
+        .offering-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            border-radius: 12px;
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: #ffffff;
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+            position: relative;
+        }
+        
+        .offering-number::before {
+            content: '';
+            position: absolute;
+            inset: -3px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 14px;
+            z-index: -1;
+            opacity: 0.3;
+            filter: blur(8px);
+        }
+        
+        .offering p {
+            margin-bottom: 1.25rem;
+            color: #4a5568;
+            font-size: 1.05rem;
+        }
+        
+        .offering p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .offering ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 1.5rem 0;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .offering ul li {
+            padding-left: 2rem;
+            margin-bottom: 0.75rem;
+            position: relative;
+            color: #2d3748;
+            font-size: 1.05rem;
+        }
+        
+        .offering ul li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .offering ul li::before {
+            content: '✨';
+            position: absolute;
+            left: 0;
+            font-size: 1.2rem;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            color: white;
+            padding: 4rem 3rem;
+            border-radius: 24px;
+            margin-top: 5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(37, 99, 235, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15), transparent);
+            border-radius: 50%;
+            top: -100px;
+            right: -100px;
+        }
+        
+        .cta-section::after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(6, 182, 212, 0.2), transparent);
+            border-radius: 50%;
+            bottom: -75px;
+            left: -75px;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-left: 0;
+        }
+        
+        .cta-section h2::before {
+            display: none;
+        }
+        
+        .cta-section p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            position: relative;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #2563eb;
+            padding: 1.25rem 3rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1.15rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            position: relative;
+            letter-spacing: -0.01em;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+            background: linear-gradient(135deg, #ffffff, #dbeafe);
+        }
+        
+        footer {
+            margin-top: 5rem;
+            padding-top: 3rem;
+            text-align: center;
+            color: #718096;
+            font-size: 1rem;
+            position: relative;
+        }
+        
+        footer::before {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #3b82f6, #8b5cf6, transparent);
+            margin: 0 auto 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 50px 25px;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+                padding-left: 2rem;
+            }
+            
+            .pitch {
+                font-size: 1.15rem;
+            }
+            
+            .section-wrapper {
+                padding: 2.5rem 1.5rem;
+            }
+            
+            .cta-section {
+                padding: 3rem 2rem;
+            }
+            
+            .geometric-accent {
+                display: none;
+            }
+            
+            .bg-shape {
+                opacity: 0.04;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shape circle-1"></div>
+    <div class="bg-shape circle-2"></div>
+    <div class="bg-shape circle-3"></div>
+    
+    <div class="geometric-accent square"></div>
+    <div class="geometric-accent triangle"></div>
+    <div class="geometric-accent hexagon"></div>
+    <div class="geometric-accent circle-small"></div>
+    <div class="geometric-accent dots"></div>
+
+    <div class="container">
+        <header>
+            <div class="greeting">👋🏻 Hello! I'm Sally Lait</div>
+            <h1>Fractional<br><span class="highlight">Technology<br>Leadership</span></h1>
+            <div class="pitch">
+                I'm an experienced technology leader, helping to create, grow, and evolve teams – especially in mission-led, emotionally complex, or high-impact spaces such as Trust & Safety.
+            </div>
+            <div class="experience">
+                <p><strong>My background spans over twenty years in technology</strong>, across established global companies like Bumble Inc., through hypergrowth at Monzo, and building from the ground-up at Farewill. Here's my <a href="https://www.linkedin.com/in/sallylait/">LinkedIn</a> for more details.</p>
+                <p>I've led teams through big transformations, built inclusive and resilient cultures, and delivered initiatives like AI-driven safety systems and large-scale compliance programmes. Transparency, authenticity, and psychological safety aren't just buzzwords to me. I create environments that help people do the best work of their careers, and grow into the next generation of leaders.</p>
+                <p><strong>These days I work with organisations on a fractional and advisory basis</strong> – helping them strengthen their engineering practices, modernise systems and processes, and create the kind of culture that makes great work sustainable.</p>
+            </div>
+        </header>
+
+        <div class="section-wrapper">
+            <h2>Ways I can take teams to the next level</h2>
+            
+            <div class="offering">
+                <h3><span class="offering-number">1</span> Fractional &amp; interim technology or safety leadership</h3>
+                <p><strong>For organisations where there isn't the need to commit to a full time position, or if you want an experienced tech leader at a fraction of the cost of a full time salary, I can help out with fractional and interim support.</strong></p>
+                <p><strong>This might be right for you if:</strong></p>
+                <p>You're just starting up; you don't want a full time person sitting around being paid regardless if your needs are only sporadic, but those needs <em>are</em> there. You've researched what a very experienced leader could cost you full time (ouch), and although you'd love this expertise you just don't have the budget. Maybe you need help getting the right permanent hire, but you want to keep everything else ticking over in the meantime. Or you may find yourself needing very senior support for a set period (for example ramping up to a fundraise or an IPO), where someone could partner with your existing leadership to share a bit of the load.</p>
+                <p>I would always work with you to understand your individual needs, but typically these kinds of engagements would be 1-2 days per week for around 3-24 months, with an agreement around emergencies or other sporadic needs outside of this.</p>
+            </div>
+
+            <div class="offering">
+                <h3><span class="offering-number">2</span> Standalone Consultancy & Advisory Engagements</h3>
+                <p><strong>When you don't need support on an ongoing or extended basis, but instead need help with a more standalone problem to solve.</strong></p>
+                <p>These types of engagements can take all kinds of forms, for example: working with your team to shepherd a new progression framework, overhauling an incident response program, setting up a hiring framework specific to individual markets, embedding responsible AI principles into development, coaching and mentoring emerging leaders, or help designing organisational structures.</p>
+                <p><strong>Trust & Safety expertise:</strong> Outside of more general technology leadership, my experience also spans working in Trust & Safety. As such I can help with creating a T&S strategy, investigating and building out a business case for investment, embedding safety by design principles in product design, and identifying opportunities to enhance opportunities to enhance operations with technology such as machine learning (responsibly).</p>
+            </div>
+
+            <div class="offering">
+                <h3><span class="offering-number">3</span> Workshops</h3>
+                <p>I have a set of tried-and-tested workshops that are available to be run with companies, either on site or virtually. Most of these are aimed either at Engineering Managers or wider technology teams, but if there's a particular topic or audience that you'd like to focus on I can work with you to build something bespoke.</p>
+                <p><strong>Examples of workshop topics include:</strong></p>
+                <ul>
+                    <li>Crisis Simulation: practicing navigating leadership challenges in real-time</li>
+                    <li>Helping emerging leaders to understand their leadership style and strengths</li>
+                    <li>Building engineering culture</li>
+                </ul>
+            </div>
+
+            <div class="offering">
+                <h3><span class="offering-number">4</span> Coaching</h3>
+                <p>I take on an extremely limited number of coaching sessions, working primarily with women and other members of groups underrepresented in technology. Please contact me directly for more information and availability.</p>
+            </div>
+
+            <div class="offering">
+                <h3><span class="offering-number">5</span> NED/Trustee Work</h3>
+                <p>And finally, I am available to take on Non-Executive Director, or Trustee positions for organisations where my values are in alignment, and where my expertise will bring new strengths.</p>
+            </div>
+        </div>
+
+        <section class="cta-section">
+            <h2>Let's Talk ✨</h2>
+            <p>If you would like to discuss any of the above, please get in touch through my contact page, or via email (sally at recordssoundthesame.com).</p>
+            <a href="https://sallylait.com/contact/" class="cta-button">Get in Touch</a>
+        </section>
+
+        <footer>
+            <p>&copy; Sally Lait, 2025 • Fractional technology leadership • Based in Suffolk, UK</p>
+        </footer>
+    </div>
+</body>
+</html>
