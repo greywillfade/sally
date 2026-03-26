@@ -4,7 +4,7 @@ author: Sally
 type: post
 date: 2026-03-26T01:00:00+00:00
 url: /blog/2026/03/26/leading-through-challenging-times/
-description: 
+description: In my career I’ve seen a wide range of what could generically be considered “challenging times. Layoffs, a pandemic, complete C-suite overhauls, political instability and wars, reorgs and strategic U-turns, and more. Here's my advice for people supporting others through a tough challenge, whilst also processing and being affected by it yourself
 class: bi-1
 categories:
   - leadership
